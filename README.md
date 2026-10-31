@@ -33,3 +33,9 @@ P1 是历史知识；P2 使用解析 mock 测试势；P3 使用合成 CA/HPLC �
 ## Streamlit Cloud
 
 选择本仓库 main 分支，入口 streamlit_app.py，Python 3.12，设置应用公开。无需 API key、模型权重或数据库凭据。先确认 Linux CI 通过再首次部署。后续修改先在 codex/ 分支验证再进入部署分支。回滚使用 git revert 恢复上一验收版本。
+
+## 在线访问
+
+- [打开评委演示](https://agx-prediction-v1-1.streamlit.app/)
+- [Linux 验证记录](https://github.com/TristanClay/agx-prediction-demo/actions)
+- [部署验收及限制](docs/DEPLOYMENT_ACCEPTANCE.md)
