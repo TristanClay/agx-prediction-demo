@@ -8,6 +8,8 @@
 
 ## 已完成
 
+- Share 对话框确认 Make this app public 已选中；使用全新匿名 cookie 会话请求根链接，HTTP 200，无需账户登录。
+
 - GitHub Linux CI 首次运行成功：https://github.com/TristanClay/agx-prediction-demo/actions/runs/41181696066
 - 本地部署包与干净克隆均为 8 项测试通过。覆盖五个场景完整性和预期结论、六页 AppTest、Story 步进、两个会话同名运行隔离、草案隔离、5 次上限、执行互斥、LIVE 阻塞。
 - 五种公开场景的 mock 吸附能与原版逐值一致；实验证据去除重新生成的 Sample / Measurement ID 后一致。原版及本机材料保留；本地核对 3,174 个原文件，全部未变更。
