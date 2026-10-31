@@ -1,0 +1,12 @@
+{
+  "input": {
+    "depends_on": [
+      "knowledge",
+      "screening",
+      "decision"
+    ],
+    "run_id": "public-v11-counter"
+  },
+  "started_at": "2026-10-31T07:41:47.036676+00:00",
+  "status": "RUNNING"
+}

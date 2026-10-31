@@ -1,0 +1,64 @@
+{
+  "agent": "Uncertainty & Budget Agent",
+  "attempt": 1,
+  "elapsed_s": 0.00012074998812749982,
+  "error": null,
+  "finished_at": "2026-10-31T07:41:46.192430+00:00",
+  "input": {
+    "depends_on": [
+      "knowledge",
+      "screening"
+    ],
+    "run_id": "public-v11-disagreement"
+  },
+  "model": "deterministic rules / no LLM",
+  "node_id": "decision",
+  "origin": "SYNTHETIC",
+  "output": {
+    "actual_dft_core_hours": 0.0,
+    "actual_dft_jobs": 0,
+    "comparison_fixture": [
+      {
+        "model": "synthetic-policy-fixture-A",
+        "value_eV": -0.1
+      },
+      {
+        "model": "synthetic-policy-fixture-B",
+        "value_eV": -0.8
+      }
+    ],
+    "configured_proposal_budget_jobs": 0,
+    "dft_proposals": [
+      {
+        "blockers": [
+          "PENDING_GATE",
+          "human_review_required",
+          "real_submission_disabled",
+          "budget_exhausted"
+        ],
+        "candidate_id": "C_Ag_e6b88633769bb840",
+        "kind": "DFT_VALIDATION_PROPOSAL",
+        "reason": "Synthetic disagreement exceeds configured threshold",
+        "status": "BLOCKED"
+      }
+    ],
+    "dft_savings_rate": null,
+    "fixture_origin": "SYNTHETIC",
+    "next_action": "Review OOD and obtain calibrated comparisons before selecting DFT",
+    "policy": "No automatic submission; gate and review apply even with available budget",
+    "savings_reason": "No comparable real DFT baseline",
+    "spread_eV": 0.7000000000000001,
+    "threshold_eV": 0.2,
+    "uncertainty": "HIGH"
+  },
+  "reason": "Require uncertainty review and sparse DFT budget; never submit jobs",
+  "source_refs": [
+    {
+      "path": "attempts/decision/1/started.json",
+      "sha256": "0231abb0b5977a32c0b2d14be7bd57cc4543d0b4c650e1acc406744eeafbd4da"
+    }
+  ],
+  "started_at": "2026-10-31T07:41:46.192313+00:00",
+  "status": "COMPLETED",
+  "tool": "uncertainty_budget_policy"
+}

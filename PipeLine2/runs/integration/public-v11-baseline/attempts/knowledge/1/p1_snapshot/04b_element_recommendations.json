@@ -1,0 +1,2067 @@
+[
+  {
+    "hypothesis_id": "HYP_96AC87BB6C",
+    "mechanism_bucket": "surface_furoate_intermediate",
+    "hypothesis": "Surface furoate/carboxylate is a supported FFOR intermediate, but its binding strength, coverage, and causal role in Ag deactivation must be established before selecting an anti-poisoning dopant.",
+    "direct_ffor_source_count": 1,
+    "uncertainty_label": "mechanism_supported_requires_Ag_transfer",
+    "element": "Ag",
+    "mechanism_bucket_id": "MB_SURFACE_FUROATE_INTERMEDIATE_V1",
+    "element_candidate_id": "EC_SURFACE_FUROATE_INTERMEDIATE_AG_V1",
+    "role": "baseline",
+    "evidence_basis": "target_baseline_required",
+    "supporting_source_claim_ids": [
+      "CLAIM_3B9B4B4ED8"
+    ],
+    "supporting_paper_ids": [
+      "PAPER_A5EE828D07"
+    ],
+    "structure_hypotheses": [
+      "Ag_clean_surface",
+      "Ag_furoate_covered_surface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Ag_clean_surface",
+        "incorporation_mode": "Ag_mechanism_baseline",
+        "loading_regime": "undoped Ag reference state",
+        "rationale": "Defines the causal adsorption/coverage baseline before any dopant claim.",
+        "structure_gate": "Establish clean and adsorbate-covered Ag controls under matched conditions."
+      },
+      {
+        "model": "Ag_furoate_covered_surface",
+        "incorporation_mode": "Ag_mechanism_baseline",
+        "loading_regime": "undoped Ag reference state",
+        "rationale": "Defines the causal adsorption/coverage baseline before any dopant claim.",
+        "structure_gate": "Establish clean and adsorbate-covered Ag controls under matched conditions."
+      }
+    ],
+    "incorporation_modes": [
+      "Ag_mechanism_baseline"
+    ],
+    "loading_regimes": [
+      "undoped Ag reference state"
+    ],
+    "structure_gates": [
+      "Establish clean and adsorbate-covered Ag controls under matched conditions."
+    ],
+    "mechanism_descriptor": [
+      "Ag baseline: ΔG_furoate*",
+      "coverage-dependent furoate adsorption",
+      "post-CA XPS/Raman residue check"
+    ],
+    "required_control": "Matched clean Ag, furoate-spiked Ag, recovery, product balance, and post-run surface analysis.",
+    "failure_interpretation": "If Ag is not reproducible, block every cross-element comparison and audit the workflow.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "mechanism_baseline_required",
+    "next_action": "Establish the clean-versus-furoate-covered Ag baseline before activating an anti-poisoning element candidate.",
+    "explanation": "Ag is a baseline for surface_furoate_intermediate; evidence basis is target_baseline_required. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "HYP_96AC87BB6C",
+    "mechanism_bucket": "surface_furoate_intermediate",
+    "hypothesis": "Surface furoate/carboxylate is a supported FFOR intermediate, but its binding strength, coverage, and causal role in Ag deactivation must be established before selecting an anti-poisoning dopant.",
+    "direct_ffor_source_count": 1,
+    "uncertainty_label": "mechanism_supported_requires_Ag_transfer",
+    "element": "Bi",
+    "mechanism_bucket_id": "MB_SURFACE_FUROATE_INTERMEDIATE_V1",
+    "element_candidate_id": "EC_SURFACE_FUROATE_INTERMEDIATE_BI_V1",
+    "role": "conditional_candidate",
+    "evidence_basis": "mechanism_supported_transfer_candidate",
+    "supporting_source_claim_ids": [],
+    "supporting_paper_ids": [],
+    "structure_hypotheses": [
+      "Bi_decorated@Ag_surface",
+      "Ag|BiOx_interface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Bi_decorated@Ag_surface",
+        "incorporation_mode": "submonolayer_surface_decoration",
+        "loading_regime": "isolated adatoms to submonolayer islands",
+        "rationale": "Creates local heteroatom sites without assuming bulk-alloy formation.",
+        "structure_gate": "Compare isolated and paired dopants; verify clustering and oxidation state."
+      },
+      {
+        "model": "Ag|BiOx_interface",
+        "incorporation_mode": "oxide_or_hydroxide_interface",
+        "loading_regime": "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain",
+        "rationale": "Tests bifunctional OH activation separately from substitutional alloying.",
+        "structure_gate": "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+      }
+    ],
+    "incorporation_modes": [
+      "submonolayer_surface_decoration",
+      "oxide_or_hydroxide_interface"
+    ],
+    "loading_regimes": [
+      "isolated adatoms to submonolayer islands",
+      "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain"
+    ],
+    "structure_gates": [
+      "Compare isolated and paired dopants; verify clustering and oxidation state.",
+      "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+    ],
+    "mechanism_descriptor": [
+      "Ag baseline: ΔG_furoate*",
+      "coverage-dependent furoate adsorption",
+      "post-CA XPS/Raman residue check"
+    ],
+    "required_control": "Matched Ag baseline and Cu_sub@Ag_surface benchmark; verify the realized structure before interpreting performance.",
+    "failure_interpretation": "Failure of the structure or mechanism gate downgrades this candidate without changing source evidence.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "defer_until_recoverable_deactivation",
+    "next_action": "Do not activate until recoverable Ag deactivation is experimentally established.",
+    "explanation": "Bi is a conditional candidate for surface_furoate_intermediate; evidence basis is mechanism_supported_transfer_candidate. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "HYP_96AC87BB6C",
+    "mechanism_bucket": "surface_furoate_intermediate",
+    "hypothesis": "Surface furoate/carboxylate is a supported FFOR intermediate, but its binding strength, coverage, and causal role in Ag deactivation must be established before selecting an anti-poisoning dopant.",
+    "direct_ffor_source_count": 1,
+    "uncertainty_label": "mechanism_supported_requires_Ag_transfer",
+    "element": "Cu",
+    "mechanism_bucket_id": "MB_SURFACE_FUROATE_INTERMEDIATE_V1",
+    "element_candidate_id": "EC_SURFACE_FUROATE_INTERMEDIATE_CU_V1",
+    "role": "source_domain_reference",
+    "evidence_basis": "direct_ffor_source_element",
+    "supporting_source_claim_ids": [
+      "CLAIM_3B9B4B4ED8"
+    ],
+    "supporting_paper_ids": [
+      "PAPER_A5EE828D07"
+    ],
+    "structure_hypotheses": [
+      "Cu_sub@Ag_surface",
+      "Ag|CuOx_interface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Cu_sub@Ag_surface",
+        "incorporation_mode": "dilute_surface_substitution",
+        "loading_regime": "single-site to dilute surface-alloy regime",
+        "rationale": "Tests an electronic/ensemble effect while preserving an Ag-rich surface.",
+        "structure_gate": "Compute segregation energy and verify surface composition before adsorption descriptors."
+      },
+      {
+        "model": "Ag|CuOx_interface",
+        "incorporation_mode": "oxide_or_hydroxide_interface",
+        "loading_regime": "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain",
+        "rationale": "Tests bifunctional OH activation separately from substitutional alloying.",
+        "structure_gate": "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+      }
+    ],
+    "incorporation_modes": [
+      "dilute_surface_substitution",
+      "oxide_or_hydroxide_interface"
+    ],
+    "loading_regimes": [
+      "single-site to dilute surface-alloy regime",
+      "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain"
+    ],
+    "structure_gates": [
+      "Compute segregation energy and verify surface composition before adsorption descriptors.",
+      "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+    ],
+    "mechanism_descriptor": [
+      "Ag baseline: ΔG_furoate*",
+      "coverage-dependent furoate adsorption",
+      "post-CA XPS/Raman residue check"
+    ],
+    "required_control": "Matched Ag baseline and Cu_sub@Ag_surface benchmark; verify the realized structure before interpreting performance.",
+    "failure_interpretation": "Failure of the structure or mechanism gate downgrades this candidate without changing source evidence.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "source_reference_only",
+    "next_action": "Use as a source-domain comparator; do not synthesize the Ag-M analogue unless a transfer descriptor establishes added value.",
+    "explanation": "Cu is a source domain reference for surface_furoate_intermediate; evidence basis is direct_ffor_source_element. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "HYP_96AC87BB6C",
+    "mechanism_bucket": "surface_furoate_intermediate",
+    "hypothesis": "Surface furoate/carboxylate is a supported FFOR intermediate, but its binding strength, coverage, and causal role in Ag deactivation must be established before selecting an anti-poisoning dopant.",
+    "direct_ffor_source_count": 1,
+    "uncertainty_label": "mechanism_supported_requires_Ag_transfer",
+    "element": "Ir",
+    "mechanism_bucket_id": "MB_SURFACE_FUROATE_INTERMEDIATE_V1",
+    "element_candidate_id": "EC_SURFACE_FUROATE_INTERMEDIATE_IR_V1",
+    "role": "source_domain_reference",
+    "evidence_basis": "direct_ffor_source_element",
+    "supporting_source_claim_ids": [
+      "CLAIM_3B9B4B4ED8"
+    ],
+    "supporting_paper_ids": [
+      "PAPER_A5EE828D07"
+    ],
+    "structure_hypotheses": [
+      "Ir_sub@Ag_surface",
+      "Ir_cluster@Ag_surface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Ir_sub@Ag_surface",
+        "incorporation_mode": "dilute_surface_substitution",
+        "loading_regime": "single-site to dilute surface-alloy regime",
+        "rationale": "Tests an electronic/ensemble effect while preserving an Ag-rich surface.",
+        "structure_gate": "Compute segregation energy and verify surface composition before adsorption descriptors."
+      },
+      {
+        "model": "Ir_cluster@Ag_surface",
+        "incorporation_mode": "surface_cluster_decoration",
+        "loading_regime": "small supported clusters at low surface coverage",
+        "rationale": "Represents source-domain nanoparticle motifs while retaining an Ag support.",
+        "structure_gate": "Check cluster adhesion, sintering tendency, and whether Ag remains exposed."
+      }
+    ],
+    "incorporation_modes": [
+      "dilute_surface_substitution",
+      "surface_cluster_decoration"
+    ],
+    "loading_regimes": [
+      "single-site to dilute surface-alloy regime",
+      "small supported clusters at low surface coverage"
+    ],
+    "structure_gates": [
+      "Compute segregation energy and verify surface composition before adsorption descriptors.",
+      "Check cluster adhesion, sintering tendency, and whether Ag remains exposed."
+    ],
+    "mechanism_descriptor": [
+      "Ag baseline: ΔG_furoate*",
+      "coverage-dependent furoate adsorption",
+      "post-CA XPS/Raman residue check"
+    ],
+    "required_control": "Matched Ag baseline and Cu_sub@Ag_surface benchmark; verify the realized structure before interpreting performance.",
+    "failure_interpretation": "Failure of the structure or mechanism gate downgrades this candidate without changing source evidence.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "source_reference_only",
+    "next_action": "Use as a source-domain comparator; do not synthesize the Ag-M analogue unless a transfer descriptor establishes added value.",
+    "explanation": "Ir is a source domain reference for surface_furoate_intermediate; evidence basis is direct_ffor_source_element. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "HYP_0351BC92D9",
+    "mechanism_bucket": "solution_OH_attack",
+    "hypothesis": "Solution-phase hydroxide attack is supported pathway context but does not by itself justify an OH-affinity dopant or Ag-M-OH surface claim.",
+    "direct_ffor_source_count": 1,
+    "uncertainty_label": "mechanism_supported_requires_Ag_transfer",
+    "element": "Cu",
+    "mechanism_bucket_id": "MB_SOLUTION_OH_ATTACK_V1",
+    "element_candidate_id": "EC_SOLUTION_OH_ATTACK_CU_V1",
+    "role": "source_domain_reference",
+    "evidence_basis": "direct_ffor_source_element",
+    "supporting_source_claim_ids": [
+      "CLAIM_1C486510CB"
+    ],
+    "supporting_paper_ids": [
+      "PAPER_A5EE828D07"
+    ],
+    "structure_hypotheses": [
+      "Cu_sub@Ag_surface",
+      "Ag|CuOx_interface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Cu_sub@Ag_surface",
+        "incorporation_mode": "dilute_surface_substitution",
+        "loading_regime": "single-site to dilute surface-alloy regime",
+        "rationale": "Tests an electronic/ensemble effect while preserving an Ag-rich surface.",
+        "structure_gate": "Compute segregation energy and verify surface composition before adsorption descriptors."
+      },
+      {
+        "model": "Ag|CuOx_interface",
+        "incorporation_mode": "oxide_or_hydroxide_interface",
+        "loading_regime": "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain",
+        "rationale": "Tests bifunctional OH activation separately from substitutional alloying.",
+        "structure_gate": "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+      }
+    ],
+    "incorporation_modes": [
+      "dilute_surface_substitution",
+      "oxide_or_hydroxide_interface"
+    ],
+    "loading_regimes": [
+      "single-site to dilute surface-alloy regime",
+      "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain"
+    ],
+    "structure_gates": [
+      "Compute segregation energy and verify surface composition before adsorption descriptors.",
+      "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+    ],
+    "mechanism_descriptor": [
+      "KOH/pH dependence",
+      "solvation-aware pathway analysis"
+    ],
+    "required_control": "Matched Ag baseline and Cu_sub@Ag_surface benchmark; verify the realized structure before interpreting performance.",
+    "failure_interpretation": "Failure of the structure or mechanism gate downgrades this candidate without changing source evidence.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "source_reference_only",
+    "next_action": "Use as a source-domain comparator; do not synthesize the Ag-M analogue unless a transfer descriptor establishes added value.",
+    "explanation": "Cu is a source domain reference for solution_OH_attack; evidence basis is direct_ffor_source_element. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "HYP_C3163A13CD",
+    "mechanism_bucket": "metal_oxide_interface",
+    "hypothesis": "Ag-M or Ag-M-Ox interfaces may introduce bifunctional adsorption/activation motifs while Ag preserves relatively weak product binding.",
+    "direct_ffor_source_count": 0,
+    "uncertainty_label": "adjacent_evidence_only",
+    "element": "Cu",
+    "mechanism_bucket_id": "MB_METAL_OXIDE_INTERFACE_V1",
+    "element_candidate_id": "EC_METAL_OXIDE_INTERFACE_CU_V1",
+    "role": "benchmark",
+    "evidence_basis": "adjacent_element_evidence_only",
+    "supporting_source_claim_ids": [
+      "CLAIM_8ACC397F77",
+      "CLAIM_33DC444263",
+      "CLAIM_CB036541CB",
+      "CLAIM_2B86BBC6CC",
+      "CLAIM_EE0745EA0F",
+      "CLAIM_3A43D341A6"
+    ],
+    "supporting_paper_ids": [
+      "PAPER_A5EE828D07",
+      "PAPER_3DE63616E7"
+    ],
+    "structure_hypotheses": [
+      "Cu_sub@Ag_surface",
+      "Ag|CuOx(OH)y_interface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Cu_sub@Ag_surface",
+        "incorporation_mode": "dilute_surface_substitution",
+        "loading_regime": "single-site to dilute surface-alloy regime",
+        "rationale": "Tests an electronic/ensemble effect while preserving an Ag-rich surface.",
+        "structure_gate": "Compute segregation energy and verify surface composition before adsorption descriptors."
+      },
+      {
+        "model": "Ag|CuOx(OH)y_interface",
+        "incorporation_mode": "oxide_or_hydroxide_interface",
+        "loading_regime": "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain",
+        "rationale": "Tests bifunctional OH activation separately from substitutional alloying.",
+        "structure_gate": "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+      }
+    ],
+    "incorporation_modes": [
+      "dilute_surface_substitution",
+      "oxide_or_hydroxide_interface"
+    ],
+    "loading_regimes": [
+      "single-site to dilute surface-alloy regime",
+      "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain"
+    ],
+    "structure_gates": [
+      "Compute segregation energy and verify surface composition before adsorption descriptors.",
+      "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+    ],
+    "mechanism_descriptor": [
+      "DFT: interface formation/segregation",
+      "XPS/XAES: M-Ox or M-OH state",
+      "Raman: oxide/hydroxide signal"
+    ],
+    "required_control": "Matched Ag baseline with the same loading, electrolyte, potential scale, normalization, and structure verification.",
+    "failure_interpretation": "If Ag-Cu is not reproducible, block Ni/Bi ranking and trigger a workflow audit.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "targeted_literature_needed",
+    "next_action": "Use as a positive control and mechanistic bridge; do not present it as the novelty claim.",
+    "explanation": "Cu is a benchmark for metal_oxide_interface; evidence basis is adjacent_element_evidence_only. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "HYP_C3163A13CD",
+    "mechanism_bucket": "metal_oxide_interface",
+    "hypothesis": "Ag-M or Ag-M-Ox interfaces may introduce bifunctional adsorption/activation motifs while Ag preserves relatively weak product binding.",
+    "direct_ffor_source_count": 0,
+    "uncertainty_label": "adjacent_evidence_only",
+    "element": "Ni",
+    "mechanism_bucket_id": "MB_METAL_OXIDE_INTERFACE_V1",
+    "element_candidate_id": "EC_METAL_OXIDE_INTERFACE_NI_V1",
+    "role": "first_pass_candidate",
+    "evidence_basis": "design_rule_only",
+    "supporting_source_claim_ids": [],
+    "supporting_paper_ids": [],
+    "structure_hypotheses": [
+      "Ni_sub@Ag_surface",
+      "Ag|Ni(OH)x_interface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Ni_sub@Ag_surface",
+        "incorporation_mode": "dilute_surface_substitution",
+        "loading_regime": "single-site to dilute surface-alloy regime",
+        "rationale": "Tests an electronic/ensemble effect while preserving an Ag-rich surface.",
+        "structure_gate": "Compute segregation energy and verify surface composition before adsorption descriptors."
+      },
+      {
+        "model": "Ag|Ni(OH)x_interface",
+        "incorporation_mode": "oxide_or_hydroxide_interface",
+        "loading_regime": "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain",
+        "rationale": "Tests bifunctional OH activation separately from substitutional alloying.",
+        "structure_gate": "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+      }
+    ],
+    "incorporation_modes": [
+      "dilute_surface_substitution",
+      "oxide_or_hydroxide_interface"
+    ],
+    "loading_regimes": [
+      "single-site to dilute surface-alloy regime",
+      "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain"
+    ],
+    "structure_gates": [
+      "Compute segregation energy and verify surface composition before adsorption descriptors.",
+      "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+    ],
+    "mechanism_descriptor": [
+      "DFT: interface formation/segregation",
+      "XPS/XAES: M-Ox or M-OH state",
+      "Raman: oxide/hydroxide signal"
+    ],
+    "required_control": "Matched Ag baseline and Cu_sub@Ag_surface benchmark; verify the realized structure before interpreting performance.",
+    "failure_interpretation": "An unstable or unverified interface invalidates attribution of performance to bifunctional activation.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "targeted_literature_needed",
+    "next_action": "Acquire direct FFOR evidence for this mechanism bucket before starting element-specific validation.",
+    "explanation": "Ni is a first pass candidate for metal_oxide_interface; evidence basis is design_rule_only. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "HYP_C3163A13CD",
+    "mechanism_bucket": "metal_oxide_interface",
+    "hypothesis": "Ag-M or Ag-M-Ox interfaces may introduce bifunctional adsorption/activation motifs while Ag preserves relatively weak product binding.",
+    "direct_ffor_source_count": 0,
+    "uncertainty_label": "adjacent_evidence_only",
+    "element": "Bi",
+    "mechanism_bucket_id": "MB_METAL_OXIDE_INTERFACE_V1",
+    "element_candidate_id": "EC_METAL_OXIDE_INTERFACE_BI_V1",
+    "role": "backup_candidate",
+    "evidence_basis": "design_rule_only",
+    "supporting_source_claim_ids": [],
+    "supporting_paper_ids": [],
+    "structure_hypotheses": [
+      "Bi_decorated@Ag_surface",
+      "Ag|BiOx_interface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Bi_decorated@Ag_surface",
+        "incorporation_mode": "submonolayer_surface_decoration",
+        "loading_regime": "isolated adatoms to submonolayer islands",
+        "rationale": "Creates local heteroatom sites without assuming bulk-alloy formation.",
+        "structure_gate": "Compare isolated and paired dopants; verify clustering and oxidation state."
+      },
+      {
+        "model": "Ag|BiOx_interface",
+        "incorporation_mode": "oxide_or_hydroxide_interface",
+        "loading_regime": "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain",
+        "rationale": "Tests bifunctional OH activation separately from substitutional alloying.",
+        "structure_gate": "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+      }
+    ],
+    "incorporation_modes": [
+      "submonolayer_surface_decoration",
+      "oxide_or_hydroxide_interface"
+    ],
+    "loading_regimes": [
+      "isolated adatoms to submonolayer islands",
+      "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain"
+    ],
+    "structure_gates": [
+      "Compare isolated and paired dopants; verify clustering and oxidation state.",
+      "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+    ],
+    "mechanism_descriptor": [
+      "DFT: interface formation/segregation",
+      "XPS/XAES: M-Ox or M-OH state",
+      "Raman: oxide/hydroxide signal"
+    ],
+    "required_control": "Matched Ag baseline and Cu_sub@Ag_surface benchmark; verify the realized structure before interpreting performance.",
+    "failure_interpretation": "An unstable or unverified interface invalidates attribution of performance to bifunctional activation.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "defer_until_primary_result",
+    "next_action": "Retain as a same-mechanism backup; activate only if the first-pass candidate is informative but insufficient.",
+    "explanation": "Bi is a backup candidate for metal_oxide_interface; evidence basis is design_rule_only. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "HYP_C3163A13CD",
+    "mechanism_bucket": "metal_oxide_interface",
+    "hypothesis": "Ag-M or Ag-M-Ox interfaces may introduce bifunctional adsorption/activation motifs while Ag preserves relatively weak product binding.",
+    "direct_ffor_source_count": 0,
+    "uncertainty_label": "adjacent_evidence_only",
+    "element": "Sn",
+    "mechanism_bucket_id": "MB_METAL_OXIDE_INTERFACE_V1",
+    "element_candidate_id": "EC_METAL_OXIDE_INTERFACE_SN_V1",
+    "role": "backup_candidate",
+    "evidence_basis": "design_rule_only",
+    "supporting_source_claim_ids": [],
+    "supporting_paper_ids": [],
+    "structure_hypotheses": [
+      "Sn_decorated@Ag_surface",
+      "Ag|SnOx_interface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Sn_decorated@Ag_surface",
+        "incorporation_mode": "submonolayer_surface_decoration",
+        "loading_regime": "isolated adatoms to submonolayer islands",
+        "rationale": "Creates local heteroatom sites without assuming bulk-alloy formation.",
+        "structure_gate": "Compare isolated and paired dopants; verify clustering and oxidation state."
+      },
+      {
+        "model": "Ag|SnOx_interface",
+        "incorporation_mode": "oxide_or_hydroxide_interface",
+        "loading_regime": "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain",
+        "rationale": "Tests bifunctional OH activation separately from substitutional alloying.",
+        "structure_gate": "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+      }
+    ],
+    "incorporation_modes": [
+      "submonolayer_surface_decoration",
+      "oxide_or_hydroxide_interface"
+    ],
+    "loading_regimes": [
+      "isolated adatoms to submonolayer islands",
+      "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain"
+    ],
+    "structure_gates": [
+      "Compare isolated and paired dopants; verify clustering and oxidation state.",
+      "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+    ],
+    "mechanism_descriptor": [
+      "DFT: interface formation/segregation",
+      "XPS/XAES: M-Ox or M-OH state",
+      "Raman: oxide/hydroxide signal"
+    ],
+    "required_control": "Matched Ag baseline and Cu_sub@Ag_surface benchmark; verify the realized structure before interpreting performance.",
+    "failure_interpretation": "An unstable or unverified interface invalidates attribution of performance to bifunctional activation.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "defer_until_primary_result",
+    "next_action": "Retain as a same-mechanism backup; activate only if the first-pass candidate is informative but insufficient.",
+    "explanation": "Sn is a backup candidate for metal_oxide_interface; evidence basis is design_rule_only. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "HYP_C3163A13CD",
+    "mechanism_bucket": "metal_oxide_interface",
+    "hypothesis": "Ag-M or Ag-M-Ox interfaces may introduce bifunctional adsorption/activation motifs while Ag preserves relatively weak product binding.",
+    "direct_ffor_source_count": 0,
+    "uncertainty_label": "adjacent_evidence_only",
+    "element": "Zn",
+    "mechanism_bucket_id": "MB_METAL_OXIDE_INTERFACE_V1",
+    "element_candidate_id": "EC_METAL_OXIDE_INTERFACE_ZN_V1",
+    "role": "backup_candidate",
+    "evidence_basis": "design_rule_only",
+    "supporting_source_claim_ids": [],
+    "supporting_paper_ids": [],
+    "structure_hypotheses": [
+      "Zn_sub@Ag_surface",
+      "Ag|ZnOx_interface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Zn_sub@Ag_surface",
+        "incorporation_mode": "dilute_surface_substitution",
+        "loading_regime": "single-site to dilute surface-alloy regime",
+        "rationale": "Tests an electronic/ensemble effect while preserving an Ag-rich surface.",
+        "structure_gate": "Compute segregation energy and verify surface composition before adsorption descriptors."
+      },
+      {
+        "model": "Ag|ZnOx_interface",
+        "incorporation_mode": "oxide_or_hydroxide_interface",
+        "loading_regime": "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain",
+        "rationale": "Tests bifunctional OH activation separately from substitutional alloying.",
+        "structure_gate": "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+      }
+    ],
+    "incorporation_modes": [
+      "dilute_surface_substitution",
+      "oxide_or_hydroxide_interface"
+    ],
+    "loading_regimes": [
+      "single-site to dilute surface-alloy regime",
+      "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain"
+    ],
+    "structure_gates": [
+      "Compute segregation energy and verify surface composition before adsorption descriptors.",
+      "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+    ],
+    "mechanism_descriptor": [
+      "DFT: interface formation/segregation",
+      "XPS/XAES: M-Ox or M-OH state",
+      "Raman: oxide/hydroxide signal"
+    ],
+    "required_control": "Matched Ag baseline and Cu_sub@Ag_surface benchmark; verify the realized structure before interpreting performance.",
+    "failure_interpretation": "An unstable or unverified interface invalidates attribution of performance to bifunctional activation.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "defer_until_primary_result",
+    "next_action": "Retain as a same-mechanism backup; activate only if the first-pass candidate is informative but insufficient.",
+    "explanation": "Zn is a backup candidate for metal_oxide_interface; evidence basis is design_rule_only. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "HYP_829CA5DEE3",
+    "mechanism_bucket": "OH_affinity_site",
+    "hypothesis": "Ag-M-OH interfacial sites may compensate for the weak intrinsic OH affinity of Ag and promote alkaline furfural oxidation.",
+    "direct_ffor_source_count": 0,
+    "uncertainty_label": "adjacent_evidence_only",
+    "element": "Cu",
+    "mechanism_bucket_id": "MB_OH_AFFINITY_SITE_V1",
+    "element_candidate_id": "EC_OH_AFFINITY_SITE_CU_V1",
+    "role": "benchmark",
+    "evidence_basis": "adjacent_element_evidence_only",
+    "supporting_source_claim_ids": [
+      "CLAIM_4B0B9197C4"
+    ],
+    "supporting_paper_ids": [
+      "PAPER_BFE6C6AEAC"
+    ],
+    "structure_hypotheses": [
+      "Cu_sub@Ag_surface",
+      "Ag|CuOx(OH)y_interface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Cu_sub@Ag_surface",
+        "incorporation_mode": "dilute_surface_substitution",
+        "loading_regime": "single-site to dilute surface-alloy regime",
+        "rationale": "Tests an electronic/ensemble effect while preserving an Ag-rich surface.",
+        "structure_gate": "Compute segregation energy and verify surface composition before adsorption descriptors."
+      },
+      {
+        "model": "Ag|CuOx(OH)y_interface",
+        "incorporation_mode": "oxide_or_hydroxide_interface",
+        "loading_regime": "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain",
+        "rationale": "Tests bifunctional OH activation separately from substitutional alloying.",
+        "structure_gate": "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+      }
+    ],
+    "incorporation_modes": [
+      "dilute_surface_substitution",
+      "oxide_or_hydroxide_interface"
+    ],
+    "loading_regimes": [
+      "single-site to dilute surface-alloy regime",
+      "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain"
+    ],
+    "structure_gates": [
+      "Compute segregation energy and verify surface composition before adsorption descriptors.",
+      "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+    ],
+    "mechanism_descriptor": [
+      "DFT: ΔG_OH*",
+      "XPS: M oxidation state",
+      "Raman: M-OH / Ag-O band",
+      "EIS/DRT: charge transfer"
+    ],
+    "required_control": "Matched Ag baseline with the same loading, electrolyte, potential scale, normalization, and structure verification.",
+    "failure_interpretation": "If Ag-Cu is not reproducible, block Ni/Bi ranking and trigger a workflow audit.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "targeted_literature_needed",
+    "next_action": "Use as a positive control and mechanistic bridge; do not present it as the novelty claim.",
+    "explanation": "Cu is a benchmark for OH_affinity_site; evidence basis is adjacent_element_evidence_only. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "HYP_829CA5DEE3",
+    "mechanism_bucket": "OH_affinity_site",
+    "hypothesis": "Ag-M-OH interfacial sites may compensate for the weak intrinsic OH affinity of Ag and promote alkaline furfural oxidation.",
+    "direct_ffor_source_count": 0,
+    "uncertainty_label": "adjacent_evidence_only",
+    "element": "Ni",
+    "mechanism_bucket_id": "MB_OH_AFFINITY_SITE_V1",
+    "element_candidate_id": "EC_OH_AFFINITY_SITE_NI_V1",
+    "role": "first_pass_candidate",
+    "evidence_basis": "design_rule_only",
+    "supporting_source_claim_ids": [],
+    "supporting_paper_ids": [],
+    "structure_hypotheses": [
+      "Ni_sub@Ag_surface",
+      "Ag|Ni(OH)x_interface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Ni_sub@Ag_surface",
+        "incorporation_mode": "dilute_surface_substitution",
+        "loading_regime": "single-site to dilute surface-alloy regime",
+        "rationale": "Tests an electronic/ensemble effect while preserving an Ag-rich surface.",
+        "structure_gate": "Compute segregation energy and verify surface composition before adsorption descriptors."
+      },
+      {
+        "model": "Ag|Ni(OH)x_interface",
+        "incorporation_mode": "oxide_or_hydroxide_interface",
+        "loading_regime": "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain",
+        "rationale": "Tests bifunctional OH activation separately from substitutional alloying.",
+        "structure_gate": "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+      }
+    ],
+    "incorporation_modes": [
+      "dilute_surface_substitution",
+      "oxide_or_hydroxide_interface"
+    ],
+    "loading_regimes": [
+      "single-site to dilute surface-alloy regime",
+      "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain"
+    ],
+    "structure_gates": [
+      "Compute segregation energy and verify surface composition before adsorption descriptors.",
+      "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+    ],
+    "mechanism_descriptor": [
+      "DFT: ΔG_OH*",
+      "XPS: M oxidation state",
+      "Raman: M-OH / Ag-O band",
+      "EIS/DRT: charge transfer"
+    ],
+    "required_control": "Matched Ag baseline and Cu_sub@Ag_surface benchmark; verify the realized structure before interpreting performance.",
+    "failure_interpretation": "No verified useful OH-affinity change means the OH-site hypothesis is unsupported; do not generalize from activity alone.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "targeted_literature_needed",
+    "next_action": "Acquire direct FFOR evidence for this mechanism bucket before starting element-specific validation.",
+    "explanation": "Ni is a first pass candidate for OH_affinity_site; evidence basis is design_rule_only. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "HYP_829CA5DEE3",
+    "mechanism_bucket": "OH_affinity_site",
+    "hypothesis": "Ag-M-OH interfacial sites may compensate for the weak intrinsic OH affinity of Ag and promote alkaline furfural oxidation.",
+    "direct_ffor_source_count": 0,
+    "uncertainty_label": "adjacent_evidence_only",
+    "element": "Co",
+    "mechanism_bucket_id": "MB_OH_AFFINITY_SITE_V1",
+    "element_candidate_id": "EC_OH_AFFINITY_SITE_CO_V1",
+    "role": "backup_candidate",
+    "evidence_basis": "design_rule_only",
+    "supporting_source_claim_ids": [],
+    "supporting_paper_ids": [],
+    "structure_hypotheses": [
+      "Co_sub@Ag_surface",
+      "Ag|CoOx(OH)y_interface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Co_sub@Ag_surface",
+        "incorporation_mode": "dilute_surface_substitution",
+        "loading_regime": "single-site to dilute surface-alloy regime",
+        "rationale": "Tests an electronic/ensemble effect while preserving an Ag-rich surface.",
+        "structure_gate": "Compute segregation energy and verify surface composition before adsorption descriptors."
+      },
+      {
+        "model": "Ag|CoOx(OH)y_interface",
+        "incorporation_mode": "oxide_or_hydroxide_interface",
+        "loading_regime": "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain",
+        "rationale": "Tests bifunctional OH activation separately from substitutional alloying.",
+        "structure_gate": "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+      }
+    ],
+    "incorporation_modes": [
+      "dilute_surface_substitution",
+      "oxide_or_hydroxide_interface"
+    ],
+    "loading_regimes": [
+      "single-site to dilute surface-alloy regime",
+      "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain"
+    ],
+    "structure_gates": [
+      "Compute segregation energy and verify surface composition before adsorption descriptors.",
+      "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+    ],
+    "mechanism_descriptor": [
+      "DFT: ΔG_OH*",
+      "XPS: M oxidation state",
+      "Raman: M-OH / Ag-O band",
+      "EIS/DRT: charge transfer"
+    ],
+    "required_control": "Matched Ag baseline and Cu_sub@Ag_surface benchmark; verify the realized structure before interpreting performance.",
+    "failure_interpretation": "No verified useful OH-affinity change means the OH-site hypothesis is unsupported; do not generalize from activity alone.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "defer_until_primary_result",
+    "next_action": "Retain as a same-mechanism backup; activate only if the first-pass candidate is informative but insufficient.",
+    "explanation": "Co is a backup candidate for OH_affinity_site; evidence basis is design_rule_only. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "HYP_829CA5DEE3",
+    "mechanism_bucket": "OH_affinity_site",
+    "hypothesis": "Ag-M-OH interfacial sites may compensate for the weak intrinsic OH affinity of Ag and promote alkaline furfural oxidation.",
+    "direct_ffor_source_count": 0,
+    "uncertainty_label": "adjacent_evidence_only",
+    "element": "Fe",
+    "mechanism_bucket_id": "MB_OH_AFFINITY_SITE_V1",
+    "element_candidate_id": "EC_OH_AFFINITY_SITE_FE_V1",
+    "role": "backup_candidate",
+    "evidence_basis": "design_rule_only",
+    "supporting_source_claim_ids": [],
+    "supporting_paper_ids": [],
+    "structure_hypotheses": [
+      "Fe_sub@Ag_surface",
+      "Ag|FeOx(OH)y_interface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Fe_sub@Ag_surface",
+        "incorporation_mode": "dilute_surface_substitution",
+        "loading_regime": "single-site to dilute surface-alloy regime",
+        "rationale": "Tests an electronic/ensemble effect while preserving an Ag-rich surface.",
+        "structure_gate": "Compute segregation energy and verify surface composition before adsorption descriptors."
+      },
+      {
+        "model": "Ag|FeOx(OH)y_interface",
+        "incorporation_mode": "oxide_or_hydroxide_interface",
+        "loading_regime": "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain",
+        "rationale": "Tests bifunctional OH activation separately from substitutional alloying.",
+        "structure_gate": "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+      }
+    ],
+    "incorporation_modes": [
+      "dilute_surface_substitution",
+      "oxide_or_hydroxide_interface"
+    ],
+    "loading_regimes": [
+      "single-site to dilute surface-alloy regime",
+      "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain"
+    ],
+    "structure_gates": [
+      "Compute segregation energy and verify surface composition before adsorption descriptors.",
+      "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+    ],
+    "mechanism_descriptor": [
+      "DFT: ΔG_OH*",
+      "XPS: M oxidation state",
+      "Raman: M-OH / Ag-O band",
+      "EIS/DRT: charge transfer"
+    ],
+    "required_control": "Matched Ag baseline and Cu_sub@Ag_surface benchmark; verify the realized structure before interpreting performance.",
+    "failure_interpretation": "No verified useful OH-affinity change means the OH-site hypothesis is unsupported; do not generalize from activity alone.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "defer_until_primary_result",
+    "next_action": "Retain as a same-mechanism backup; activate only if the first-pass candidate is informative but insufficient.",
+    "explanation": "Fe is a backup candidate for OH_affinity_site; evidence basis is design_rule_only. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "HYP_DBFCF1923B",
+    "mechanism_bucket": "coverage_induced_poisoning",
+    "hypothesis": "FFOR deactivation on Ag may arise from furoate/carboxylate or oxygenated-species coverage; dopants should reduce poisoning risk or promote removal.",
+    "direct_ffor_source_count": 0,
+    "uncertainty_label": "adjacent_evidence_only",
+    "element": "Cu",
+    "mechanism_bucket_id": "MB_COVERAGE_INDUCED_POISONING_V1",
+    "element_candidate_id": "EC_COVERAGE_INDUCED_POISONING_CU_V1",
+    "role": "benchmark",
+    "evidence_basis": "adjacent_element_evidence_only",
+    "supporting_source_claim_ids": [
+      "CLAIM_C24FB493D3",
+      "CLAIM_6958E03527",
+      "CLAIM_4B0B9197C4"
+    ],
+    "supporting_paper_ids": [
+      "PAPER_BFE6C6AEAC"
+    ],
+    "structure_hypotheses": [
+      "Cu_sub@Ag_surface",
+      "Ag|CuOx(OH)y_interface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Cu_sub@Ag_surface",
+        "incorporation_mode": "dilute_surface_substitution",
+        "loading_regime": "single-site to dilute surface-alloy regime",
+        "rationale": "Tests an electronic/ensemble effect while preserving an Ag-rich surface.",
+        "structure_gate": "Compute segregation energy and verify surface composition before adsorption descriptors."
+      },
+      {
+        "model": "Ag|CuOx(OH)y_interface",
+        "incorporation_mode": "oxide_or_hydroxide_interface",
+        "loading_regime": "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain",
+        "rationale": "Tests bifunctional OH activation separately from substitutional alloying.",
+        "structure_gate": "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+      }
+    ],
+    "incorporation_modes": [
+      "dilute_surface_substitution",
+      "oxide_or_hydroxide_interface"
+    ],
+    "loading_regimes": [
+      "single-site to dilute surface-alloy regime",
+      "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain"
+    ],
+    "structure_gates": [
+      "Compute segregation energy and verify surface composition before adsorption descriptors.",
+      "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+    ],
+    "mechanism_descriptor": [
+      "DFT: ΔG_furoate* and coverage",
+      "CA deactivation/recovery",
+      "Raman/XPS residue analysis",
+      "product selectivity"
+    ],
+    "required_control": "Matched Ag baseline with the same loading, electrolyte, potential scale, normalization, and structure verification.",
+    "failure_interpretation": "If Ag-Cu is not reproducible, block Ni/Bi ranking and trigger a workflow audit.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "targeted_literature_needed",
+    "next_action": "Use as a positive control and mechanistic bridge; do not present it as the novelty claim.",
+    "explanation": "Cu is a benchmark for coverage_induced_poisoning; evidence basis is adjacent_element_evidence_only. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "HYP_DBFCF1923B",
+    "mechanism_bucket": "coverage_induced_poisoning",
+    "hypothesis": "FFOR deactivation on Ag may arise from furoate/carboxylate or oxygenated-species coverage; dopants should reduce poisoning risk or promote removal.",
+    "direct_ffor_source_count": 0,
+    "uncertainty_label": "adjacent_evidence_only",
+    "element": "Bi",
+    "mechanism_bucket_id": "MB_COVERAGE_INDUCED_POISONING_V1",
+    "element_candidate_id": "EC_COVERAGE_INDUCED_POISONING_BI_V1",
+    "role": "first_pass_candidate",
+    "evidence_basis": "design_rule_only",
+    "supporting_source_claim_ids": [],
+    "supporting_paper_ids": [],
+    "structure_hypotheses": [
+      "Bi_decorated@Ag_surface",
+      "Ag|BiOx_interface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Bi_decorated@Ag_surface",
+        "incorporation_mode": "submonolayer_surface_decoration",
+        "loading_regime": "isolated adatoms to submonolayer islands",
+        "rationale": "Creates local heteroatom sites without assuming bulk-alloy formation.",
+        "structure_gate": "Compare isolated and paired dopants; verify clustering and oxidation state."
+      },
+      {
+        "model": "Ag|BiOx_interface",
+        "incorporation_mode": "oxide_or_hydroxide_interface",
+        "loading_regime": "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain",
+        "rationale": "Tests bifunctional OH activation separately from substitutional alloying.",
+        "structure_gate": "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+      }
+    ],
+    "incorporation_modes": [
+      "submonolayer_surface_decoration",
+      "oxide_or_hydroxide_interface"
+    ],
+    "loading_regimes": [
+      "isolated adatoms to submonolayer islands",
+      "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain"
+    ],
+    "structure_gates": [
+      "Compare isolated and paired dopants; verify clustering and oxidation state.",
+      "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+    ],
+    "mechanism_descriptor": [
+      "DFT: ΔG_furoate* and coverage",
+      "CA deactivation/recovery",
+      "Raman/XPS residue analysis",
+      "product selectivity"
+    ],
+    "required_control": "Matched Ag baseline and Cu_sub@Ag_surface benchmark; verify the realized structure before interpreting performance.",
+    "failure_interpretation": "No furoate-linked Ag deactivation or no improved recovery means the anti-poisoning interpretation is unsupported.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "targeted_literature_needed",
+    "next_action": "Acquire direct FFOR evidence for this mechanism bucket before starting element-specific validation.",
+    "explanation": "Bi is a first pass candidate for coverage_induced_poisoning; evidence basis is design_rule_only. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "HYP_DBFCF1923B",
+    "mechanism_bucket": "coverage_induced_poisoning",
+    "hypothesis": "FFOR deactivation on Ag may arise from furoate/carboxylate or oxygenated-species coverage; dopants should reduce poisoning risk or promote removal.",
+    "direct_ffor_source_count": 0,
+    "uncertainty_label": "adjacent_evidence_only",
+    "element": "Sn",
+    "mechanism_bucket_id": "MB_COVERAGE_INDUCED_POISONING_V1",
+    "element_candidate_id": "EC_COVERAGE_INDUCED_POISONING_SN_V1",
+    "role": "backup_candidate",
+    "evidence_basis": "design_rule_only",
+    "supporting_source_claim_ids": [],
+    "supporting_paper_ids": [],
+    "structure_hypotheses": [
+      "Sn_decorated@Ag_surface",
+      "Ag|SnOx_interface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Sn_decorated@Ag_surface",
+        "incorporation_mode": "submonolayer_surface_decoration",
+        "loading_regime": "isolated adatoms to submonolayer islands",
+        "rationale": "Creates local heteroatom sites without assuming bulk-alloy formation.",
+        "structure_gate": "Compare isolated and paired dopants; verify clustering and oxidation state."
+      },
+      {
+        "model": "Ag|SnOx_interface",
+        "incorporation_mode": "oxide_or_hydroxide_interface",
+        "loading_regime": "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain",
+        "rationale": "Tests bifunctional OH activation separately from substitutional alloying.",
+        "structure_gate": "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+      }
+    ],
+    "incorporation_modes": [
+      "submonolayer_surface_decoration",
+      "oxide_or_hydroxide_interface"
+    ],
+    "loading_regimes": [
+      "isolated adatoms to submonolayer islands",
+      "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain"
+    ],
+    "structure_gates": [
+      "Compare isolated and paired dopants; verify clustering and oxidation state.",
+      "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+    ],
+    "mechanism_descriptor": [
+      "DFT: ΔG_furoate* and coverage",
+      "CA deactivation/recovery",
+      "Raman/XPS residue analysis",
+      "product selectivity"
+    ],
+    "required_control": "Matched Ag baseline and Cu_sub@Ag_surface benchmark; verify the realized structure before interpreting performance.",
+    "failure_interpretation": "No furoate-linked Ag deactivation or no improved recovery means the anti-poisoning interpretation is unsupported.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "defer_until_primary_result",
+    "next_action": "Retain as a same-mechanism backup; activate only if the first-pass candidate is informative but insufficient.",
+    "explanation": "Sn is a backup candidate for coverage_induced_poisoning; evidence basis is design_rule_only. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "HYP_DBFCF1923B",
+    "mechanism_bucket": "coverage_induced_poisoning",
+    "hypothesis": "FFOR deactivation on Ag may arise from furoate/carboxylate or oxygenated-species coverage; dopants should reduce poisoning risk or promote removal.",
+    "direct_ffor_source_count": 0,
+    "uncertainty_label": "adjacent_evidence_only",
+    "element": "Zn",
+    "mechanism_bucket_id": "MB_COVERAGE_INDUCED_POISONING_V1",
+    "element_candidate_id": "EC_COVERAGE_INDUCED_POISONING_ZN_V1",
+    "role": "backup_candidate",
+    "evidence_basis": "design_rule_only",
+    "supporting_source_claim_ids": [],
+    "supporting_paper_ids": [],
+    "structure_hypotheses": [
+      "Zn_sub@Ag_surface",
+      "Ag|ZnOx_interface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Zn_sub@Ag_surface",
+        "incorporation_mode": "dilute_surface_substitution",
+        "loading_regime": "single-site to dilute surface-alloy regime",
+        "rationale": "Tests an electronic/ensemble effect while preserving an Ag-rich surface.",
+        "structure_gate": "Compute segregation energy and verify surface composition before adsorption descriptors."
+      },
+      {
+        "model": "Ag|ZnOx_interface",
+        "incorporation_mode": "oxide_or_hydroxide_interface",
+        "loading_regime": "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain",
+        "rationale": "Tests bifunctional OH activation separately from substitutional alloying.",
+        "structure_gate": "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+      }
+    ],
+    "incorporation_modes": [
+      "dilute_surface_substitution",
+      "oxide_or_hydroxide_interface"
+    ],
+    "loading_regimes": [
+      "single-site to dilute surface-alloy regime",
+      "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain"
+    ],
+    "structure_gates": [
+      "Compute segregation energy and verify surface composition before adsorption descriptors.",
+      "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+    ],
+    "mechanism_descriptor": [
+      "DFT: ΔG_furoate* and coverage",
+      "CA deactivation/recovery",
+      "Raman/XPS residue analysis",
+      "product selectivity"
+    ],
+    "required_control": "Matched Ag baseline and Cu_sub@Ag_surface benchmark; verify the realized structure before interpreting performance.",
+    "failure_interpretation": "No furoate-linked Ag deactivation or no improved recovery means the anti-poisoning interpretation is unsupported.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "defer_until_primary_result",
+    "next_action": "Retain as a same-mechanism backup; activate only if the first-pass candidate is informative but insufficient.",
+    "explanation": "Zn is a backup candidate for coverage_induced_poisoning; evidence basis is design_rule_only. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "HYP_B126DA2758",
+    "mechanism_bucket": "surface_reconstruction",
+    "hypothesis": "Electrochemical reconstruction of Ag-rich surfaces may generate low-coordination sites that alter furfural/furoate adsorption and poisoning behavior.",
+    "direct_ffor_source_count": 0,
+    "uncertainty_label": "adjacent_evidence_only",
+    "element": "Cu",
+    "mechanism_bucket_id": "MB_SURFACE_RECONSTRUCTION_V1",
+    "element_candidate_id": "EC_SURFACE_RECONSTRUCTION_CU_V1",
+    "role": "benchmark",
+    "evidence_basis": "design_rule_only",
+    "supporting_source_claim_ids": [],
+    "supporting_paper_ids": [],
+    "structure_hypotheses": [
+      "Cu_sub@Ag_surface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Cu_sub@Ag_surface",
+        "incorporation_mode": "dilute_surface_substitution",
+        "loading_regime": "single-site to dilute surface-alloy regime",
+        "rationale": "Tests an electronic/ensemble effect while preserving an Ag-rich surface.",
+        "structure_gate": "Compute segregation energy and verify surface composition before adsorption descriptors."
+      }
+    ],
+    "incorporation_modes": [
+      "dilute_surface_substitution"
+    ],
+    "loading_regimes": [
+      "single-site to dilute surface-alloy regime"
+    ],
+    "structure_gates": [
+      "Compute segregation energy and verify surface composition before adsorption descriptors."
+    ],
+    "mechanism_descriptor": [
+      "surface/defect stability",
+      "SEM/XRD before-after",
+      "Ag MNN XAES",
+      "ECSA/roughness factor"
+    ],
+    "required_control": "Matched Ag baseline with the same loading, electrolyte, potential scale, normalization, and structure verification.",
+    "failure_interpretation": "If Ag-Cu is not reproducible, block Ni/Bi ranking and trigger a workflow audit.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "targeted_literature_needed",
+    "next_action": "Use as a positive control and mechanistic bridge; do not present it as the novelty claim.",
+    "explanation": "Cu is a benchmark for surface_reconstruction; evidence basis is design_rule_only. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "HYP_B126DA2758",
+    "mechanism_bucket": "surface_reconstruction",
+    "hypothesis": "Electrochemical reconstruction of Ag-rich surfaces may generate low-coordination sites that alter furfural/furoate adsorption and poisoning behavior.",
+    "direct_ffor_source_count": 0,
+    "uncertainty_label": "adjacent_evidence_only",
+    "element": "Ni",
+    "mechanism_bucket_id": "MB_SURFACE_RECONSTRUCTION_V1",
+    "element_candidate_id": "EC_SURFACE_RECONSTRUCTION_NI_V1",
+    "role": "first_pass_candidate",
+    "evidence_basis": "design_rule_only",
+    "supporting_source_claim_ids": [],
+    "supporting_paper_ids": [],
+    "structure_hypotheses": [
+      "Ni_sub@Ag_surface",
+      "Ag|Ni(OH)x_interface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Ni_sub@Ag_surface",
+        "incorporation_mode": "dilute_surface_substitution",
+        "loading_regime": "single-site to dilute surface-alloy regime",
+        "rationale": "Tests an electronic/ensemble effect while preserving an Ag-rich surface.",
+        "structure_gate": "Compute segregation energy and verify surface composition before adsorption descriptors."
+      },
+      {
+        "model": "Ag|Ni(OH)x_interface",
+        "incorporation_mode": "oxide_or_hydroxide_interface",
+        "loading_regime": "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain",
+        "rationale": "Tests bifunctional OH activation separately from substitutional alloying.",
+        "structure_gate": "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+      }
+    ],
+    "incorporation_modes": [
+      "dilute_surface_substitution",
+      "oxide_or_hydroxide_interface"
+    ],
+    "loading_regimes": [
+      "single-site to dilute surface-alloy regime",
+      "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain"
+    ],
+    "structure_gates": [
+      "Compute segregation energy and verify surface composition before adsorption descriptors.",
+      "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+    ],
+    "mechanism_descriptor": [
+      "surface/defect stability",
+      "SEM/XRD before-after",
+      "Ag MNN XAES",
+      "ECSA/roughness factor"
+    ],
+    "required_control": "Matched Ag baseline and Cu_sub@Ag_surface benchmark; verify the realized structure before interpreting performance.",
+    "failure_interpretation": "Failure of the structure or mechanism gate downgrades this candidate without changing source evidence.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "targeted_literature_needed",
+    "next_action": "Acquire direct FFOR evidence for this mechanism bucket before starting element-specific validation.",
+    "explanation": "Ni is a first pass candidate for surface_reconstruction; evidence basis is design_rule_only. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "HYP_B126DA2758",
+    "mechanism_bucket": "surface_reconstruction",
+    "hypothesis": "Electrochemical reconstruction of Ag-rich surfaces may generate low-coordination sites that alter furfural/furoate adsorption and poisoning behavior.",
+    "direct_ffor_source_count": 0,
+    "uncertainty_label": "adjacent_evidence_only",
+    "element": "Zn",
+    "mechanism_bucket_id": "MB_SURFACE_RECONSTRUCTION_V1",
+    "element_candidate_id": "EC_SURFACE_RECONSTRUCTION_ZN_V1",
+    "role": "backup_candidate",
+    "evidence_basis": "design_rule_only",
+    "supporting_source_claim_ids": [],
+    "supporting_paper_ids": [],
+    "structure_hypotheses": [
+      "Zn_sub@Ag_surface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Zn_sub@Ag_surface",
+        "incorporation_mode": "dilute_surface_substitution",
+        "loading_regime": "single-site to dilute surface-alloy regime",
+        "rationale": "Tests an electronic/ensemble effect while preserving an Ag-rich surface.",
+        "structure_gate": "Compute segregation energy and verify surface composition before adsorption descriptors."
+      }
+    ],
+    "incorporation_modes": [
+      "dilute_surface_substitution"
+    ],
+    "loading_regimes": [
+      "single-site to dilute surface-alloy regime"
+    ],
+    "structure_gates": [
+      "Compute segregation energy and verify surface composition before adsorption descriptors."
+    ],
+    "mechanism_descriptor": [
+      "surface/defect stability",
+      "SEM/XRD before-after",
+      "Ag MNN XAES",
+      "ECSA/roughness factor"
+    ],
+    "required_control": "Matched Ag baseline and Cu_sub@Ag_surface benchmark; verify the realized structure before interpreting performance.",
+    "failure_interpretation": "Failure of the structure or mechanism gate downgrades this candidate without changing source evidence.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "defer_until_primary_result",
+    "next_action": "Retain as a same-mechanism backup; activate only if the first-pass candidate is informative but insufficient.",
+    "explanation": "Zn is a backup candidate for surface_reconstruction; evidence basis is design_rule_only. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "HYP_5A7A519485",
+    "mechanism_bucket": "moderate_furfural_adsorption",
+    "hypothesis": "Low-coordination Ag or Ag-M sites may tune furfural adsorption into a moderate range that favors FFOR without blocking the surface.",
+    "direct_ffor_source_count": 0,
+    "uncertainty_label": "adjacent_evidence_only",
+    "element": "Cu",
+    "mechanism_bucket_id": "MB_MODERATE_FURFURAL_ADSORPTION_V1",
+    "element_candidate_id": "EC_MODERATE_FURFURAL_ADSORPTION_CU_V1",
+    "role": "benchmark",
+    "evidence_basis": "adjacent_element_evidence_only",
+    "supporting_source_claim_ids": [
+      "CLAIM_299284BCD1",
+      "CLAIM_C82EFAD0C2",
+      "CLAIM_E84103D86B",
+      "CLAIM_2528D0B42C",
+      "CLAIM_6C128BFD39",
+      "CLAIM_4B0B9197C4",
+      "CLAIM_CA0AA40B6C"
+    ],
+    "supporting_paper_ids": [
+      "PAPER_BFE6C6AEAC",
+      "PAPER_3DD3F384D2"
+    ],
+    "structure_hypotheses": [
+      "Cu_sub@Ag_surface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Cu_sub@Ag_surface",
+        "incorporation_mode": "dilute_surface_substitution",
+        "loading_regime": "single-site to dilute surface-alloy regime",
+        "rationale": "Tests an electronic/ensemble effect while preserving an Ag-rich surface.",
+        "structure_gate": "Compute segregation energy and verify surface composition before adsorption descriptors."
+      }
+    ],
+    "incorporation_modes": [
+      "dilute_surface_substitution"
+    ],
+    "loading_regimes": [
+      "single-site to dilute surface-alloy regime"
+    ],
+    "structure_gates": [
+      "Compute segregation energy and verify surface composition before adsorption descriptors."
+    ],
+    "mechanism_descriptor": [
+      "DFT: ΔG_furfural*",
+      "in situ Raman/FTIR: adsorbed aldehyde",
+      "LSV: activity shift"
+    ],
+    "required_control": "Matched Ag baseline with the same loading, electrolyte, potential scale, normalization, and structure verification.",
+    "failure_interpretation": "If Ag-Cu is not reproducible, block Ni/Bi ranking and trigger a workflow audit.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "targeted_literature_needed",
+    "next_action": "Use as a positive control and mechanistic bridge; do not present it as the novelty claim.",
+    "explanation": "Cu is a benchmark for moderate_furfural_adsorption; evidence basis is adjacent_element_evidence_only. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "HYP_5A7A519485",
+    "mechanism_bucket": "moderate_furfural_adsorption",
+    "hypothesis": "Low-coordination Ag or Ag-M sites may tune furfural adsorption into a moderate range that favors FFOR without blocking the surface.",
+    "direct_ffor_source_count": 0,
+    "uncertainty_label": "adjacent_evidence_only",
+    "element": "Pd",
+    "mechanism_bucket_id": "MB_MODERATE_FURFURAL_ADSORPTION_V1",
+    "element_candidate_id": "EC_MODERATE_FURFURAL_ADSORPTION_PD_V1",
+    "role": "backup_candidate",
+    "evidence_basis": "design_rule_only",
+    "supporting_source_claim_ids": [],
+    "supporting_paper_ids": [],
+    "structure_hypotheses": [
+      "Pd_sub@Ag_surface",
+      "Pd_cluster@Ag_surface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Pd_sub@Ag_surface",
+        "incorporation_mode": "dilute_surface_substitution",
+        "loading_regime": "single-site to dilute surface-alloy regime",
+        "rationale": "Tests an electronic/ensemble effect while preserving an Ag-rich surface.",
+        "structure_gate": "Compute segregation energy and verify surface composition before adsorption descriptors."
+      },
+      {
+        "model": "Pd_cluster@Ag_surface",
+        "incorporation_mode": "surface_cluster_decoration",
+        "loading_regime": "small supported clusters at low surface coverage",
+        "rationale": "Represents source-domain nanoparticle motifs while retaining an Ag support.",
+        "structure_gate": "Check cluster adhesion, sintering tendency, and whether Ag remains exposed."
+      }
+    ],
+    "incorporation_modes": [
+      "dilute_surface_substitution",
+      "surface_cluster_decoration"
+    ],
+    "loading_regimes": [
+      "single-site to dilute surface-alloy regime",
+      "small supported clusters at low surface coverage"
+    ],
+    "structure_gates": [
+      "Compute segregation energy and verify surface composition before adsorption descriptors.",
+      "Check cluster adhesion, sintering tendency, and whether Ag remains exposed."
+    ],
+    "mechanism_descriptor": [
+      "DFT: ΔG_furfural*",
+      "in situ Raman/FTIR: adsorbed aldehyde",
+      "LSV: activity shift"
+    ],
+    "required_control": "Matched Ag baseline and Cu_sub@Ag_surface benchmark; verify the realized structure before interpreting performance.",
+    "failure_interpretation": "Failure of the structure or mechanism gate downgrades this candidate without changing source evidence.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "defer_until_primary_result",
+    "next_action": "Retain as a same-mechanism backup; activate only if the first-pass candidate is informative but insufficient.",
+    "explanation": "Pd is a backup candidate for moderate_furfural_adsorption; evidence basis is design_rule_only. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "HYP_5A7A519485",
+    "mechanism_bucket": "moderate_furfural_adsorption",
+    "hypothesis": "Low-coordination Ag or Ag-M sites may tune furfural adsorption into a moderate range that favors FFOR without blocking the surface.",
+    "direct_ffor_source_count": 0,
+    "uncertainty_label": "adjacent_evidence_only",
+    "element": "Au",
+    "mechanism_bucket_id": "MB_MODERATE_FURFURAL_ADSORPTION_V1",
+    "element_candidate_id": "EC_MODERATE_FURFURAL_ADSORPTION_AU_V1",
+    "role": "backup_candidate",
+    "evidence_basis": "adjacent_element_evidence_only",
+    "supporting_source_claim_ids": [
+      "CLAIM_CA0AA40B6C",
+      "CLAIM_DE5A0BE7C3"
+    ],
+    "supporting_paper_ids": [
+      "PAPER_3DD3F384D2",
+      "PAPER_EC7FDA2E30"
+    ],
+    "structure_hypotheses": [
+      "Au_sub@Ag_surface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Au_sub@Ag_surface",
+        "incorporation_mode": "dilute_surface_substitution",
+        "loading_regime": "single-site to dilute surface-alloy regime",
+        "rationale": "Tests an electronic/ensemble effect while preserving an Ag-rich surface.",
+        "structure_gate": "Compute segregation energy and verify surface composition before adsorption descriptors."
+      }
+    ],
+    "incorporation_modes": [
+      "dilute_surface_substitution"
+    ],
+    "loading_regimes": [
+      "single-site to dilute surface-alloy regime"
+    ],
+    "structure_gates": [
+      "Compute segregation energy and verify surface composition before adsorption descriptors."
+    ],
+    "mechanism_descriptor": [
+      "DFT: ΔG_furfural*",
+      "in situ Raman/FTIR: adsorbed aldehyde",
+      "LSV: activity shift"
+    ],
+    "required_control": "Matched Ag baseline and Cu_sub@Ag_surface benchmark; verify the realized structure before interpreting performance.",
+    "failure_interpretation": "Failure of the structure or mechanism gate downgrades this candidate without changing source evidence.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "defer_until_primary_result",
+    "next_action": "Retain as a same-mechanism backup; activate only if the first-pass candidate is informative but insufficient.",
+    "explanation": "Au is a backup candidate for moderate_furfural_adsorption; evidence basis is adjacent_element_evidence_only. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "HYP_5A7A519485",
+    "mechanism_bucket": "moderate_furfural_adsorption",
+    "hypothesis": "Low-coordination Ag or Ag-M sites may tune furfural adsorption into a moderate range that favors FFOR without blocking the surface.",
+    "direct_ffor_source_count": 0,
+    "uncertainty_label": "adjacent_evidence_only",
+    "element": "Zn",
+    "mechanism_bucket_id": "MB_MODERATE_FURFURAL_ADSORPTION_V1",
+    "element_candidate_id": "EC_MODERATE_FURFURAL_ADSORPTION_ZN_V1",
+    "role": "backup_candidate",
+    "evidence_basis": "design_rule_only",
+    "supporting_source_claim_ids": [],
+    "supporting_paper_ids": [],
+    "structure_hypotheses": [
+      "Zn_sub@Ag_surface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Zn_sub@Ag_surface",
+        "incorporation_mode": "dilute_surface_substitution",
+        "loading_regime": "single-site to dilute surface-alloy regime",
+        "rationale": "Tests an electronic/ensemble effect while preserving an Ag-rich surface.",
+        "structure_gate": "Compute segregation energy and verify surface composition before adsorption descriptors."
+      }
+    ],
+    "incorporation_modes": [
+      "dilute_surface_substitution"
+    ],
+    "loading_regimes": [
+      "single-site to dilute surface-alloy regime"
+    ],
+    "structure_gates": [
+      "Compute segregation energy and verify surface composition before adsorption descriptors."
+    ],
+    "mechanism_descriptor": [
+      "DFT: ΔG_furfural*",
+      "in situ Raman/FTIR: adsorbed aldehyde",
+      "LSV: activity shift"
+    ],
+    "required_control": "Matched Ag baseline and Cu_sub@Ag_surface benchmark; verify the realized structure before interpreting performance.",
+    "failure_interpretation": "Failure of the structure or mechanism gate downgrades this candidate without changing source evidence.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "defer_until_primary_result",
+    "next_action": "Retain as a same-mechanism backup; activate only if the first-pass candidate is informative but insufficient.",
+    "explanation": "Zn is a backup candidate for moderate_furfural_adsorption; evidence basis is design_rule_only. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "HYP_61BA430946",
+    "mechanism_bucket": "cathodic_HER_regeneration",
+    "hypothesis": "Cathodic HER or bubble-assisted cleaning may regenerate Ag surfaces by disrupting adsorbed furoate/oxygenated-species coverage.",
+    "direct_ffor_source_count": 0,
+    "uncertainty_label": "adjacent_evidence_only",
+    "element": "Cu",
+    "mechanism_bucket_id": "MB_CATHODIC_HER_REGENERATION_V1",
+    "element_candidate_id": "EC_CATHODIC_HER_REGENERATION_CU_V1",
+    "role": "conditional_candidate",
+    "evidence_basis": "adjacent_element_evidence_only",
+    "supporting_source_claim_ids": [
+      "CLAIM_AC3C097A9E"
+    ],
+    "supporting_paper_ids": [
+      "PAPER_3DD3F384D2"
+    ],
+    "structure_hypotheses": [
+      "Ag-Cu benchmark"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Ag-Cu benchmark",
+        "incorporation_mode": "explicit_structure_required",
+        "loading_regime": "not yet specified",
+        "rationale": "Composition alone is insufficient for a mechanistic recommendation.",
+        "structure_gate": "Define atomistic location, oxidation state, and loading before validation."
+      }
+    ],
+    "incorporation_modes": [
+      "explicit_structure_required"
+    ],
+    "loading_regimes": [
+      "not yet specified"
+    ],
+    "structure_gates": [
+      "Define atomistic location, oxidation state, and loading before validation."
+    ],
+    "mechanism_descriptor": [
+      "alternating anodic/cathodic CA",
+      "post-HER XPS/Raman",
+      "DRT before-after regeneration"
+    ],
+    "required_control": "Matched Ag baseline and Cu_sub@Ag_surface benchmark; verify the realized structure before interpreting performance.",
+    "failure_interpretation": "Failure of the structure or mechanism gate downgrades this candidate without changing source evidence.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "defer_until_recoverable_deactivation",
+    "next_action": "Do not activate until recoverable Ag deactivation is experimentally established.",
+    "explanation": "Cu is a conditional candidate for cathodic_HER_regeneration; evidence basis is adjacent_element_evidence_only. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "HYP_61BA430946",
+    "mechanism_bucket": "cathodic_HER_regeneration",
+    "hypothesis": "Cathodic HER or bubble-assisted cleaning may regenerate Ag surfaces by disrupting adsorbed furoate/oxygenated-species coverage.",
+    "direct_ffor_source_count": 0,
+    "uncertainty_label": "adjacent_evidence_only",
+    "element": "Bi",
+    "mechanism_bucket_id": "MB_CATHODIC_HER_REGENERATION_V1",
+    "element_candidate_id": "EC_CATHODIC_HER_REGENERATION_BI_V1",
+    "role": "conditional_candidate",
+    "evidence_basis": "design_rule_only",
+    "supporting_source_claim_ids": [],
+    "supporting_paper_ids": [],
+    "structure_hypotheses": [
+      "Ag-Bi poisoning candidate"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Ag-Bi poisoning candidate",
+        "incorporation_mode": "explicit_structure_required",
+        "loading_regime": "not yet specified",
+        "rationale": "Composition alone is insufficient for a mechanistic recommendation.",
+        "structure_gate": "Define atomistic location, oxidation state, and loading before validation."
+      }
+    ],
+    "incorporation_modes": [
+      "explicit_structure_required"
+    ],
+    "loading_regimes": [
+      "not yet specified"
+    ],
+    "structure_gates": [
+      "Define atomistic location, oxidation state, and loading before validation."
+    ],
+    "mechanism_descriptor": [
+      "alternating anodic/cathodic CA",
+      "post-HER XPS/Raman",
+      "DRT before-after regeneration"
+    ],
+    "required_control": "Matched Ag baseline and Cu_sub@Ag_surface benchmark; verify the realized structure before interpreting performance.",
+    "failure_interpretation": "Failure of the structure or mechanism gate downgrades this candidate without changing source evidence.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "defer_until_recoverable_deactivation",
+    "next_action": "Do not activate until recoverable Ag deactivation is experimentally established.",
+    "explanation": "Bi is a conditional candidate for cathodic_HER_regeneration; evidence basis is design_rule_only. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "HYP_BC21DDE853",
+    "mechanism_bucket": "weak_furoate_desorption",
+    "hypothesis": "Ag-rich surfaces may favor furoate desorption compared with more oxophilic metals, but dopant sites must not over-bind carboxylate species.",
+    "direct_ffor_source_count": 0,
+    "uncertainty_label": "adjacent_evidence_only",
+    "element": "Bi",
+    "mechanism_bucket_id": "MB_WEAK_FUROATE_DESORPTION_V1",
+    "element_candidate_id": "EC_WEAK_FUROATE_DESORPTION_BI_V1",
+    "role": "first_pass_candidate",
+    "evidence_basis": "design_rule_only",
+    "supporting_source_claim_ids": [],
+    "supporting_paper_ids": [],
+    "structure_hypotheses": [
+      "Bi_decorated@Ag_surface",
+      "Ag|BiOx_interface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Bi_decorated@Ag_surface",
+        "incorporation_mode": "submonolayer_surface_decoration",
+        "loading_regime": "isolated adatoms to submonolayer islands",
+        "rationale": "Creates local heteroatom sites without assuming bulk-alloy formation.",
+        "structure_gate": "Compare isolated and paired dopants; verify clustering and oxidation state."
+      },
+      {
+        "model": "Ag|BiOx_interface",
+        "incorporation_mode": "oxide_or_hydroxide_interface",
+        "loading_regime": "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain",
+        "rationale": "Tests bifunctional OH activation separately from substitutional alloying.",
+        "structure_gate": "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+      }
+    ],
+    "incorporation_modes": [
+      "submonolayer_surface_decoration",
+      "oxide_or_hydroxide_interface"
+    ],
+    "loading_regimes": [
+      "isolated adatoms to submonolayer islands",
+      "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain"
+    ],
+    "structure_gates": [
+      "Compare isolated and paired dopants; verify clustering and oxidation state.",
+      "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+    ],
+    "mechanism_descriptor": [
+      "DFT: ΔG_furoate* and coverage dependence",
+      "XPS C 1s/O 1s after CA",
+      "product/selectivity retention"
+    ],
+    "required_control": "Matched Ag baseline and Cu_sub@Ag_surface benchmark; verify the realized structure before interpreting performance.",
+    "failure_interpretation": "Over-binding, selectivity loss, or unchanged removal behavior downgrades the desorption hypothesis.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "targeted_literature_needed",
+    "next_action": "Acquire direct FFOR evidence for this mechanism bucket before starting element-specific validation.",
+    "explanation": "Bi is a first pass candidate for weak_furoate_desorption; evidence basis is design_rule_only. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "HYP_BC21DDE853",
+    "mechanism_bucket": "weak_furoate_desorption",
+    "hypothesis": "Ag-rich surfaces may favor furoate desorption compared with more oxophilic metals, but dopant sites must not over-bind carboxylate species.",
+    "direct_ffor_source_count": 0,
+    "uncertainty_label": "adjacent_evidence_only",
+    "element": "Sn",
+    "mechanism_bucket_id": "MB_WEAK_FUROATE_DESORPTION_V1",
+    "element_candidate_id": "EC_WEAK_FUROATE_DESORPTION_SN_V1",
+    "role": "backup_candidate",
+    "evidence_basis": "design_rule_only",
+    "supporting_source_claim_ids": [],
+    "supporting_paper_ids": [],
+    "structure_hypotheses": [
+      "Sn_decorated@Ag_surface",
+      "Ag|SnOx_interface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Sn_decorated@Ag_surface",
+        "incorporation_mode": "submonolayer_surface_decoration",
+        "loading_regime": "isolated adatoms to submonolayer islands",
+        "rationale": "Creates local heteroatom sites without assuming bulk-alloy formation.",
+        "structure_gate": "Compare isolated and paired dopants; verify clustering and oxidation state."
+      },
+      {
+        "model": "Ag|SnOx_interface",
+        "incorporation_mode": "oxide_or_hydroxide_interface",
+        "loading_regime": "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain",
+        "rationale": "Tests bifunctional OH activation separately from substitutional alloying.",
+        "structure_gate": "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+      }
+    ],
+    "incorporation_modes": [
+      "submonolayer_surface_decoration",
+      "oxide_or_hydroxide_interface"
+    ],
+    "loading_regimes": [
+      "isolated adatoms to submonolayer islands",
+      "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain"
+    ],
+    "structure_gates": [
+      "Compare isolated and paired dopants; verify clustering and oxidation state.",
+      "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+    ],
+    "mechanism_descriptor": [
+      "DFT: ΔG_furoate* and coverage dependence",
+      "XPS C 1s/O 1s after CA",
+      "product/selectivity retention"
+    ],
+    "required_control": "Matched Ag baseline and Cu_sub@Ag_surface benchmark; verify the realized structure before interpreting performance.",
+    "failure_interpretation": "Over-binding, selectivity loss, or unchanged removal behavior downgrades the desorption hypothesis.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "defer_until_primary_result",
+    "next_action": "Retain as a same-mechanism backup; activate only if the first-pass candidate is informative but insufficient.",
+    "explanation": "Sn is a backup candidate for weak_furoate_desorption; evidence basis is design_rule_only. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "HYP_BC21DDE853",
+    "mechanism_bucket": "weak_furoate_desorption",
+    "hypothesis": "Ag-rich surfaces may favor furoate desorption compared with more oxophilic metals, but dopant sites must not over-bind carboxylate species.",
+    "direct_ffor_source_count": 0,
+    "uncertainty_label": "adjacent_evidence_only",
+    "element": "Zn",
+    "mechanism_bucket_id": "MB_WEAK_FUROATE_DESORPTION_V1",
+    "element_candidate_id": "EC_WEAK_FUROATE_DESORPTION_ZN_V1",
+    "role": "backup_candidate",
+    "evidence_basis": "design_rule_only",
+    "supporting_source_claim_ids": [],
+    "supporting_paper_ids": [],
+    "structure_hypotheses": [
+      "Zn_sub@Ag_surface",
+      "Ag|ZnOx_interface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Zn_sub@Ag_surface",
+        "incorporation_mode": "dilute_surface_substitution",
+        "loading_regime": "single-site to dilute surface-alloy regime",
+        "rationale": "Tests an electronic/ensemble effect while preserving an Ag-rich surface.",
+        "structure_gate": "Compute segregation energy and verify surface composition before adsorption descriptors."
+      },
+      {
+        "model": "Ag|ZnOx_interface",
+        "incorporation_mode": "oxide_or_hydroxide_interface",
+        "loading_regime": "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain",
+        "rationale": "Tests bifunctional OH activation separately from substitutional alloying.",
+        "structure_gate": "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+      }
+    ],
+    "incorporation_modes": [
+      "dilute_surface_substitution",
+      "oxide_or_hydroxide_interface"
+    ],
+    "loading_regimes": [
+      "single-site to dilute surface-alloy regime",
+      "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain"
+    ],
+    "structure_gates": [
+      "Compute segregation energy and verify surface composition before adsorption descriptors.",
+      "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+    ],
+    "mechanism_descriptor": [
+      "DFT: ΔG_furoate* and coverage dependence",
+      "XPS C 1s/O 1s after CA",
+      "product/selectivity retention"
+    ],
+    "required_control": "Matched Ag baseline and Cu_sub@Ag_surface benchmark; verify the realized structure before interpreting performance.",
+    "failure_interpretation": "Over-binding, selectivity loss, or unchanged removal behavior downgrades the desorption hypothesis.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "defer_until_primary_result",
+    "next_action": "Retain as a same-mechanism backup; activate only if the first-pass candidate is informative but insufficient.",
+    "explanation": "Zn is a backup candidate for weak_furoate_desorption; evidence basis is design_rule_only. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "HYP_BC21DDE853",
+    "mechanism_bucket": "weak_furoate_desorption",
+    "hypothesis": "Ag-rich surfaces may favor furoate desorption compared with more oxophilic metals, but dopant sites must not over-bind carboxylate species.",
+    "direct_ffor_source_count": 0,
+    "uncertainty_label": "adjacent_evidence_only",
+    "element": "Pd",
+    "mechanism_bucket_id": "MB_WEAK_FUROATE_DESORPTION_V1",
+    "element_candidate_id": "EC_WEAK_FUROATE_DESORPTION_PD_V1",
+    "role": "backup_candidate",
+    "evidence_basis": "design_rule_only",
+    "supporting_source_claim_ids": [],
+    "supporting_paper_ids": [],
+    "structure_hypotheses": [
+      "Pd_sub@Ag_surface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Pd_sub@Ag_surface",
+        "incorporation_mode": "dilute_surface_substitution",
+        "loading_regime": "single-site to dilute surface-alloy regime",
+        "rationale": "Tests an electronic/ensemble effect while preserving an Ag-rich surface.",
+        "structure_gate": "Compute segregation energy and verify surface composition before adsorption descriptors."
+      }
+    ],
+    "incorporation_modes": [
+      "dilute_surface_substitution"
+    ],
+    "loading_regimes": [
+      "single-site to dilute surface-alloy regime"
+    ],
+    "structure_gates": [
+      "Compute segregation energy and verify surface composition before adsorption descriptors."
+    ],
+    "mechanism_descriptor": [
+      "DFT: ΔG_furoate* and coverage dependence",
+      "XPS C 1s/O 1s after CA",
+      "product/selectivity retention"
+    ],
+    "required_control": "Matched Ag baseline and Cu_sub@Ag_surface benchmark; verify the realized structure before interpreting performance.",
+    "failure_interpretation": "Over-binding, selectivity loss, or unchanged removal behavior downgrades the desorption hypothesis.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "defer_until_primary_result",
+    "next_action": "Retain as a same-mechanism backup; activate only if the first-pass candidate is informative but insufficient.",
+    "explanation": "Pd is a backup candidate for weak_furoate_desorption; evidence basis is design_rule_only. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "HYP_7E819F474C",
+    "mechanism_bucket": "gem_diol_pathway",
+    "hypothesis": "In alkaline electrolyte, Ag-M surfaces may promote the hydrated gem-diol route toward furoate if OH* availability is sufficient.",
+    "direct_ffor_source_count": 0,
+    "uncertainty_label": "adjacent_evidence_only",
+    "element": "Cu",
+    "mechanism_bucket_id": "MB_GEM_DIOL_PATHWAY_V1",
+    "element_candidate_id": "EC_GEM_DIOL_PATHWAY_CU_V1",
+    "role": "benchmark",
+    "evidence_basis": "adjacent_element_evidence_only",
+    "supporting_source_claim_ids": [
+      "CLAIM_17F4990636"
+    ],
+    "supporting_paper_ids": [
+      "PAPER_3DD3F384D2"
+    ],
+    "structure_hypotheses": [
+      "Cu_sub@Ag_surface",
+      "Ag|CuOx(OH)y_interface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Cu_sub@Ag_surface",
+        "incorporation_mode": "dilute_surface_substitution",
+        "loading_regime": "single-site to dilute surface-alloy regime",
+        "rationale": "Tests an electronic/ensemble effect while preserving an Ag-rich surface.",
+        "structure_gate": "Compute segregation energy and verify surface composition before adsorption descriptors."
+      },
+      {
+        "model": "Ag|CuOx(OH)y_interface",
+        "incorporation_mode": "oxide_or_hydroxide_interface",
+        "loading_regime": "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain",
+        "rationale": "Tests bifunctional OH activation separately from substitutional alloying.",
+        "structure_gate": "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+      }
+    ],
+    "incorporation_modes": [
+      "dilute_surface_substitution",
+      "oxide_or_hydroxide_interface"
+    ],
+    "loading_regimes": [
+      "single-site to dilute surface-alloy regime",
+      "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain"
+    ],
+    "structure_gates": [
+      "Compute segregation energy and verify surface composition before adsorption descriptors.",
+      "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+    ],
+    "mechanism_descriptor": [
+      "DFT: solvated gem-diol step",
+      "pH/KOH dependence",
+      "HPLC: furoate selectivity"
+    ],
+    "required_control": "Matched Ag baseline with the same loading, electrolyte, potential scale, normalization, and structure verification.",
+    "failure_interpretation": "If Ag-Cu is not reproducible, block Ni/Bi ranking and trigger a workflow audit.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "targeted_literature_needed",
+    "next_action": "Use as a positive control and mechanistic bridge; do not present it as the novelty claim.",
+    "explanation": "Cu is a benchmark for gem_diol_pathway; evidence basis is adjacent_element_evidence_only. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "HYP_7E819F474C",
+    "mechanism_bucket": "gem_diol_pathway",
+    "hypothesis": "In alkaline electrolyte, Ag-M surfaces may promote the hydrated gem-diol route toward furoate if OH* availability is sufficient.",
+    "direct_ffor_source_count": 0,
+    "uncertainty_label": "adjacent_evidence_only",
+    "element": "Ni",
+    "mechanism_bucket_id": "MB_GEM_DIOL_PATHWAY_V1",
+    "element_candidate_id": "EC_GEM_DIOL_PATHWAY_NI_V1",
+    "role": "first_pass_candidate",
+    "evidence_basis": "design_rule_only",
+    "supporting_source_claim_ids": [],
+    "supporting_paper_ids": [],
+    "structure_hypotheses": [
+      "Ag|Ni(OH)x_interface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Ag|Ni(OH)x_interface",
+        "incorporation_mode": "oxide_or_hydroxide_interface",
+        "loading_regime": "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain",
+        "rationale": "Tests bifunctional OH activation separately from substitutional alloying.",
+        "structure_gate": "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+      }
+    ],
+    "incorporation_modes": [
+      "oxide_or_hydroxide_interface"
+    ],
+    "loading_regimes": [
+      "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain"
+    ],
+    "structure_gates": [
+      "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+    ],
+    "mechanism_descriptor": [
+      "DFT: solvated gem-diol step",
+      "pH/KOH dependence",
+      "HPLC: furoate selectivity"
+    ],
+    "required_control": "Matched Ag baseline and Cu_sub@Ag_surface benchmark; verify the realized structure before interpreting performance.",
+    "failure_interpretation": "Failure of the structure or mechanism gate downgrades this candidate without changing source evidence.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "targeted_literature_needed",
+    "next_action": "Acquire direct FFOR evidence for this mechanism bucket before starting element-specific validation.",
+    "explanation": "Ni is a first pass candidate for gem_diol_pathway; evidence basis is design_rule_only. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "HYP_7E819F474C",
+    "mechanism_bucket": "gem_diol_pathway",
+    "hypothesis": "In alkaline electrolyte, Ag-M surfaces may promote the hydrated gem-diol route toward furoate if OH* availability is sufficient.",
+    "direct_ffor_source_count": 0,
+    "uncertainty_label": "adjacent_evidence_only",
+    "element": "Sn",
+    "mechanism_bucket_id": "MB_GEM_DIOL_PATHWAY_V1",
+    "element_candidate_id": "EC_GEM_DIOL_PATHWAY_SN_V1",
+    "role": "backup_candidate",
+    "evidence_basis": "design_rule_only",
+    "supporting_source_claim_ids": [],
+    "supporting_paper_ids": [],
+    "structure_hypotheses": [
+      "Ag|SnOx_interface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Ag|SnOx_interface",
+        "incorporation_mode": "oxide_or_hydroxide_interface",
+        "loading_regime": "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain",
+        "rationale": "Tests bifunctional OH activation separately from substitutional alloying.",
+        "structure_gate": "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+      }
+    ],
+    "incorporation_modes": [
+      "oxide_or_hydroxide_interface"
+    ],
+    "loading_regimes": [
+      "Ag-rich surface with a discrete M-Ox/M-OH interfacial domain"
+    ],
+    "structure_gates": [
+      "Verify interface formation/segregation and the operando oxidation state before performance attribution."
+    ],
+    "mechanism_descriptor": [
+      "DFT: solvated gem-diol step",
+      "pH/KOH dependence",
+      "HPLC: furoate selectivity"
+    ],
+    "required_control": "Matched Ag baseline and Cu_sub@Ag_surface benchmark; verify the realized structure before interpreting performance.",
+    "failure_interpretation": "Failure of the structure or mechanism gate downgrades this candidate without changing source evidence.",
+    "incorporation_selection_rule": "Compare explicit atomistic locations/oxidation states; do not treat composition-only Ag-M as a mechanism-resolved candidate.",
+    "next_action_status": "defer_until_primary_result",
+    "next_action": "Retain as a same-mechanism backup; activate only if the first-pass candidate is informative but insufficient.",
+    "explanation": "Sn is a backup candidate for gem_diol_pathway; evidence basis is design_rule_only. The recommendation is a validation priority, not a probability of catalytic success."
+  },
+  {
+    "hypothesis_id": "",
+    "mechanism_bucket": "ag_baseline",
+    "mechanism_bucket_id": "MB_AG_BASELINE_V1",
+    "element_candidate_id": "EC_AG_BASELINE_V1",
+    "hypothesis": "Planning control contract; not a source-derived mechanism hypothesis.",
+    "direct_ffor_source_count": 0,
+    "uncertainty_label": "control_contract_requires_validation",
+    "supporting_source_claim_ids": [
+      "CLAIM_3B9B4B4ED8",
+      "CLAIM_8953EE6FF3",
+      "CLAIM_1A8772BCBC",
+      "CLAIM_B0C2433F64",
+      "CLAIM_68B7DDBC06",
+      "CLAIM_D0771883B9",
+      "CLAIM_2839513FA3",
+      "CLAIM_08BCAC7E62",
+      "CLAIM_5791036C2C",
+      "CLAIM_8C9326715F",
+      "CLAIM_4FC1141225",
+      "CLAIM_C24FB493D3",
+      "CLAIM_6958E03527",
+      "CLAIM_4B0B9197C4",
+      "CLAIM_4F910E0780",
+      "CLAIM_BB5155F37F",
+      "CLAIM_F46F7060C1",
+      "CLAIM_AAD08E64A8"
+    ],
+    "supporting_paper_ids": [
+      "PAPER_A5EE828D07",
+      "PAPER_9FF28DD18D",
+      "PAPER_EE8DC4F8A0",
+      "PAPER_EB51ACA637",
+      "PAPER_EC7FDA2E30",
+      "PAPER_BFE6C6AEAC",
+      "PAPER_3DD3F384D2"
+    ],
+    "supporting_claim_paper_pairs": [
+      {
+        "source_claim_id": "CLAIM_3B9B4B4ED8",
+        "source_paper_id": "PAPER_A5EE828D07"
+      },
+      {
+        "source_claim_id": "CLAIM_8953EE6FF3",
+        "source_paper_id": "PAPER_9FF28DD18D"
+      },
+      {
+        "source_claim_id": "CLAIM_1A8772BCBC",
+        "source_paper_id": "PAPER_EE8DC4F8A0"
+      },
+      {
+        "source_claim_id": "CLAIM_B0C2433F64",
+        "source_paper_id": "PAPER_EB51ACA637"
+      },
+      {
+        "source_claim_id": "CLAIM_68B7DDBC06",
+        "source_paper_id": "PAPER_EC7FDA2E30"
+      },
+      {
+        "source_claim_id": "CLAIM_D0771883B9",
+        "source_paper_id": "PAPER_EC7FDA2E30"
+      },
+      {
+        "source_claim_id": "CLAIM_2839513FA3",
+        "source_paper_id": "PAPER_EC7FDA2E30"
+      },
+      {
+        "source_claim_id": "CLAIM_08BCAC7E62",
+        "source_paper_id": "PAPER_EC7FDA2E30"
+      },
+      {
+        "source_claim_id": "CLAIM_5791036C2C",
+        "source_paper_id": "PAPER_EC7FDA2E30"
+      },
+      {
+        "source_claim_id": "CLAIM_8C9326715F",
+        "source_paper_id": "PAPER_EC7FDA2E30"
+      },
+      {
+        "source_claim_id": "CLAIM_4FC1141225",
+        "source_paper_id": "PAPER_EC7FDA2E30"
+      },
+      {
+        "source_claim_id": "CLAIM_C24FB493D3",
+        "source_paper_id": "PAPER_BFE6C6AEAC"
+      },
+      {
+        "source_claim_id": "CLAIM_6958E03527",
+        "source_paper_id": "PAPER_BFE6C6AEAC"
+      },
+      {
+        "source_claim_id": "CLAIM_4B0B9197C4",
+        "source_paper_id": "PAPER_BFE6C6AEAC"
+      },
+      {
+        "source_claim_id": "CLAIM_4F910E0780",
+        "source_paper_id": "PAPER_3DD3F384D2"
+      },
+      {
+        "source_claim_id": "CLAIM_BB5155F37F",
+        "source_paper_id": "PAPER_EC7FDA2E30"
+      },
+      {
+        "source_claim_id": "CLAIM_F46F7060C1",
+        "source_paper_id": "PAPER_EC7FDA2E30"
+      },
+      {
+        "source_claim_id": "CLAIM_AAD08E64A8",
+        "source_paper_id": "PAPER_EC7FDA2E30"
+      },
+      {
+        "source_claim_id": "CLAIM_08BCAC7E62",
+        "source_paper_id": "PAPER_EC7FDA2E30"
+      },
+      {
+        "source_claim_id": "CLAIM_5791036C2C",
+        "source_paper_id": "PAPER_EC7FDA2E30"
+      }
+    ],
+    "source_mechanism_bucket_ids": [
+      "MB_SURFACE_FUROATE_INTERMEDIATE_V1",
+      "MB_COVERAGE_INDUCED_POISONING_V1"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Ag_clean_surface",
+        "incorporation_mode": "Ag_mechanism_baseline",
+        "loading_regime": "undoped Ag reference state",
+        "rationale": "Defines the causal adsorption/coverage baseline before any dopant claim.",
+        "structure_gate": "Establish clean and adsorbate-covered Ag controls under matched conditions."
+      },
+      {
+        "model": "Ag_furoate_covered_surface",
+        "incorporation_mode": "Ag_mechanism_baseline",
+        "loading_regime": "undoped Ag reference state",
+        "rationale": "Defines the causal adsorption/coverage baseline before any dopant claim.",
+        "structure_gate": "Establish clean and adsorbate-covered Ag controls under matched conditions."
+      }
+    ],
+    "incorporation_modes": [
+      "Ag_mechanism_baseline"
+    ],
+    "loading_regimes": [
+      "undoped Ag reference state"
+    ],
+    "structure_gates": [
+      "Establish clean and adsorbate-covered Ag controls under matched conditions."
+    ],
+    "incorporation_selection_rule": "Control identity is explicit and structure-resolved; composition-only labels are insufficient.",
+    "required_control": "Matched clean Ag, furoate-spiked Ag, recovery, product balance, and post-run surface analysis.",
+    "failure_interpretation": "If Ag is not reproducible, block every cross-element comparison and audit the workflow.",
+    "explanation": "This row fixes the v2.2 control/benchmark sequence without upgrading literature evidence.",
+    "element": "Ag",
+    "role": "baseline",
+    "structure_hypotheses": [
+      "Ag_clean_surface",
+      "Ag_furoate_covered_surface"
+    ],
+    "mechanism_descriptor": [
+      "CA stability",
+      "furoate-spike inhibition",
+      "recovery test",
+      "product analysis",
+      "post-CA XPS/Raman"
+    ],
+    "evidence_basis": "required_control_contract",
+    "next_action_status": "mechanism_baseline_required",
+    "next_action": "Establish the matched Ag control before interpreting any cross-element comparison."
+  }
+]

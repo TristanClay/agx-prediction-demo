@@ -1,0 +1,1186 @@
+{
+  "artifacts": [
+    {
+      "path": "attempts/feedback/1/analysis.json",
+      "sha256": "a66334e6a8d9272474e0005c7eb75980e0d8a9b01afdeaf4679b424bcc2d0290"
+    },
+    {
+      "path": "attempts/feedback/1/event.json",
+      "sha256": "93522a7a2899734ff12e64d30d6627543e5b675b712c2ed14c6d7ed98a8cac77"
+    },
+    {
+      "path": "attempts/feedback/1/feedback.json",
+      "sha256": "4c6748b61adc79d1efdb15183e4b5caa3ce00a9c1cbf5090391f851eccb147d0"
+    },
+    {
+      "path": "attempts/feedback/1/inbox_P1.json",
+      "sha256": "3c1047315bfd63c6c3c6760f4d4b7a8bcc753a45db2d70c07a614168fe4943da"
+    },
+    {
+      "path": "attempts/feedback/1/inbox_P2.json",
+      "sha256": "34f41c16bc8ec94531b572a448b92d3d0a7127cd4ef349a82a12c6c4f840654b"
+    },
+    {
+      "path": "attempts/feedback/1/records.json",
+      "sha256": "ef0a2595ec3896a4bdc387d8c9c1df86a979c07267091df7e579ed475b58bf96"
+    },
+    {
+      "path": "attempts/feedback/1/started.json",
+      "sha256": "a665a3dbac885eb60532cea8e2ff12c2b9e263f35b9e97203cd04d81110bf00b"
+    }
+  ],
+  "directory": "attempts/feedback/1",
+  "event": {
+    "agent": "Evidence Feedback Agent",
+    "attempt": 1,
+    "elapsed_s": 0.009436207998078316,
+    "error": null,
+    "finished_at": "2026-10-31T07:41:46.841850+00:00",
+    "input": {
+      "depends_on": [
+        "knowledge",
+        "screening",
+        "decision",
+        "experiment"
+      ],
+      "run_id": "public-v11-mismatch"
+    },
+    "model": "deterministic rules / no LLM",
+    "node_id": "feedback",
+    "origin": "SYNTHETIC",
+    "output": {
+      "feedback": {
+        "candidate_id": "C_Ag_e6b88633769bb840",
+        "conclusion": "有效独立重复满足演示协议的操作性恢复门槛。 该判断仅针对匹配条件下的电流恢复；furoate 因果机制仍为 INCONCLUSIVE。合成演示不构成真实材料结论，不产生正式门控放行。",
+        "experimental_findings": {
+          "criterion": "protocol recovery >= 0.8; per-group n >= 2",
+          "deactivation_demonstrated": true,
+          "deactivation_ratios": [
+            {
+              "ratio": 0.40051448552274266,
+              "sample_id": "Sample_621b9e06425662238da62dbd"
+            },
+            {
+              "ratio": 0.39942367375250504,
+              "sample_id": "Sample_c75ebdd1f3c91c1a26b0a614"
+            }
+          ],
+          "group_counts": {
+            "deactivated": 2,
+            "fresh": 2,
+            "solution_control": 2,
+            "spike": 2,
+            "washed": 2
+          },
+          "hypothesis_outcome": "SUPPORTED",
+          "independent_batches": 2,
+          "insufficient_groups": [],
+          "invalid_measurements": [],
+          "mechanism_outcome": "INCONCLUSIVE",
+          "min_independent": 2,
+          "missing_calibration": false,
+          "missing_product_groups": [],
+          "p2_mismatch": true,
+          "post_ca_record_present": true,
+          "product_group_counts": {
+            "deactivated": 2,
+            "fresh": 2,
+            "solution_control": 2,
+            "spike": 2,
+            "washed": 2
+          },
+          "qc_issues": [],
+          "recovery_ratios": [
+            {
+              "ratio": 0.9000290869878009,
+              "sample_id": "Sample_621b9e06425662238da62dbd"
+            },
+            {
+              "ratio": 0.8991169763809009,
+              "sample_id": "Sample_c75ebdd1f3c91c1a26b0a614"
+            }
+          ],
+          "technical_measurements": 0
+        },
+        "feedback_id": "FB_d431478dce976de15220268e",
+        "gate_status": "PENDING_GATE",
+        "hypothesis_id": "HYP_96AC87BB6C",
+        "measurement_ids": [
+          "Measurement_cf9efcb626ff2dad953d00a8",
+          "Measurement_38a55e166b76f3b7df105c63",
+          "Measurement_39e0d14ebbc2b861388a1bc9",
+          "Measurement_be71e8ae2c32ee1aaa45bf69",
+          "Measurement_026a5ef8dabf4a9eec804ed6",
+          "Measurement_65f434f2331f264c6b42def7",
+          "Measurement_cd447f4c13192018a1b5c825",
+          "Measurement_d19ef7ec831d8f163a2a532a",
+          "Measurement_31b8edf9862bf6f733980e03",
+          "Measurement_0462cd00577ffafcce6c1f40",
+          "Measurement_3138c43aa427ffa458adc2a1",
+          "Measurement_3c7827aa3a7c19df8927abcf",
+          "Measurement_9de68e30b66991022a1967f2",
+          "Measurement_17abf868ecc1bf3bcb9183f2",
+          "Measurement_acb51e2232c83be9e76099ae",
+          "Measurement_f86fccd08862edeb6ec4f362",
+          "Measurement_3d049340bc0e915d308a7ad5",
+          "Measurement_2490e4f17230c2afc99ba8a0",
+          "Measurement_32021b92e564f4d09c136622",
+          "Measurement_9b4017156c5b897bb7f1f3ff",
+          "Measurement_0e44791694d50db5e310b6f2"
+        ],
+        "official_publish": false,
+        "prediction_deviation": {
+          "basis": "explicit SYNTHETIC scenario fixture",
+          "numeric_delta": null,
+          "reason": "Adsorption eV and experimental current differ in observable and units",
+          "status": "MISMATCH"
+        },
+        "provenance": {
+          "artifacts": [
+            {
+              "path": "analysis.json",
+              "sha256": "a66334e6a8d9272474e0005c7eb75980e0d8a9b01afdeaf4679b424bcc2d0290"
+            },
+            {
+              "path": "records.json",
+              "sha256": "ef0a2595ec3896a4bdc387d8c9c1df86a979c07267091df7e579ed475b58bf96"
+            }
+          ],
+          "limitations": [
+            "Synthetic inputs; software QC PASS is not scientific approval",
+            "Human review pending; formal P1 feedback ingestion unavailable"
+          ],
+          "origin": "SYNTHETIC",
+          "producer": "P3.Service.analyze",
+          "run_id": "public-v11-mismatch",
+          "source_run_id": null,
+          "version": "1.0.0"
+        },
+        "qc_status": "PASS",
+        "recommended_actions": [
+          {
+            "alternative_explanations": [
+              "表面重构",
+              "传质与气泡",
+              "pH／离子强度变化",
+              "取样或标定偏差"
+            ],
+            "category": "区分机制",
+            "controls": [
+              "相同电解液、温度、几何面积与电位标尺",
+              "匹配空白／溶液对照"
+            ],
+            "endpoints": [
+              "协议窗口电流密度",
+              "经标定的产物液相量",
+              "状态及原始文件完整性"
+            ],
+            "evidence_refs": [
+              "Measurement_cf9efcb626ff2dad953d00a8",
+              "Measurement_38a55e166b76f3b7df105c63",
+              "Measurement_39e0d14ebbc2b861388a1bc9",
+              "Measurement_be71e8ae2c32ee1aaa45bf69",
+              "Measurement_026a5ef8dabf4a9eec804ed6",
+              "Measurement_65f434f2331f264c6b42def7",
+              "Measurement_cd447f4c13192018a1b5c825",
+              "Measurement_d19ef7ec831d8f163a2a532a",
+              "Measurement_31b8edf9862bf6f733980e03",
+              "Measurement_0462cd00577ffafcce6c1f40",
+              "Measurement_3138c43aa427ffa458adc2a1",
+              "Measurement_3c7827aa3a7c19df8927abcf",
+              "Measurement_9de68e30b66991022a1967f2",
+              "Measurement_17abf868ecc1bf3bcb9183f2",
+              "Measurement_acb51e2232c83be9e76099ae",
+              "Measurement_f86fccd08862edeb6ec4f362",
+              "Measurement_3d049340bc0e915d308a7ad5",
+              "Measurement_2490e4f17230c2afc99ba8a0",
+              "Measurement_32021b92e564f4d09c136622",
+              "Measurement_9b4017156c5b897bb7f1f3ff",
+              "Measurement_0e44791694d50db5e310b6f2"
+            ],
+            "hypothesis_id": "HYP_96AC87BB6C",
+            "interpretation": {
+              "expected": "仅支持当前协议下的操作性假设，机制仍需区分性证据",
+              "inconsistent": "增加独立样品／批次，结论保持 MIXED 或 INCONCLUSIVE",
+              "opposite": "保留反证，复查不可逆结构变化与溶液效应"
+            },
+            "method": "RuleBasedPlanner/v1",
+            "purpose": "先核对结构、实际条件和模型适用域，再暂存 P2 计算请求。",
+            "reason": "预测描述符与实验电流不是同一种标签。",
+            "replicate_plan": {
+              "batch_plan": "至少记录制备批次；跨批次外推需要新增独立批次",
+              "independent_samples_per_group": 2,
+              "technical_repeats_count_as_independent": false
+            },
+            "resources": "规则估计：新增独立电极至少2个；CA/HPLC 1个实验时段，表征另排期（非实测工时）",
+            "review_status": "DRAFT",
+            "rule_id": "p2_mismatch",
+            "state": "ACTIVE",
+            "task_id": "Task_dff620042d2ae20946a98963",
+            "title": "复核 P2 与实验的可比性",
+            "variables": [
+              "由缺项限定的单一变量"
+            ]
+          },
+          {
+            "alternative_explanations": [
+              "表面重构",
+              "传质与气泡",
+              "pH／离子强度变化",
+              "取样或标定偏差"
+            ],
+            "category": "优化性能",
+            "controls": [
+              "相同电解液、温度、几何面积与电位标尺",
+              "匹配空白／溶液对照"
+            ],
+            "endpoints": [
+              "协议窗口电流密度",
+              "经标定的产物液相量",
+              "状态及原始文件完整性"
+            ],
+            "evidence_refs": [
+              "Measurement_cf9efcb626ff2dad953d00a8",
+              "Measurement_38a55e166b76f3b7df105c63",
+              "Measurement_39e0d14ebbc2b861388a1bc9",
+              "Measurement_be71e8ae2c32ee1aaa45bf69",
+              "Measurement_026a5ef8dabf4a9eec804ed6",
+              "Measurement_65f434f2331f264c6b42def7",
+              "Measurement_cd447f4c13192018a1b5c825",
+              "Measurement_d19ef7ec831d8f163a2a532a",
+              "Measurement_31b8edf9862bf6f733980e03",
+              "Measurement_0462cd00577ffafcce6c1f40",
+              "Measurement_3138c43aa427ffa458adc2a1",
+              "Measurement_3c7827aa3a7c19df8927abcf",
+              "Measurement_9de68e30b66991022a1967f2",
+              "Measurement_17abf868ecc1bf3bcb9183f2",
+              "Measurement_acb51e2232c83be9e76099ae",
+              "Measurement_f86fccd08862edeb6ec4f362",
+              "Measurement_3d049340bc0e915d308a7ad5",
+              "Measurement_2490e4f17230c2afc99ba8a0",
+              "Measurement_32021b92e564f4d09c136622",
+              "Measurement_9b4017156c5b897bb7f1f3ff",
+              "Measurement_0e44791694d50db5e310b6f2"
+            ],
+            "hypothesis_id": "HYP_96AC87BB6C",
+            "interpretation": {
+              "expected": "仅支持当前协议下的操作性假设，机制仍需区分性证据",
+              "inconsistent": "增加独立样品／批次，结论保持 MIXED 或 INCONCLUSIVE",
+              "opposite": "保留反证，复查不可逆结构变化与溶液效应"
+            },
+            "method": "RuleBasedPlanner/v1",
+            "purpose": "在现有证据约束下比较操作电位或清洗时长，并同步定量产物。",
+            "reason": "这是规则生成的后续实验草案，不保证收益。",
+            "replicate_plan": {
+              "batch_plan": "至少记录制备批次；跨批次外推需要新增独立批次",
+              "independent_samples_per_group": 2,
+              "technical_repeats_count_as_independent": false
+            },
+            "resources": "规则估计：新增独立电极至少2个；CA/HPLC 1个实验时段，表征另排期（非实测工时）",
+            "review_status": "DRAFT",
+            "rule_id": "optimize",
+            "state": "ACTIVE",
+            "task_id": "Task_dff620042d2ae20946a98963",
+            "title": "规划单变量操作窗口实验",
+            "variables": [
+              "操作电位（保持标尺）",
+              "处理状态",
+              "采样时点"
+            ]
+          },
+          {
+            "rule_id": "human_review",
+            "target": "P1/P2",
+            "title": "人工核对条件、原始证据和 P1 科学门控"
+          }
+        ],
+        "review_status": "WAITING_FOR_REVIEW",
+        "run_id": "public-v11-mismatch",
+        "sample_id": "Sample_621b9e06425662238da62dbd",
+        "schema_version": "agx-experimental-feedback-1"
+      },
+      "receipts": {
+        "P1": {
+          "blocked_from_formal_feedback": false,
+          "candidate_id": "C_Ag_e6b88633769bb840",
+          "feedback_id": "FB_d431478dce976de15220268e",
+          "hypothesis_id": "HYP_96AC87BB6C",
+          "next_tasks": [
+            {
+              "alternative_explanations": [
+                "表面重构",
+                "传质与气泡",
+                "pH／离子强度变化",
+                "取样或标定偏差"
+              ],
+              "category": "区分机制",
+              "controls": [
+                "相同电解液、温度、几何面积与电位标尺",
+                "匹配空白／溶液对照"
+              ],
+              "endpoints": [
+                "协议窗口电流密度",
+                "经标定的产物液相量",
+                "状态及原始文件完整性"
+              ],
+              "evidence_refs": [
+                "Measurement_cf9efcb626ff2dad953d00a8",
+                "Measurement_38a55e166b76f3b7df105c63",
+                "Measurement_39e0d14ebbc2b861388a1bc9",
+                "Measurement_be71e8ae2c32ee1aaa45bf69",
+                "Measurement_026a5ef8dabf4a9eec804ed6",
+                "Measurement_65f434f2331f264c6b42def7",
+                "Measurement_cd447f4c13192018a1b5c825",
+                "Measurement_d19ef7ec831d8f163a2a532a",
+                "Measurement_31b8edf9862bf6f733980e03",
+                "Measurement_0462cd00577ffafcce6c1f40",
+                "Measurement_3138c43aa427ffa458adc2a1",
+                "Measurement_3c7827aa3a7c19df8927abcf",
+                "Measurement_9de68e30b66991022a1967f2",
+                "Measurement_17abf868ecc1bf3bcb9183f2",
+                "Measurement_acb51e2232c83be9e76099ae",
+                "Measurement_f86fccd08862edeb6ec4f362",
+                "Measurement_3d049340bc0e915d308a7ad5",
+                "Measurement_2490e4f17230c2afc99ba8a0",
+                "Measurement_32021b92e564f4d09c136622",
+                "Measurement_9b4017156c5b897bb7f1f3ff",
+                "Measurement_0e44791694d50db5e310b6f2"
+              ],
+              "hypothesis_id": "HYP_96AC87BB6C",
+              "interpretation": {
+                "expected": "仅支持当前协议下的操作性假设，机制仍需区分性证据",
+                "inconsistent": "增加独立样品／批次，结论保持 MIXED 或 INCONCLUSIVE",
+                "opposite": "保留反证，复查不可逆结构变化与溶液效应"
+              },
+              "method": "RuleBasedPlanner/v1",
+              "purpose": "先核对结构、实际条件和模型适用域，再暂存 P2 计算请求。",
+              "reason": "预测描述符与实验电流不是同一种标签。",
+              "replicate_plan": {
+                "batch_plan": "至少记录制备批次；跨批次外推需要新增独立批次",
+                "independent_samples_per_group": 2,
+                "technical_repeats_count_as_independent": false
+              },
+              "resources": "规则估计：新增独立电极至少2个；CA/HPLC 1个实验时段，表征另排期（非实测工时）",
+              "review_status": "DRAFT",
+              "rule_id": "p2_mismatch",
+              "state": "ACTIVE",
+              "task_id": "Task_dff620042d2ae20946a98963",
+              "title": "复核 P2 与实验的可比性",
+              "variables": [
+                "由缺项限定的单一变量"
+              ]
+            },
+            {
+              "alternative_explanations": [
+                "表面重构",
+                "传质与气泡",
+                "pH／离子强度变化",
+                "取样或标定偏差"
+              ],
+              "category": "优化性能",
+              "controls": [
+                "相同电解液、温度、几何面积与电位标尺",
+                "匹配空白／溶液对照"
+              ],
+              "endpoints": [
+                "协议窗口电流密度",
+                "经标定的产物液相量",
+                "状态及原始文件完整性"
+              ],
+              "evidence_refs": [
+                "Measurement_cf9efcb626ff2dad953d00a8",
+                "Measurement_38a55e166b76f3b7df105c63",
+                "Measurement_39e0d14ebbc2b861388a1bc9",
+                "Measurement_be71e8ae2c32ee1aaa45bf69",
+                "Measurement_026a5ef8dabf4a9eec804ed6",
+                "Measurement_65f434f2331f264c6b42def7",
+                "Measurement_cd447f4c13192018a1b5c825",
+                "Measurement_d19ef7ec831d8f163a2a532a",
+                "Measurement_31b8edf9862bf6f733980e03",
+                "Measurement_0462cd00577ffafcce6c1f40",
+                "Measurement_3138c43aa427ffa458adc2a1",
+                "Measurement_3c7827aa3a7c19df8927abcf",
+                "Measurement_9de68e30b66991022a1967f2",
+                "Measurement_17abf868ecc1bf3bcb9183f2",
+                "Measurement_acb51e2232c83be9e76099ae",
+                "Measurement_f86fccd08862edeb6ec4f362",
+                "Measurement_3d049340bc0e915d308a7ad5",
+                "Measurement_2490e4f17230c2afc99ba8a0",
+                "Measurement_32021b92e564f4d09c136622",
+                "Measurement_9b4017156c5b897bb7f1f3ff",
+                "Measurement_0e44791694d50db5e310b6f2"
+              ],
+              "hypothesis_id": "HYP_96AC87BB6C",
+              "interpretation": {
+                "expected": "仅支持当前协议下的操作性假设，机制仍需区分性证据",
+                "inconsistent": "增加独立样品／批次，结论保持 MIXED 或 INCONCLUSIVE",
+                "opposite": "保留反证，复查不可逆结构变化与溶液效应"
+              },
+              "method": "RuleBasedPlanner/v1",
+              "purpose": "在现有证据约束下比较操作电位或清洗时长，并同步定量产物。",
+              "reason": "这是规则生成的后续实验草案，不保证收益。",
+              "replicate_plan": {
+                "batch_plan": "至少记录制备批次；跨批次外推需要新增独立批次",
+                "independent_samples_per_group": 2,
+                "technical_repeats_count_as_independent": false
+              },
+              "resources": "规则估计：新增独立电极至少2个；CA/HPLC 1个实验时段，表征另排期（非实测工时）",
+              "review_status": "DRAFT",
+              "rule_id": "optimize",
+              "state": "ACTIVE",
+              "task_id": "Task_dff620042d2ae20946a98963",
+              "title": "规划单变量操作窗口实验",
+              "variables": [
+                "操作电位（保持标尺）",
+                "处理状态",
+                "采样时点"
+              ]
+            },
+            {
+              "rule_id": "human_review",
+              "target": "P1/P2",
+              "title": "人工核对条件、原始证据和 P1 科学门控"
+            }
+          ],
+          "official_publish": false,
+          "reason": "QC and human review required; existing P1 v2.3 formal ingestion is a separate authority",
+          "run_id": "public-v11-mismatch",
+          "scientific_update_performed": false,
+          "status": "STAGED",
+          "target": "P1"
+        },
+        "P2": {
+          "blocked_from_formal_feedback": false,
+          "candidate_id": "C_Ag_e6b88633769bb840",
+          "feedback_id": "FB_d431478dce976de15220268e",
+          "hypothesis_id": "HYP_96AC87BB6C",
+          "next_tasks": [
+            {
+              "alternative_explanations": [
+                "表面重构",
+                "传质与气泡",
+                "pH／离子强度变化",
+                "取样或标定偏差"
+              ],
+              "category": "区分机制",
+              "controls": [
+                "相同电解液、温度、几何面积与电位标尺",
+                "匹配空白／溶液对照"
+              ],
+              "endpoints": [
+                "协议窗口电流密度",
+                "经标定的产物液相量",
+                "状态及原始文件完整性"
+              ],
+              "evidence_refs": [
+                "Measurement_cf9efcb626ff2dad953d00a8",
+                "Measurement_38a55e166b76f3b7df105c63",
+                "Measurement_39e0d14ebbc2b861388a1bc9",
+                "Measurement_be71e8ae2c32ee1aaa45bf69",
+                "Measurement_026a5ef8dabf4a9eec804ed6",
+                "Measurement_65f434f2331f264c6b42def7",
+                "Measurement_cd447f4c13192018a1b5c825",
+                "Measurement_d19ef7ec831d8f163a2a532a",
+                "Measurement_31b8edf9862bf6f733980e03",
+                "Measurement_0462cd00577ffafcce6c1f40",
+                "Measurement_3138c43aa427ffa458adc2a1",
+                "Measurement_3c7827aa3a7c19df8927abcf",
+                "Measurement_9de68e30b66991022a1967f2",
+                "Measurement_17abf868ecc1bf3bcb9183f2",
+                "Measurement_acb51e2232c83be9e76099ae",
+                "Measurement_f86fccd08862edeb6ec4f362",
+                "Measurement_3d049340bc0e915d308a7ad5",
+                "Measurement_2490e4f17230c2afc99ba8a0",
+                "Measurement_32021b92e564f4d09c136622",
+                "Measurement_9b4017156c5b897bb7f1f3ff",
+                "Measurement_0e44791694d50db5e310b6f2"
+              ],
+              "hypothesis_id": "HYP_96AC87BB6C",
+              "interpretation": {
+                "expected": "仅支持当前协议下的操作性假设，机制仍需区分性证据",
+                "inconsistent": "增加独立样品／批次，结论保持 MIXED 或 INCONCLUSIVE",
+                "opposite": "保留反证，复查不可逆结构变化与溶液效应"
+              },
+              "method": "RuleBasedPlanner/v1",
+              "purpose": "先核对结构、实际条件和模型适用域，再暂存 P2 计算请求。",
+              "reason": "预测描述符与实验电流不是同一种标签。",
+              "replicate_plan": {
+                "batch_plan": "至少记录制备批次；跨批次外推需要新增独立批次",
+                "independent_samples_per_group": 2,
+                "technical_repeats_count_as_independent": false
+              },
+              "resources": "规则估计：新增独立电极至少2个；CA/HPLC 1个实验时段，表征另排期（非实测工时）",
+              "review_status": "DRAFT",
+              "rule_id": "p2_mismatch",
+              "state": "ACTIVE",
+              "task_id": "Task_dff620042d2ae20946a98963",
+              "title": "复核 P2 与实验的可比性",
+              "variables": [
+                "由缺项限定的单一变量"
+              ]
+            },
+            {
+              "alternative_explanations": [
+                "表面重构",
+                "传质与气泡",
+                "pH／离子强度变化",
+                "取样或标定偏差"
+              ],
+              "category": "优化性能",
+              "controls": [
+                "相同电解液、温度、几何面积与电位标尺",
+                "匹配空白／溶液对照"
+              ],
+              "endpoints": [
+                "协议窗口电流密度",
+                "经标定的产物液相量",
+                "状态及原始文件完整性"
+              ],
+              "evidence_refs": [
+                "Measurement_cf9efcb626ff2dad953d00a8",
+                "Measurement_38a55e166b76f3b7df105c63",
+                "Measurement_39e0d14ebbc2b861388a1bc9",
+                "Measurement_be71e8ae2c32ee1aaa45bf69",
+                "Measurement_026a5ef8dabf4a9eec804ed6",
+                "Measurement_65f434f2331f264c6b42def7",
+                "Measurement_cd447f4c13192018a1b5c825",
+                "Measurement_d19ef7ec831d8f163a2a532a",
+                "Measurement_31b8edf9862bf6f733980e03",
+                "Measurement_0462cd00577ffafcce6c1f40",
+                "Measurement_3138c43aa427ffa458adc2a1",
+                "Measurement_3c7827aa3a7c19df8927abcf",
+                "Measurement_9de68e30b66991022a1967f2",
+                "Measurement_17abf868ecc1bf3bcb9183f2",
+                "Measurement_acb51e2232c83be9e76099ae",
+                "Measurement_f86fccd08862edeb6ec4f362",
+                "Measurement_3d049340bc0e915d308a7ad5",
+                "Measurement_2490e4f17230c2afc99ba8a0",
+                "Measurement_32021b92e564f4d09c136622",
+                "Measurement_9b4017156c5b897bb7f1f3ff",
+                "Measurement_0e44791694d50db5e310b6f2"
+              ],
+              "hypothesis_id": "HYP_96AC87BB6C",
+              "interpretation": {
+                "expected": "仅支持当前协议下的操作性假设，机制仍需区分性证据",
+                "inconsistent": "增加独立样品／批次，结论保持 MIXED 或 INCONCLUSIVE",
+                "opposite": "保留反证，复查不可逆结构变化与溶液效应"
+              },
+              "method": "RuleBasedPlanner/v1",
+              "purpose": "在现有证据约束下比较操作电位或清洗时长，并同步定量产物。",
+              "reason": "这是规则生成的后续实验草案，不保证收益。",
+              "replicate_plan": {
+                "batch_plan": "至少记录制备批次；跨批次外推需要新增独立批次",
+                "independent_samples_per_group": 2,
+                "technical_repeats_count_as_independent": false
+              },
+              "resources": "规则估计：新增独立电极至少2个；CA/HPLC 1个实验时段，表征另排期（非实测工时）",
+              "review_status": "DRAFT",
+              "rule_id": "optimize",
+              "state": "ACTIVE",
+              "task_id": "Task_dff620042d2ae20946a98963",
+              "title": "规划单变量操作窗口实验",
+              "variables": [
+                "操作电位（保持标尺）",
+                "处理状态",
+                "采样时点"
+              ]
+            },
+            {
+              "rule_id": "human_review",
+              "target": "P1/P2",
+              "title": "人工核对条件、原始证据和 P1 科学门控"
+            }
+          ],
+          "official_publish": false,
+          "reason": "QC and human review required; existing P1 v2.3 formal ingestion is a separate authority",
+          "run_id": "public-v11-mismatch",
+          "scientific_update_performed": false,
+          "status": "STAGED",
+          "target": "P2"
+        }
+      }
+    },
+    "reason": "Return traceable staged tasks to both consumers; human review remains required",
+    "source_refs": [
+      {
+        "path": "attempts/feedback/1/inbox_P1.json",
+        "sha256": "3c1047315bfd63c6c3c6760f4d4b7a8bcc753a45db2d70c07a614168fe4943da"
+      },
+      {
+        "path": "attempts/feedback/1/started.json",
+        "sha256": "a665a3dbac885eb60532cea8e2ff12c2b9e263f35b9e97203cd04d81110bf00b"
+      },
+      {
+        "path": "attempts/feedback/1/inbox_P2.json",
+        "sha256": "34f41c16bc8ec94531b572a448b92d3d0a7127cd4ef349a82a12c6c4f840654b"
+      },
+      {
+        "path": "attempts/feedback/1/records.json",
+        "sha256": "ef0a2595ec3896a4bdc387d8c9c1df86a979c07267091df7e579ed475b58bf96"
+      },
+      {
+        "path": "attempts/feedback/1/analysis.json",
+        "sha256": "a66334e6a8d9272474e0005c7eb75980e0d8a9b01afdeaf4679b424bcc2d0290"
+      },
+      {
+        "path": "attempts/feedback/1/feedback.json",
+        "sha256": "4c6748b61adc79d1efdb15183e4b5caa3ce00a9c1cbf5090391f851eccb147d0"
+      }
+    ],
+    "started_at": "2026-10-31T07:41:46.832420+00:00",
+    "status": "WAITING_FOR_REVIEW",
+    "tool": "ExperimentalFeedback.validate / P1,P2 inbox readers"
+  },
+  "output": {
+    "feedback": {
+      "candidate_id": "C_Ag_e6b88633769bb840",
+      "conclusion": "有效独立重复满足演示协议的操作性恢复门槛。 该判断仅针对匹配条件下的电流恢复；furoate 因果机制仍为 INCONCLUSIVE。合成演示不构成真实材料结论，不产生正式门控放行。",
+      "experimental_findings": {
+        "criterion": "protocol recovery >= 0.8; per-group n >= 2",
+        "deactivation_demonstrated": true,
+        "deactivation_ratios": [
+          {
+            "ratio": 0.40051448552274266,
+            "sample_id": "Sample_621b9e06425662238da62dbd"
+          },
+          {
+            "ratio": 0.39942367375250504,
+            "sample_id": "Sample_c75ebdd1f3c91c1a26b0a614"
+          }
+        ],
+        "group_counts": {
+          "deactivated": 2,
+          "fresh": 2,
+          "solution_control": 2,
+          "spike": 2,
+          "washed": 2
+        },
+        "hypothesis_outcome": "SUPPORTED",
+        "independent_batches": 2,
+        "insufficient_groups": [],
+        "invalid_measurements": [],
+        "mechanism_outcome": "INCONCLUSIVE",
+        "min_independent": 2,
+        "missing_calibration": false,
+        "missing_product_groups": [],
+        "p2_mismatch": true,
+        "post_ca_record_present": true,
+        "product_group_counts": {
+          "deactivated": 2,
+          "fresh": 2,
+          "solution_control": 2,
+          "spike": 2,
+          "washed": 2
+        },
+        "qc_issues": [],
+        "recovery_ratios": [
+          {
+            "ratio": 0.9000290869878009,
+            "sample_id": "Sample_621b9e06425662238da62dbd"
+          },
+          {
+            "ratio": 0.8991169763809009,
+            "sample_id": "Sample_c75ebdd1f3c91c1a26b0a614"
+          }
+        ],
+        "technical_measurements": 0
+      },
+      "feedback_id": "FB_d431478dce976de15220268e",
+      "gate_status": "PENDING_GATE",
+      "hypothesis_id": "HYP_96AC87BB6C",
+      "measurement_ids": [
+        "Measurement_cf9efcb626ff2dad953d00a8",
+        "Measurement_38a55e166b76f3b7df105c63",
+        "Measurement_39e0d14ebbc2b861388a1bc9",
+        "Measurement_be71e8ae2c32ee1aaa45bf69",
+        "Measurement_026a5ef8dabf4a9eec804ed6",
+        "Measurement_65f434f2331f264c6b42def7",
+        "Measurement_cd447f4c13192018a1b5c825",
+        "Measurement_d19ef7ec831d8f163a2a532a",
+        "Measurement_31b8edf9862bf6f733980e03",
+        "Measurement_0462cd00577ffafcce6c1f40",
+        "Measurement_3138c43aa427ffa458adc2a1",
+        "Measurement_3c7827aa3a7c19df8927abcf",
+        "Measurement_9de68e30b66991022a1967f2",
+        "Measurement_17abf868ecc1bf3bcb9183f2",
+        "Measurement_acb51e2232c83be9e76099ae",
+        "Measurement_f86fccd08862edeb6ec4f362",
+        "Measurement_3d049340bc0e915d308a7ad5",
+        "Measurement_2490e4f17230c2afc99ba8a0",
+        "Measurement_32021b92e564f4d09c136622",
+        "Measurement_9b4017156c5b897bb7f1f3ff",
+        "Measurement_0e44791694d50db5e310b6f2"
+      ],
+      "official_publish": false,
+      "prediction_deviation": {
+        "basis": "explicit SYNTHETIC scenario fixture",
+        "numeric_delta": null,
+        "reason": "Adsorption eV and experimental current differ in observable and units",
+        "status": "MISMATCH"
+      },
+      "provenance": {
+        "artifacts": [
+          {
+            "path": "analysis.json",
+            "sha256": "a66334e6a8d9272474e0005c7eb75980e0d8a9b01afdeaf4679b424bcc2d0290"
+          },
+          {
+            "path": "records.json",
+            "sha256": "ef0a2595ec3896a4bdc387d8c9c1df86a979c07267091df7e579ed475b58bf96"
+          }
+        ],
+        "limitations": [
+          "Synthetic inputs; software QC PASS is not scientific approval",
+          "Human review pending; formal P1 feedback ingestion unavailable"
+        ],
+        "origin": "SYNTHETIC",
+        "producer": "P3.Service.analyze",
+        "run_id": "public-v11-mismatch",
+        "source_run_id": null,
+        "version": "1.0.0"
+      },
+      "qc_status": "PASS",
+      "recommended_actions": [
+        {
+          "alternative_explanations": [
+            "表面重构",
+            "传质与气泡",
+            "pH／离子强度变化",
+            "取样或标定偏差"
+          ],
+          "category": "区分机制",
+          "controls": [
+            "相同电解液、温度、几何面积与电位标尺",
+            "匹配空白／溶液对照"
+          ],
+          "endpoints": [
+            "协议窗口电流密度",
+            "经标定的产物液相量",
+            "状态及原始文件完整性"
+          ],
+          "evidence_refs": [
+            "Measurement_cf9efcb626ff2dad953d00a8",
+            "Measurement_38a55e166b76f3b7df105c63",
+            "Measurement_39e0d14ebbc2b861388a1bc9",
+            "Measurement_be71e8ae2c32ee1aaa45bf69",
+            "Measurement_026a5ef8dabf4a9eec804ed6",
+            "Measurement_65f434f2331f264c6b42def7",
+            "Measurement_cd447f4c13192018a1b5c825",
+            "Measurement_d19ef7ec831d8f163a2a532a",
+            "Measurement_31b8edf9862bf6f733980e03",
+            "Measurement_0462cd00577ffafcce6c1f40",
+            "Measurement_3138c43aa427ffa458adc2a1",
+            "Measurement_3c7827aa3a7c19df8927abcf",
+            "Measurement_9de68e30b66991022a1967f2",
+            "Measurement_17abf868ecc1bf3bcb9183f2",
+            "Measurement_acb51e2232c83be9e76099ae",
+            "Measurement_f86fccd08862edeb6ec4f362",
+            "Measurement_3d049340bc0e915d308a7ad5",
+            "Measurement_2490e4f17230c2afc99ba8a0",
+            "Measurement_32021b92e564f4d09c136622",
+            "Measurement_9b4017156c5b897bb7f1f3ff",
+            "Measurement_0e44791694d50db5e310b6f2"
+          ],
+          "hypothesis_id": "HYP_96AC87BB6C",
+          "interpretation": {
+            "expected": "仅支持当前协议下的操作性假设，机制仍需区分性证据",
+            "inconsistent": "增加独立样品／批次，结论保持 MIXED 或 INCONCLUSIVE",
+            "opposite": "保留反证，复查不可逆结构变化与溶液效应"
+          },
+          "method": "RuleBasedPlanner/v1",
+          "purpose": "先核对结构、实际条件和模型适用域，再暂存 P2 计算请求。",
+          "reason": "预测描述符与实验电流不是同一种标签。",
+          "replicate_plan": {
+            "batch_plan": "至少记录制备批次；跨批次外推需要新增独立批次",
+            "independent_samples_per_group": 2,
+            "technical_repeats_count_as_independent": false
+          },
+          "resources": "规则估计：新增独立电极至少2个；CA/HPLC 1个实验时段，表征另排期（非实测工时）",
+          "review_status": "DRAFT",
+          "rule_id": "p2_mismatch",
+          "state": "ACTIVE",
+          "task_id": "Task_dff620042d2ae20946a98963",
+          "title": "复核 P2 与实验的可比性",
+          "variables": [
+            "由缺项限定的单一变量"
+          ]
+        },
+        {
+          "alternative_explanations": [
+            "表面重构",
+            "传质与气泡",
+            "pH／离子强度变化",
+            "取样或标定偏差"
+          ],
+          "category": "优化性能",
+          "controls": [
+            "相同电解液、温度、几何面积与电位标尺",
+            "匹配空白／溶液对照"
+          ],
+          "endpoints": [
+            "协议窗口电流密度",
+            "经标定的产物液相量",
+            "状态及原始文件完整性"
+          ],
+          "evidence_refs": [
+            "Measurement_cf9efcb626ff2dad953d00a8",
+            "Measurement_38a55e166b76f3b7df105c63",
+            "Measurement_39e0d14ebbc2b861388a1bc9",
+            "Measurement_be71e8ae2c32ee1aaa45bf69",
+            "Measurement_026a5ef8dabf4a9eec804ed6",
+            "Measurement_65f434f2331f264c6b42def7",
+            "Measurement_cd447f4c13192018a1b5c825",
+            "Measurement_d19ef7ec831d8f163a2a532a",
+            "Measurement_31b8edf9862bf6f733980e03",
+            "Measurement_0462cd00577ffafcce6c1f40",
+            "Measurement_3138c43aa427ffa458adc2a1",
+            "Measurement_3c7827aa3a7c19df8927abcf",
+            "Measurement_9de68e30b66991022a1967f2",
+            "Measurement_17abf868ecc1bf3bcb9183f2",
+            "Measurement_acb51e2232c83be9e76099ae",
+            "Measurement_f86fccd08862edeb6ec4f362",
+            "Measurement_3d049340bc0e915d308a7ad5",
+            "Measurement_2490e4f17230c2afc99ba8a0",
+            "Measurement_32021b92e564f4d09c136622",
+            "Measurement_9b4017156c5b897bb7f1f3ff",
+            "Measurement_0e44791694d50db5e310b6f2"
+          ],
+          "hypothesis_id": "HYP_96AC87BB6C",
+          "interpretation": {
+            "expected": "仅支持当前协议下的操作性假设，机制仍需区分性证据",
+            "inconsistent": "增加独立样品／批次，结论保持 MIXED 或 INCONCLUSIVE",
+            "opposite": "保留反证，复查不可逆结构变化与溶液效应"
+          },
+          "method": "RuleBasedPlanner/v1",
+          "purpose": "在现有证据约束下比较操作电位或清洗时长，并同步定量产物。",
+          "reason": "这是规则生成的后续实验草案，不保证收益。",
+          "replicate_plan": {
+            "batch_plan": "至少记录制备批次；跨批次外推需要新增独立批次",
+            "independent_samples_per_group": 2,
+            "technical_repeats_count_as_independent": false
+          },
+          "resources": "规则估计：新增独立电极至少2个；CA/HPLC 1个实验时段，表征另排期（非实测工时）",
+          "review_status": "DRAFT",
+          "rule_id": "optimize",
+          "state": "ACTIVE",
+          "task_id": "Task_dff620042d2ae20946a98963",
+          "title": "规划单变量操作窗口实验",
+          "variables": [
+            "操作电位（保持标尺）",
+            "处理状态",
+            "采样时点"
+          ]
+        },
+        {
+          "rule_id": "human_review",
+          "target": "P1/P2",
+          "title": "人工核对条件、原始证据和 P1 科学门控"
+        }
+      ],
+      "review_status": "WAITING_FOR_REVIEW",
+      "run_id": "public-v11-mismatch",
+      "sample_id": "Sample_621b9e06425662238da62dbd",
+      "schema_version": "agx-experimental-feedback-1"
+    },
+    "receipts": {
+      "P1": {
+        "blocked_from_formal_feedback": false,
+        "candidate_id": "C_Ag_e6b88633769bb840",
+        "feedback_id": "FB_d431478dce976de15220268e",
+        "hypothesis_id": "HYP_96AC87BB6C",
+        "next_tasks": [
+          {
+            "alternative_explanations": [
+              "表面重构",
+              "传质与气泡",
+              "pH／离子强度变化",
+              "取样或标定偏差"
+            ],
+            "category": "区分机制",
+            "controls": [
+              "相同电解液、温度、几何面积与电位标尺",
+              "匹配空白／溶液对照"
+            ],
+            "endpoints": [
+              "协议窗口电流密度",
+              "经标定的产物液相量",
+              "状态及原始文件完整性"
+            ],
+            "evidence_refs": [
+              "Measurement_cf9efcb626ff2dad953d00a8",
+              "Measurement_38a55e166b76f3b7df105c63",
+              "Measurement_39e0d14ebbc2b861388a1bc9",
+              "Measurement_be71e8ae2c32ee1aaa45bf69",
+              "Measurement_026a5ef8dabf4a9eec804ed6",
+              "Measurement_65f434f2331f264c6b42def7",
+              "Measurement_cd447f4c13192018a1b5c825",
+              "Measurement_d19ef7ec831d8f163a2a532a",
+              "Measurement_31b8edf9862bf6f733980e03",
+              "Measurement_0462cd00577ffafcce6c1f40",
+              "Measurement_3138c43aa427ffa458adc2a1",
+              "Measurement_3c7827aa3a7c19df8927abcf",
+              "Measurement_9de68e30b66991022a1967f2",
+              "Measurement_17abf868ecc1bf3bcb9183f2",
+              "Measurement_acb51e2232c83be9e76099ae",
+              "Measurement_f86fccd08862edeb6ec4f362",
+              "Measurement_3d049340bc0e915d308a7ad5",
+              "Measurement_2490e4f17230c2afc99ba8a0",
+              "Measurement_32021b92e564f4d09c136622",
+              "Measurement_9b4017156c5b897bb7f1f3ff",
+              "Measurement_0e44791694d50db5e310b6f2"
+            ],
+            "hypothesis_id": "HYP_96AC87BB6C",
+            "interpretation": {
+              "expected": "仅支持当前协议下的操作性假设，机制仍需区分性证据",
+              "inconsistent": "增加独立样品／批次，结论保持 MIXED 或 INCONCLUSIVE",
+              "opposite": "保留反证，复查不可逆结构变化与溶液效应"
+            },
+            "method": "RuleBasedPlanner/v1",
+            "purpose": "先核对结构、实际条件和模型适用域，再暂存 P2 计算请求。",
+            "reason": "预测描述符与实验电流不是同一种标签。",
+            "replicate_plan": {
+              "batch_plan": "至少记录制备批次；跨批次外推需要新增独立批次",
+              "independent_samples_per_group": 2,
+              "technical_repeats_count_as_independent": false
+            },
+            "resources": "规则估计：新增独立电极至少2个；CA/HPLC 1个实验时段，表征另排期（非实测工时）",
+            "review_status": "DRAFT",
+            "rule_id": "p2_mismatch",
+            "state": "ACTIVE",
+            "task_id": "Task_dff620042d2ae20946a98963",
+            "title": "复核 P2 与实验的可比性",
+            "variables": [
+              "由缺项限定的单一变量"
+            ]
+          },
+          {
+            "alternative_explanations": [
+              "表面重构",
+              "传质与气泡",
+              "pH／离子强度变化",
+              "取样或标定偏差"
+            ],
+            "category": "优化性能",
+            "controls": [
+              "相同电解液、温度、几何面积与电位标尺",
+              "匹配空白／溶液对照"
+            ],
+            "endpoints": [
+              "协议窗口电流密度",
+              "经标定的产物液相量",
+              "状态及原始文件完整性"
+            ],
+            "evidence_refs": [
+              "Measurement_cf9efcb626ff2dad953d00a8",
+              "Measurement_38a55e166b76f3b7df105c63",
+              "Measurement_39e0d14ebbc2b861388a1bc9",
+              "Measurement_be71e8ae2c32ee1aaa45bf69",
+              "Measurement_026a5ef8dabf4a9eec804ed6",
+              "Measurement_65f434f2331f264c6b42def7",
+              "Measurement_cd447f4c13192018a1b5c825",
+              "Measurement_d19ef7ec831d8f163a2a532a",
+              "Measurement_31b8edf9862bf6f733980e03",
+              "Measurement_0462cd00577ffafcce6c1f40",
+              "Measurement_3138c43aa427ffa458adc2a1",
+              "Measurement_3c7827aa3a7c19df8927abcf",
+              "Measurement_9de68e30b66991022a1967f2",
+              "Measurement_17abf868ecc1bf3bcb9183f2",
+              "Measurement_acb51e2232c83be9e76099ae",
+              "Measurement_f86fccd08862edeb6ec4f362",
+              "Measurement_3d049340bc0e915d308a7ad5",
+              "Measurement_2490e4f17230c2afc99ba8a0",
+              "Measurement_32021b92e564f4d09c136622",
+              "Measurement_9b4017156c5b897bb7f1f3ff",
+              "Measurement_0e44791694d50db5e310b6f2"
+            ],
+            "hypothesis_id": "HYP_96AC87BB6C",
+            "interpretation": {
+              "expected": "仅支持当前协议下的操作性假设，机制仍需区分性证据",
+              "inconsistent": "增加独立样品／批次，结论保持 MIXED 或 INCONCLUSIVE",
+              "opposite": "保留反证，复查不可逆结构变化与溶液效应"
+            },
+            "method": "RuleBasedPlanner/v1",
+            "purpose": "在现有证据约束下比较操作电位或清洗时长，并同步定量产物。",
+            "reason": "这是规则生成的后续实验草案，不保证收益。",
+            "replicate_plan": {
+              "batch_plan": "至少记录制备批次；跨批次外推需要新增独立批次",
+              "independent_samples_per_group": 2,
+              "technical_repeats_count_as_independent": false
+            },
+            "resources": "规则估计：新增独立电极至少2个；CA/HPLC 1个实验时段，表征另排期（非实测工时）",
+            "review_status": "DRAFT",
+            "rule_id": "optimize",
+            "state": "ACTIVE",
+            "task_id": "Task_dff620042d2ae20946a98963",
+            "title": "规划单变量操作窗口实验",
+            "variables": [
+              "操作电位（保持标尺）",
+              "处理状态",
+              "采样时点"
+            ]
+          },
+          {
+            "rule_id": "human_review",
+            "target": "P1/P2",
+            "title": "人工核对条件、原始证据和 P1 科学门控"
+          }
+        ],
+        "official_publish": false,
+        "reason": "QC and human review required; existing P1 v2.3 formal ingestion is a separate authority",
+        "run_id": "public-v11-mismatch",
+        "scientific_update_performed": false,
+        "status": "STAGED",
+        "target": "P1"
+      },
+      "P2": {
+        "blocked_from_formal_feedback": false,
+        "candidate_id": "C_Ag_e6b88633769bb840",
+        "feedback_id": "FB_d431478dce976de15220268e",
+        "hypothesis_id": "HYP_96AC87BB6C",
+        "next_tasks": [
+          {
+            "alternative_explanations": [
+              "表面重构",
+              "传质与气泡",
+              "pH／离子强度变化",
+              "取样或标定偏差"
+            ],
+            "category": "区分机制",
+            "controls": [
+              "相同电解液、温度、几何面积与电位标尺",
+              "匹配空白／溶液对照"
+            ],
+            "endpoints": [
+              "协议窗口电流密度",
+              "经标定的产物液相量",
+              "状态及原始文件完整性"
+            ],
+            "evidence_refs": [
+              "Measurement_cf9efcb626ff2dad953d00a8",
+              "Measurement_38a55e166b76f3b7df105c63",
+              "Measurement_39e0d14ebbc2b861388a1bc9",
+              "Measurement_be71e8ae2c32ee1aaa45bf69",
+              "Measurement_026a5ef8dabf4a9eec804ed6",
+              "Measurement_65f434f2331f264c6b42def7",
+              "Measurement_cd447f4c13192018a1b5c825",
+              "Measurement_d19ef7ec831d8f163a2a532a",
+              "Measurement_31b8edf9862bf6f733980e03",
+              "Measurement_0462cd00577ffafcce6c1f40",
+              "Measurement_3138c43aa427ffa458adc2a1",
+              "Measurement_3c7827aa3a7c19df8927abcf",
+              "Measurement_9de68e30b66991022a1967f2",
+              "Measurement_17abf868ecc1bf3bcb9183f2",
+              "Measurement_acb51e2232c83be9e76099ae",
+              "Measurement_f86fccd08862edeb6ec4f362",
+              "Measurement_3d049340bc0e915d308a7ad5",
+              "Measurement_2490e4f17230c2afc99ba8a0",
+              "Measurement_32021b92e564f4d09c136622",
+              "Measurement_9b4017156c5b897bb7f1f3ff",
+              "Measurement_0e44791694d50db5e310b6f2"
+            ],
+            "hypothesis_id": "HYP_96AC87BB6C",
+            "interpretation": {
+              "expected": "仅支持当前协议下的操作性假设，机制仍需区分性证据",
+              "inconsistent": "增加独立样品／批次，结论保持 MIXED 或 INCONCLUSIVE",
+              "opposite": "保留反证，复查不可逆结构变化与溶液效应"
+            },
+            "method": "RuleBasedPlanner/v1",
+            "purpose": "先核对结构、实际条件和模型适用域，再暂存 P2 计算请求。",
+            "reason": "预测描述符与实验电流不是同一种标签。",
+            "replicate_plan": {
+              "batch_plan": "至少记录制备批次；跨批次外推需要新增独立批次",
+              "independent_samples_per_group": 2,
+              "technical_repeats_count_as_independent": false
+            },
+            "resources": "规则估计：新增独立电极至少2个；CA/HPLC 1个实验时段，表征另排期（非实测工时）",
+            "review_status": "DRAFT",
+            "rule_id": "p2_mismatch",
+            "state": "ACTIVE",
+            "task_id": "Task_dff620042d2ae20946a98963",
+            "title": "复核 P2 与实验的可比性",
+            "variables": [
+              "由缺项限定的单一变量"
+            ]
+          },
+          {
+            "alternative_explanations": [
+              "表面重构",
+              "传质与气泡",
+              "pH／离子强度变化",
+              "取样或标定偏差"
+            ],
+            "category": "优化性能",
+            "controls": [
+              "相同电解液、温度、几何面积与电位标尺",
+              "匹配空白／溶液对照"
+            ],
+            "endpoints": [
+              "协议窗口电流密度",
+              "经标定的产物液相量",
+              "状态及原始文件完整性"
+            ],
+            "evidence_refs": [
+              "Measurement_cf9efcb626ff2dad953d00a8",
+              "Measurement_38a55e166b76f3b7df105c63",
+              "Measurement_39e0d14ebbc2b861388a1bc9",
+              "Measurement_be71e8ae2c32ee1aaa45bf69",
+              "Measurement_026a5ef8dabf4a9eec804ed6",
+              "Measurement_65f434f2331f264c6b42def7",
+              "Measurement_cd447f4c13192018a1b5c825",
+              "Measurement_d19ef7ec831d8f163a2a532a",
+              "Measurement_31b8edf9862bf6f733980e03",
+              "Measurement_0462cd00577ffafcce6c1f40",
+              "Measurement_3138c43aa427ffa458adc2a1",
+              "Measurement_3c7827aa3a7c19df8927abcf",
+              "Measurement_9de68e30b66991022a1967f2",
+              "Measurement_17abf868ecc1bf3bcb9183f2",
+              "Measurement_acb51e2232c83be9e76099ae",
+              "Measurement_f86fccd08862edeb6ec4f362",
+              "Measurement_3d049340bc0e915d308a7ad5",
+              "Measurement_2490e4f17230c2afc99ba8a0",
+              "Measurement_32021b92e564f4d09c136622",
+              "Measurement_9b4017156c5b897bb7f1f3ff",
+              "Measurement_0e44791694d50db5e310b6f2"
+            ],
+            "hypothesis_id": "HYP_96AC87BB6C",
+            "interpretation": {
+              "expected": "仅支持当前协议下的操作性假设，机制仍需区分性证据",
+              "inconsistent": "增加独立样品／批次，结论保持 MIXED 或 INCONCLUSIVE",
+              "opposite": "保留反证，复查不可逆结构变化与溶液效应"
+            },
+            "method": "RuleBasedPlanner/v1",
+            "purpose": "在现有证据约束下比较操作电位或清洗时长，并同步定量产物。",
+            "reason": "这是规则生成的后续实验草案，不保证收益。",
+            "replicate_plan": {
+              "batch_plan": "至少记录制备批次；跨批次外推需要新增独立批次",
+              "independent_samples_per_group": 2,
+              "technical_repeats_count_as_independent": false
+            },
+            "resources": "规则估计：新增独立电极至少2个；CA/HPLC 1个实验时段，表征另排期（非实测工时）",
+            "review_status": "DRAFT",
+            "rule_id": "optimize",
+            "state": "ACTIVE",
+            "task_id": "Task_dff620042d2ae20946a98963",
+            "title": "规划单变量操作窗口实验",
+            "variables": [
+              "操作电位（保持标尺）",
+              "处理状态",
+              "采样时点"
+            ]
+          },
+          {
+            "rule_id": "human_review",
+            "target": "P1/P2",
+            "title": "人工核对条件、原始证据和 P1 科学门控"
+          }
+        ],
+        "official_publish": false,
+        "reason": "QC and human review required; existing P1 v2.3 formal ingestion is a separate authority",
+        "run_id": "public-v11-mismatch",
+        "scientific_update_performed": false,
+        "status": "STAGED",
+        "target": "P2"
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "agent": "Uncertainty & Budget Agent",
+  "attempt": 1,
+  "elapsed_s": 0.0001056670444086194,
+  "error": null,
+  "finished_at": "2026-10-31T07:41:46.757740+00:00",
+  "input": {
+    "depends_on": [
+      "knowledge",
+      "screening"
+    ],
+    "run_id": "public-v11-mismatch"
+  },
+  "model": "deterministic rules / no LLM",
+  "node_id": "decision",
+  "origin": "SYNTHETIC",
+  "output": {
+    "actual_dft_core_hours": 0.0,
+    "actual_dft_jobs": 0,
+    "comparison_fixture": [],
+    "configured_proposal_budget_jobs": 0,
+    "dft_proposals": [],
+    "dft_savings_rate": null,
+    "fixture_origin": "SYNTHETIC",
+    "next_action": "Review OOD and obtain calibrated comparisons before selecting DFT",
+    "policy": "No automatic submission; gate and review apply even with available budget",
+    "savings_reason": "No comparable real DFT baseline",
+    "spread_eV": null,
+    "threshold_eV": 0.2,
+    "uncertainty": "UNCALIBRATED"
+  },
+  "reason": "Require uncertainty review and sparse DFT budget; never submit jobs",
+  "source_refs": [
+    {
+      "path": "attempts/decision/1/started.json",
+      "sha256": "ccebed0a5c283199f04d2b0db0b25219ef449e48cb451544efb1643ae0e65b39"
+    }
+  ],
+  "started_at": "2026-10-31T07:41:46.757637+00:00",
+  "status": "COMPLETED",
+  "tool": "uncertainty_budget_policy"
+}

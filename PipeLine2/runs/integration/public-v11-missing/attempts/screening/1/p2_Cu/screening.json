@@ -1,0 +1,119 @@
+{
+  "ranked": [
+    {
+      "candidate_id": "S_e23271b170f5e7f795491f7c3eb8d79be6db1a08d52953a6beed687ade7ccaba",
+      "properties": {
+        "adsorption_energy_eV": -0.2329955718401734
+      },
+      "status": "EXPLORATORY",
+      "gate_status": "PENDING_GATE",
+      "calibration_status": "UNCALIBRATED",
+      "source_type": "mock",
+      "comparison_key": {
+        "model_hash": "efb7e4b4e5752b96713763e81e7d6ff52f40e074012b83509456aca83dd47d70",
+        "profile": "mock-neutral-v1",
+        "context": "1e0b7590124fd73dd9f96f0dfdd2a304d05d5f1c6ae62299cd10fd84e19edfe0"
+      },
+      "features": [
+        27.0,
+        3.0
+      ],
+      "potential": 0.2329955718401734,
+      "uncertainty": null,
+      "diversity": 2.0,
+      "estimated_cost": 16.0,
+      "split": "exploration",
+      "filter_reasons": [],
+      "pareto_rank": 0,
+      "ranking_reason": "Pareto layer; configured objective order then candidate_id breaks ties",
+      "diversity_definition": "nearest-neighbor distance in standardized demo [site_index,height_A] features"
+    },
+    {
+      "candidate_id": "S_95137c4ee3ee9ebff44b601eb1e1be53300648cdde168b36fb68a48c815726c7",
+      "properties": {
+        "adsorption_energy_eV": -0.16107335390187238
+      },
+      "status": "EXPLORATORY",
+      "gate_status": "PENDING_GATE",
+      "calibration_status": "UNCALIBRATED",
+      "source_type": "mock",
+      "comparison_key": {
+        "model_hash": "efb7e4b4e5752b96713763e81e7d6ff52f40e074012b83509456aca83dd47d70",
+        "profile": "mock-neutral-v1",
+        "context": "1e0b7590124fd73dd9f96f0dfdd2a304d05d5f1c6ae62299cd10fd84e19edfe0"
+      },
+      "features": [
+        27.0,
+        3.5
+      ],
+      "potential": 0.16107335390187238,
+      "uncertainty": null,
+      "diversity": 2.0,
+      "estimated_cost": 16.0,
+      "split": "exploration",
+      "filter_reasons": [],
+      "pareto_rank": 1,
+      "ranking_reason": "Pareto layer; configured objective order then candidate_id breaks ties",
+      "diversity_definition": "nearest-neighbor distance in standardized demo [site_index,height_A] features"
+    }
+  ],
+  "top_k": [
+    {
+      "candidate_id": "S_e23271b170f5e7f795491f7c3eb8d79be6db1a08d52953a6beed687ade7ccaba",
+      "properties": {
+        "adsorption_energy_eV": -0.2329955718401734
+      },
+      "status": "EXPLORATORY",
+      "gate_status": "PENDING_GATE",
+      "calibration_status": "UNCALIBRATED",
+      "source_type": "mock",
+      "comparison_key": {
+        "model_hash": "efb7e4b4e5752b96713763e81e7d6ff52f40e074012b83509456aca83dd47d70",
+        "profile": "mock-neutral-v1",
+        "context": "1e0b7590124fd73dd9f96f0dfdd2a304d05d5f1c6ae62299cd10fd84e19edfe0"
+      },
+      "features": [
+        27.0,
+        3.0
+      ],
+      "potential": 0.2329955718401734,
+      "uncertainty": null,
+      "diversity": 2.0,
+      "estimated_cost": 16.0,
+      "split": "exploration",
+      "filter_reasons": [],
+      "pareto_rank": 0,
+      "ranking_reason": "Pareto layer; configured objective order then candidate_id breaks ties",
+      "diversity_definition": "nearest-neighbor distance in standardized demo [site_index,height_A] features"
+    },
+    {
+      "candidate_id": "S_95137c4ee3ee9ebff44b601eb1e1be53300648cdde168b36fb68a48c815726c7",
+      "properties": {
+        "adsorption_energy_eV": -0.16107335390187238
+      },
+      "status": "EXPLORATORY",
+      "gate_status": "PENDING_GATE",
+      "calibration_status": "UNCALIBRATED",
+      "source_type": "mock",
+      "comparison_key": {
+        "model_hash": "efb7e4b4e5752b96713763e81e7d6ff52f40e074012b83509456aca83dd47d70",
+        "profile": "mock-neutral-v1",
+        "context": "1e0b7590124fd73dd9f96f0dfdd2a304d05d5f1c6ae62299cd10fd84e19edfe0"
+      },
+      "features": [
+        27.0,
+        3.5
+      ],
+      "potential": 0.16107335390187238,
+      "uncertainty": null,
+      "diversity": 2.0,
+      "estimated_cost": 16.0,
+      "split": "exploration",
+      "filter_reasons": [],
+      "pareto_rank": 1,
+      "ranking_reason": "Pareto layer; configured objective order then candidate_id breaks ties",
+      "diversity_definition": "nearest-neighbor distance in standardized demo [site_index,height_A] features"
+    }
+  ],
+  "rejected": []
+}

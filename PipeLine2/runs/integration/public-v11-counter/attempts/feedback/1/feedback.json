@@ -1,0 +1,184 @@
+{
+  "candidate_id": "C_Ag_e6b88633769bb840",
+  "conclusion": "有效独立重复未达到恢复门槛，当前数据反驳该操作性预期。 该判断仅针对匹配条件下的电流恢复；furoate 因果机制仍为 INCONCLUSIVE。合成演示不构成真实材料结论，不产生正式门控放行。",
+  "experimental_findings": {
+    "criterion": "protocol recovery >= 0.8; per-group n >= 2",
+    "deactivation_demonstrated": true,
+    "deactivation_ratios": [
+      {
+        "ratio": 0.40051448552274266,
+        "sample_id": "Sample_a6718fde494ce562fdd3179e"
+      },
+      {
+        "ratio": 0.39942367375250504,
+        "sample_id": "Sample_74581fe29cbd80680635278b"
+      }
+    ],
+    "group_counts": {
+      "deactivated": 2,
+      "fresh": 2,
+      "solution_control": 2,
+      "spike": 2,
+      "washed": 2
+    },
+    "hypothesis_outcome": "REFUTED",
+    "independent_batches": 2,
+    "insufficient_groups": [],
+    "invalid_measurements": [],
+    "mechanism_outcome": "INCONCLUSIVE",
+    "min_independent": 2,
+    "missing_calibration": false,
+    "missing_product_groups": [],
+    "p2_mismatch": false,
+    "post_ca_record_present": true,
+    "product_group_counts": {
+      "deactivated": 2,
+      "fresh": 2,
+      "solution_control": 2,
+      "spike": 2,
+      "washed": 2
+    },
+    "qc_issues": [],
+    "recovery_ratios": [
+      {
+        "ratio": 0.306709325216039,
+        "sample_id": "Sample_a6718fde494ce562fdd3179e"
+      },
+      {
+        "ratio": 0.3038955993763529,
+        "sample_id": "Sample_74581fe29cbd80680635278b"
+      }
+    ],
+    "technical_measurements": 0
+  },
+  "feedback_id": "FB_0d73730eccbf64b967172233",
+  "gate_status": "PENDING_GATE",
+  "hypothesis_id": "HYP_96AC87BB6C",
+  "measurement_ids": [
+    "Measurement_5dd46f5feeb918632ccb84dc",
+    "Measurement_20402ec48971c2ea56eca4d1",
+    "Measurement_0181c1d2df4a3c167fca41d0",
+    "Measurement_894c371bc8171d925a7b7d05",
+    "Measurement_af2df0ea74451330d6add7d0",
+    "Measurement_dcbb39c1b8d2e7c413481f8c",
+    "Measurement_de64654b021cf642818dc2c0",
+    "Measurement_de9a6aa01a0b2009d3145196",
+    "Measurement_f620a5bc0b0da500099f78a7",
+    "Measurement_145f35bb942213dc28f5fa5a",
+    "Measurement_81e9c8bc728890f1be0b3907",
+    "Measurement_448780ac880cbbefc141d576",
+    "Measurement_d4adbc31b874c589e3c9c875",
+    "Measurement_c7a4bee494f4ebb14178086e",
+    "Measurement_45359234d7807d30641fca28",
+    "Measurement_9fa83aa65a8396ff041df238",
+    "Measurement_75448f2a84a98c63cbaaa1c2",
+    "Measurement_1b937ac3fade6d865f3902ff",
+    "Measurement_3dd1897b4347f85f782a3574",
+    "Measurement_eb52d1b02d1ed76da1e61c9f",
+    "Measurement_910afabe9e6511d585adb113"
+  ],
+  "official_publish": false,
+  "prediction_deviation": {
+    "basis": "No quantitative mapping available",
+    "numeric_delta": null,
+    "reason": "Adsorption eV and experimental current differ in observable and units",
+    "status": "NOT_COMPARABLE"
+  },
+  "provenance": {
+    "artifacts": [
+      {
+        "path": "analysis.json",
+        "sha256": "0622928e1667570244d9ccd8a5587d6be4754cd9df310763d42a694c8907bc45"
+      },
+      {
+        "path": "records.json",
+        "sha256": "f071f68e824bb58e99d3f7a8fe483c7cc2f383b8de6c965e08b7d4646f91f175"
+      }
+    ],
+    "limitations": [
+      "Synthetic inputs; software QC PASS is not scientific approval",
+      "Human review pending; formal P1 feedback ingestion unavailable"
+    ],
+    "origin": "SYNTHETIC",
+    "producer": "P3.Service.analyze",
+    "run_id": "public-v11-counter",
+    "source_run_id": null,
+    "version": "1.0.0"
+  },
+  "qc_status": "PASS",
+  "recommended_actions": [
+    {
+      "alternative_explanations": [
+        "表面重构",
+        "传质与气泡",
+        "pH／离子强度变化",
+        "取样或标定偏差"
+      ],
+      "category": "区分机制",
+      "controls": [
+        "相同电解液、温度、几何面积与电位标尺",
+        "匹配空白／溶液对照"
+      ],
+      "endpoints": [
+        "协议窗口电流密度",
+        "经标定的产物液相量",
+        "状态及原始文件完整性"
+      ],
+      "evidence_refs": [
+        "Measurement_5dd46f5feeb918632ccb84dc",
+        "Measurement_20402ec48971c2ea56eca4d1",
+        "Measurement_0181c1d2df4a3c167fca41d0",
+        "Measurement_894c371bc8171d925a7b7d05",
+        "Measurement_af2df0ea74451330d6add7d0",
+        "Measurement_dcbb39c1b8d2e7c413481f8c",
+        "Measurement_de64654b021cf642818dc2c0",
+        "Measurement_de9a6aa01a0b2009d3145196",
+        "Measurement_f620a5bc0b0da500099f78a7",
+        "Measurement_145f35bb942213dc28f5fa5a",
+        "Measurement_81e9c8bc728890f1be0b3907",
+        "Measurement_448780ac880cbbefc141d576",
+        "Measurement_d4adbc31b874c589e3c9c875",
+        "Measurement_c7a4bee494f4ebb14178086e",
+        "Measurement_45359234d7807d30641fca28",
+        "Measurement_9fa83aa65a8396ff041df238",
+        "Measurement_75448f2a84a98c63cbaaa1c2",
+        "Measurement_1b937ac3fade6d865f3902ff",
+        "Measurement_3dd1897b4347f85f782a3574",
+        "Measurement_eb52d1b02d1ed76da1e61c9f",
+        "Measurement_910afabe9e6511d585adb113"
+      ],
+      "hypothesis_id": "HYP_96AC87BB6C",
+      "interpretation": {
+        "expected": "仅支持当前协议下的操作性假设，机制仍需区分性证据",
+        "inconsistent": "增加独立样品／批次，结论保持 MIXED 或 INCONCLUSIVE",
+        "opposite": "保留反证，复查不可逆结构变化与溶液效应"
+      },
+      "method": "RuleBasedPlanner/v1",
+      "purpose": "当前有效数据不支持协议中的可恢复性预期，检查不可逆变化。",
+      "reason": "不得将反证通过措辞改写为支持。",
+      "replicate_plan": {
+        "batch_plan": "至少记录制备批次；跨批次外推需要新增独立批次",
+        "independent_samples_per_group": 2,
+        "technical_repeats_count_as_independent": false
+      },
+      "resources": "规则估计：新增独立电极至少2个；CA/HPLC 1个实验时段，表征另排期（非实测工时）",
+      "review_status": "DRAFT",
+      "rule_id": "counter",
+      "state": "ACTIVE",
+      "task_id": "Task_7b66a5294406337fd70534f3",
+      "title": "保留反证并检查替代解释",
+      "variables": [
+        "由缺项限定的单一变量"
+      ]
+    },
+    {
+      "rule_id": "human_review",
+      "target": "P1/P2",
+      "title": "人工核对条件、原始证据和 P1 科学门控"
+    }
+  ],
+  "review_status": "WAITING_FOR_REVIEW",
+  "run_id": "public-v11-counter",
+  "sample_id": "Sample_a6718fde494ce562fdd3179e",
+  "schema_version": "agx-experimental-feedback-1"
+}

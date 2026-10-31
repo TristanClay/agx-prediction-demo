@@ -1,0 +1,252 @@
+{
+  "source_files": [
+    {
+      "path": "PipeLine2/pipeline2/__init__.py",
+      "source_sha256": "6ffc01c3aa9ea88ffe24acb52be7cc99d36e3104b4f1f80238a549fe5fc1ca7b"
+    },
+    {
+      "path": "PipeLine2/pipeline2/__main__.py",
+      "source_sha256": "e61f4c3d61533fce8a8e72987ce57b0323aa8527c68bafcfc18984f8223dfb03"
+    },
+    {
+      "path": "PipeLine2/pipeline2/active_learning/__init__.py",
+      "source_sha256": "df91702dce98b7c6ba1f871ba20d822d59d6039a35861fceec44cc2961327afa"
+    },
+    {
+      "path": "PipeLine2/pipeline2/advanced/__init__.py",
+      "source_sha256": "6914bfe8b75d0741589f4c2bc32fe7705f094321246abd5de47660ce6856894a"
+    },
+    {
+      "path": "PipeLine2/pipeline2/advanced/contracts.py",
+      "source_sha256": "93b0b03febd69e27828c4a352072a1099836aad07a53bc1523719d1b142ded7b"
+    },
+    {
+      "path": "PipeLine2/pipeline2/advanced/dft.py",
+      "source_sha256": "f6bec97406667e3df7f4e890e8381f736c1627772aa8dcf90a87aaf8a141105f"
+    },
+    {
+      "path": "PipeLine2/pipeline2/advanced/guards.py",
+      "source_sha256": "0b203362f9e3c66b1f33dab56e72fea14de7735b8f8396bf9cf8a18a3ec8a69b"
+    },
+    {
+      "path": "PipeLine2/pipeline2/advanced/learning.py",
+      "source_sha256": "fe7f5ac7261e02ca393eb2fcf1b31003c2b4639a8c128621d2dd128e77a74d6c"
+    },
+    {
+      "path": "PipeLine2/pipeline2/advanced/runner.py",
+      "source_sha256": "0b1d9ba7908bdc39a35ca2070b3e452864c606fb87253e9771ec454104a48377"
+    },
+    {
+      "path": "PipeLine2/pipeline2/cli.py",
+      "source_sha256": "ea1af70d95f7ea0ab988f7ec09c28538315bd7d35f4744d922e686b29140c4ad"
+    },
+    {
+      "path": "PipeLine2/pipeline2/contracts/__init__.py",
+      "source_sha256": "44e650a1ece133a765ecbb7c4a36032b3197623177c4873e65c1997f7f5dcaa0"
+    },
+    {
+      "path": "PipeLine2/pipeline2/dft/__init__.py",
+      "source_sha256": "ef7788b2682806e9cac21c7265c6fe581690ca788f3ccfc482c0af356f2668cc"
+    },
+    {
+      "path": "PipeLine2/pipeline2/dft/adapters.py",
+      "source_sha256": "63e16ce4583ed3993ff451f09b7e5a936b39e1de046e3314b185ccbbbd46d5ed"
+    },
+    {
+      "path": "PipeLine2/pipeline2/dft/parser.py",
+      "source_sha256": "e5f2b64af404c7367c8fd578e5e2f8521cee8bde0201c8d050eb42fcb17ff4ae"
+    },
+    {
+      "path": "PipeLine2/pipeline2/hackathon.py",
+      "source_sha256": "6c9e69a179e3ae1dd3a46eb64f3ec5071fc637009290c60bc5c5d56ad7e44846"
+    },
+    {
+      "path": "PipeLine2/pipeline2/models/__init__.py",
+      "source_sha256": "073e7f57bdb39b7c97c4ec2ccea43fbbffee23ee8afa0448000b02bb44cf4753"
+    },
+    {
+      "path": "PipeLine2/pipeline2/models/ase_adapter.py",
+      "source_sha256": "b0e212d59483a4dbb95d9d206afc29bd7a0e0f6da63dc7fe0b215bbfe86806b9"
+    },
+    {
+      "path": "PipeLine2/pipeline2/models/base.py",
+      "source_sha256": "f0d971601b35bfca6ae5eb3aaba637cbe69e2735fc52f0395b562cd1339cc3f6"
+    },
+    {
+      "path": "PipeLine2/pipeline2/models/mock.py",
+      "source_sha256": "c47f285fc9b4cf27e938ec1e089c217e5e0311f73d2acf0b42ae4a954b76032e"
+    },
+    {
+      "path": "PipeLine2/pipeline2/models/optional.py",
+      "source_sha256": "168843fe147842daf36a73ef402b835777ca93a284d214bf4cd90c8f5fe41d35"
+    },
+    {
+      "path": "PipeLine2/pipeline2/orchestrator/__init__.py",
+      "source_sha256": "dd1cbe0a5451373c348146088146b05cf8e88d7f914703c6e560d30cb3489819"
+    },
+    {
+      "path": "PipeLine2/pipeline2/orchestrator/budget.py",
+      "source_sha256": "8b059cb76a5ac4b49156afbe8da448ead8f4094c1ae313dbe515aac326d7adaa"
+    },
+    {
+      "path": "PipeLine2/pipeline2/orchestrator/gate.py",
+      "source_sha256": "8bcc7dc0ef9975d58142e58afe6687079b9886980e40d39bc902f7e7ebb1fbf2"
+    },
+    {
+      "path": "PipeLine2/pipeline2/orchestrator/pipeline1_compat/__init__.py",
+      "source_sha256": "9b1ecebfba813090274e3aa8b805f8cd2f363b00e911208e5677b571560b7256"
+    },
+    {
+      "path": "PipeLine2/pipeline2/orchestrator/pipeline1_compat/attestation.py",
+      "source_sha256": "7791f7358c561da7cad6a977b64e5785c0d136a6a9cb472ec7ecda747a84e03e"
+    },
+    {
+      "path": "PipeLine2/pipeline2/orchestrator/pipeline1_compat/controls.py",
+      "source_sha256": "3f74c716ead43a1a53f063a62e44bc1a114201d5e06027306485161b19e8f89a"
+    },
+    {
+      "path": "PipeLine2/pipeline2/orchestrator/pipeline1_compat/execution_queue.py",
+      "source_sha256": "7c2cdaf7173bff5fe9a8110ea359b27d301955e59d483fce13dee8378321c3dc"
+    },
+    {
+      "path": "PipeLine2/pipeline2/orchestrator/pipeline1_compat/identifiers.py",
+      "source_sha256": "efc5a8c21e88691e056d95ba5125f00ceb31aa1dddb43a14f083325eb750d8df"
+    },
+    {
+      "path": "PipeLine2/pipeline2/orchestrator/runner.py",
+      "source_sha256": "d865b5f75fed9c4d6c7773a8d46a7c4d8fbd72eb081386e7ca87ef8e284c874a"
+    },
+    {
+      "path": "PipeLine2/pipeline2/properties/__init__.py",
+      "source_sha256": "4b822c89eecea791860eb1bbd0f75029de619d3a69982983764131a319a9b692"
+    },
+    {
+      "path": "PipeLine2/pipeline2/properties/screening.py",
+      "source_sha256": "3bc85a20a40ea8aee70befd6f55b120b1cd1346115f710e707692e110e6d31cb"
+    },
+    {
+      "path": "PipeLine2/pipeline2/registry/__init__.py",
+      "source_sha256": "17bd3d33aa62a4afce4c07767dc037a4d45b0a59002a563e43bffbb781ded9dd"
+    },
+    {
+      "path": "PipeLine2/pipeline2/reliability/__init__.py",
+      "source_sha256": "d2fd5267c17b7e93d0b52d55f4f3b73f8ade463056ab7ea8a1d32f551cf7570d"
+    },
+    {
+      "path": "PipeLine2/pipeline2/reports/__init__.py",
+      "source_sha256": "b45239472272c35883a79a20900a9d8d2a7f0e1367b9331e9eaaa3db43c19751"
+    },
+    {
+      "path": "PipeLine2/pipeline2/safety.py",
+      "source_sha256": "e2c0b05092a379a5c68942c85717e542f3e7bc096b339f80b3d8fc38ce7957b0"
+    },
+    {
+      "path": "PipeLine2/pipeline2/showcase.py",
+      "source_sha256": "6410dc4b18dc51e543612884b09cacf82b5745a3466d64d0264be967f96939fc"
+    },
+    {
+      "path": "PipeLine2/pipeline2/structure/__init__.py",
+      "source_sha256": "590ef50aaa2bb696b0e376280d4abc978d0bc7611060745d70d6f059f1d6e765"
+    },
+    {
+      "path": "PipeLine2/pipeline2/structure/assets/ff_demo.extxyz",
+      "source_sha256": "95a2a55110cf51e166b4e985ed75fdd1650faa1e2f1f522b75e274bca49ea568"
+    },
+    {
+      "path": "PipeLine2/agx_integration/__init__.py",
+      "source_sha256": "41b74c6d222b602934218394dffcfc113962dcd026777cd6fb9e2cc2d857893f"
+    },
+    {
+      "path": "PipeLine2/agx_integration/__main__.py",
+      "source_sha256": "96478c04d5b4cf65860f51bc4779dbef172109f044eb16a182e5d34a3c8d3329"
+    },
+    {
+      "path": "PipeLine2/agx_integration/adapters.py",
+      "source_sha256": "20491f65285e59dc7470dd273847a432925c5e57aa6705e109f1a05264a36c6c"
+    },
+    {
+      "path": "PipeLine2/agx_integration/contracts.py",
+      "source_sha256": "4fb34e4250bbd11bf833be6ca891b2a3466e679b7aa8df632948af3d87eb4f78"
+    },
+    {
+      "path": "PipeLine2/agx_integration/experiment.py",
+      "source_sha256": "c252914915f54af2cf90519c5e7224188cac83fd1f52e259a9a2d6c0ea73c2c2"
+    },
+    {
+      "path": "PipeLine2/agx_integration/io.py",
+      "source_sha256": "6a7b7106355cce1d24ced961efe20cc94e9d61cd4d4e19f2e9398c2ed4680c18"
+    },
+    {
+      "path": "PipeLine2/agx_integration/workflow.py",
+      "source_sha256": "3b67624d645e8d025535b11bb9b6474fd204ff4c6b70b03648ffc8ab388da3b0"
+    },
+    {
+      "path": "PipeLine2/agx_integration_v1_1/__init__.py",
+      "source_sha256": "e9b915984036d6db18ff34d9090f5742851a217da8667f93e60978e159597383"
+    },
+    {
+      "path": "PipeLine2/agx_integration_v1_1/__main__.py",
+      "source_sha256": "18d4fd9c29537d5a8c94097ec7768120494f133135a17af23ce8534a34175b5d"
+    },
+    {
+      "path": "PipeLine2/agx_integration_v1_1/charts.py",
+      "source_sha256": "94e230ce893bd7f0d121afac909b432da46d77a8fac790b9a1a409e3c2de08a1"
+    },
+    {
+      "path": "PipeLine2/agx_integration_v1_1/runtime.py",
+      "source_sha256": "467ba7fd42d89a447d5fb35f45f0ca59228a0beb69d65eb1cdb9a51a782098d8"
+    },
+    {
+      "path": "PipeLine2/agx_integration_v1_1/ui.py",
+      "source_sha256": "6c7857353e0e5f8f8006b8d8098211244dc6b47ce42371a0d35a136c3984fb8b"
+    },
+    {
+      "path": "PipeLine2/agx_integration_v1_1/view.py",
+      "source_sha256": "eab4e07486b2df77ace2c2041cbe629709d8fd0eb6f38173a92549b8493a0abe"
+    },
+    {
+      "path": "PipeLine3/pipeline3/__init__.py",
+      "source_sha256": "6be67b27a75eb3360192e9713fd66970cbd6fc5c6ee2cece35dda4e9970dafd4"
+    },
+    {
+      "path": "PipeLine3/pipeline3/__main__.py",
+      "source_sha256": "03db257d76e7737079ed5429a6e836c9cd5f136420d989b36d4a58073f5828be"
+    },
+    {
+      "path": "PipeLine3/pipeline3/adapters.py",
+      "source_sha256": "7bc81321ec5e5e92b4c805cb2fffaa765f795cc7325385b02d4159a685c342ce"
+    },
+    {
+      "path": "PipeLine3/pipeline3/analysis.py",
+      "source_sha256": "2ade07fb889251303ef974bfe63256dd88c34b6650b7c9c2f948d58a7ecc1c30"
+    },
+    {
+      "path": "PipeLine3/pipeline3/contracts.py",
+      "source_sha256": "a96172db473e85d6a2c84543f3c8d711290629e0b2841acbd634887c20576024"
+    },
+    {
+      "path": "PipeLine3/pipeline3/demo.py",
+      "source_sha256": "7d28f7385127686edb0902c89cf3a0c37883568446b5336f740be515df6ce0f0"
+    },
+    {
+      "path": "PipeLine3/pipeline3/planner.py",
+      "source_sha256": "c72b4a57d238854348c0fbfdf8b416e358ff401b159b3621934f8ae39255c117"
+    },
+    {
+      "path": "PipeLine3/pipeline3/service.py",
+      "source_sha256": "61e1d52cc39b1cb204f7f6dcbbaab752b7dc86265b4b372474a41448eade9a59"
+    },
+    {
+      "path": "PipeLine3/pipeline3/store.py",
+      "source_sha256": "38fa5538ab2f28b25be586c56674d54974c09f10820e00e22a46e81d0226297a"
+    }
+  ],
+  "original_snapshot_hashes": {
+    "04_ag_targeted_hypotheses.json": "00c72aee08aee55057bb7ca5b2d33c05c624a2d0f9c40a15d3eec6ce8cafae65",
+    "06_experiment_tasks.json": "ddcd5dc69b0c5dd86db3dab9b80220730ded72991ec740adfe79f03ad68ab8f3",
+    "04b_element_recommendations.json": "dc34aa72fb08b33104d2f6c9ab567e04fc83af4a945ebee707b4abb006b29bb1",
+    "01_corpus.json": "e7f976b05e31f4f5a25e73908a600348bc8b068bcf2bde19f1f844d7257f30f2",
+    "07_knowledge_graph.json": "da93c84a59c07b60809aba3ae810519f06cf0a041d98705305c6a1f6f0e9f457"
+  },
+  "transformation": "Public derivative; regenerated SYNTHETIC scenarios, not original historical bundles."
+}

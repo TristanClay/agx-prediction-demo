@@ -1,0 +1,88 @@
+[
+  {
+    "job_id": "J_1d0154da26e5f2c6708b18a88277d0a7e06d62897535b237ea02aa2896f1e9d3",
+    "structure_id": "S_e23271b170f5e7f795491f7c3eb8d79be6db1a08d52953a6beed687ade7ccaba",
+    "reference_profile_id": "mock-neutral-v1",
+    "status": "PENDING_GATE",
+    "executed": false,
+    "source_type": "predicted",
+    "validation": {
+      "allowed": false,
+      "blockers": [
+        "PENDING_GATE",
+        "dft_core_hour_budget_exceeded",
+        "dft_job_budget_exceeded",
+        "formal_pipeline1_source_missing"
+      ],
+      "gate": {
+        "status": "PENDING_GATE",
+        "blockers": [
+          "formal_pipeline1_source_missing"
+        ],
+        "source_hashes": {},
+        "allowed_structure_model_ids": [],
+        "allowed_operations": [
+          "offline_exploration"
+        ],
+        "candidate_id": "EC_MODERATE_FURFURAL_ADSORPTION_CU_V1"
+      },
+      "cost": {
+        "jobs": 1,
+        "estimated_core_hours": 16.0,
+        "cores": 16,
+        "walltime_hours": 1.0,
+        "estimate_status": "UNBENCHMARKED_PLANNING_ESTIMATE"
+      },
+      "budget": {
+        "max_jobs": 0,
+        "max_core_hours": 0.0,
+        "reserved_jobs": 0,
+        "reserved_core_hours": 0,
+        "actual_core_hours": 0
+      }
+    }
+  },
+  {
+    "job_id": "J_5b222d0edfa4c855488cfbc1018f86366d5d3e11397d93e950b593943b09a3ff",
+    "structure_id": "S_95137c4ee3ee9ebff44b601eb1e1be53300648cdde168b36fb68a48c815726c7",
+    "reference_profile_id": "mock-neutral-v1",
+    "status": "PENDING_GATE",
+    "executed": false,
+    "source_type": "predicted",
+    "validation": {
+      "allowed": false,
+      "blockers": [
+        "PENDING_GATE",
+        "dft_core_hour_budget_exceeded",
+        "dft_job_budget_exceeded",
+        "formal_pipeline1_source_missing"
+      ],
+      "gate": {
+        "status": "PENDING_GATE",
+        "blockers": [
+          "formal_pipeline1_source_missing"
+        ],
+        "source_hashes": {},
+        "allowed_structure_model_ids": [],
+        "allowed_operations": [
+          "offline_exploration"
+        ],
+        "candidate_id": "EC_MODERATE_FURFURAL_ADSORPTION_CU_V1"
+      },
+      "cost": {
+        "jobs": 1,
+        "estimated_core_hours": 16.0,
+        "cores": 16,
+        "walltime_hours": 1.0,
+        "estimate_status": "UNBENCHMARKED_PLANNING_ESTIMATE"
+      },
+      "budget": {
+        "max_jobs": 0,
+        "max_core_hours": 0.0,
+        "reserved_jobs": 0,
+        "reserved_core_hours": 0,
+        "actual_core_hours": 0
+      }
+    }
+  }
+]

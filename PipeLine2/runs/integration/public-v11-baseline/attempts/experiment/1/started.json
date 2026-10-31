@@ -1,0 +1,12 @@
+{
+  "input": {
+    "depends_on": [
+      "knowledge",
+      "screening",
+      "decision"
+    ],
+    "run_id": "public-v11-baseline"
+  },
+  "started_at": "2026-10-31T07:41:45.891288+00:00",
+  "status": "RUNNING"
+}

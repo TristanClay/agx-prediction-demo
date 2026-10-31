@@ -1,0 +1,13 @@
+{
+  "input": {
+    "depends_on": [
+      "knowledge",
+      "screening",
+      "decision",
+      "experiment"
+    ],
+    "run_id": "public-v11-disagreement"
+  },
+  "started_at": "2026-10-31T07:41:46.260395+00:00",
+  "status": "RUNNING"
+}

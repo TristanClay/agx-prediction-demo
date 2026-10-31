@@ -1,0 +1,89 @@
+{
+  "acquisition": {
+    "batch_size": 2,
+    "seed": 42,
+    "strategy": "diversity",
+    "weights": {
+      "diversity": 1.0,
+      "estimated_cost": 1.0,
+      "potential": 1.0,
+      "uncertainty": 0.0
+    }
+  },
+  "gate_source": null,
+  "mock_seed": 42,
+  "resources": {
+    "available_cores": 16,
+    "cores": 16,
+    "walltime_hours": 1.0
+  },
+  "screening": {
+    "constraints": [],
+    "objectives": [
+      {
+        "direction": "min",
+        "property": "adsorption_energy_eV"
+      }
+    ],
+    "top_k": 5
+  },
+  "structure": {
+    "adsorbate_path": null,
+    "adsorbed_paths": [],
+    "fixed_indices": null,
+    "heights_A": [
+      3.0,
+      3.5
+    ],
+    "input_path": null,
+    "min_distance_A": 0.6,
+    "supported_elements": [
+      "Ag",
+      "Cu",
+      "Ni",
+      "Bi",
+      "C",
+      "H",
+      "O"
+    ]
+  },
+  "task": {
+    "adsorbates": [
+      "FF"
+    ],
+    "allow_real_vasp_submit": false,
+    "coverage": 0.1111111111111111,
+    "data_source": "fixture",
+    "dft_budget_core_hours": 0.0,
+    "dft_budget_jobs": 0,
+    "dopant_sites": [
+      27
+    ],
+    "dopants": [
+      "Cu"
+    ],
+    "dry_run": true,
+    "evidence_refs": [
+      "PAPER_A5EE828D07",
+      "PAPER_9FF28DD18D",
+      "PAPER_EE8DC4F8A0",
+      "PAPER_EB51ACA637",
+      "PAPER_EC7FDA2E30"
+    ],
+    "gate_status": "PENDING_GATE",
+    "human_review_required": true,
+    "hypothesis_id": "HYP_96AC87BB6C",
+    "model_candidates": [
+      "mock-v1"
+    ],
+    "prediction_targets": [
+      "adsorption_energy"
+    ],
+    "reference_profile_id": "mock-neutral-v1",
+    "schema_version": "pipeline2-task-1",
+    "source_pipeline": "pipeline_1",
+    "substrate": "Ag",
+    "surface": "111",
+    "task_id": "public-v11-mismatch-Cu"
+  }
+}

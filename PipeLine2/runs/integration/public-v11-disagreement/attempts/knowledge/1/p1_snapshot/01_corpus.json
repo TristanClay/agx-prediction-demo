@@ -1,0 +1,1267 @@
+[
+  {
+    "paper_id": "PAPER_A5EE828D07",
+    "title": "Manifolding active sites and in situoperando electrochemical-Raman spectroscopic studies of single-",
+    "doi": "10.1016/j.jechem.2023.05.042",
+    "year": 2023,
+    "authors": "",
+    "source": "canonical_pdf",
+    "source_note": "Full text extracted from a user-confirmed canonical PDF.",
+    "pdf_page_count": 12,
+    "text_extraction_status": "success",
+    "review_status": "canonical",
+    "evidence_status": "canonical",
+    "imported_at": "2026-08-13T00:33:52",
+    "query_domain": "canonical_pdf",
+    "domain": "D3_Cu_rich_FFOR",
+    "reaction_family": "FFOR",
+    "detected_materials": [
+      "Cu",
+      "Pd",
+      "Ir",
+      "Ru"
+    ],
+    "primary_materials": [
+      "Cu",
+      "Pd",
+      "Ir",
+      "Ru"
+    ],
+    "domain_confidence": 0.95,
+    "domain_warnings": [
+      "Search query domain was canonical_pdf, but paper-level classifier assigned D3_Cu_rich_FFOR."
+    ],
+    "mechanism_kg_eligible": true,
+    "expected_use": [
+      "source_domain_mechanism_prior",
+      "OH_affinity_reference",
+      "metal_oxide_interface_reference",
+      "furoate_pathway_reference"
+    ],
+    "relevance_score": 0.9,
+    "corpus_layer": "direct_ffor",
+    "recommendation_eligible": true,
+    "target_product_support": true,
+    "exclusion_reasons": []
+  },
+  {
+    "paper_id": "PAPER_BFE6C6AEAC",
+    "title": "Correlating the Valence State with the Adsorption Behavior of a Cu-Based Electrocatalyst for Furfural Oxidation with Anodic Hydrogen Production Reaction",
+    "doi": "10.1002/adma.202304203",
+    "year": 2023,
+    "authors": "",
+    "source": "canonical_pdf",
+    "source_note": "Full text extracted from a user-confirmed canonical PDF.",
+    "pdf_page_count": 8,
+    "text_extraction_status": "success",
+    "review_status": "canonical",
+    "evidence_status": "canonical",
+    "imported_at": "2026-08-13T00:33:56",
+    "query_domain": "canonical_pdf",
+    "domain": "D3_Cu_rich_FFOR",
+    "reaction_family": "FFOR",
+    "detected_materials": [
+      "Cu"
+    ],
+    "primary_materials": [
+      "Cu"
+    ],
+    "domain_confidence": 0.95,
+    "domain_warnings": [
+      "FFOR paper lacks explicit furoate/furoic-acid target support; context only for element recommendation.",
+      "Search query domain was canonical_pdf, but paper-level classifier assigned D3_Cu_rich_FFOR."
+    ],
+    "mechanism_kg_eligible": true,
+    "expected_use": [
+      "source_domain_mechanism_prior",
+      "OH_affinity_reference",
+      "metal_oxide_interface_reference",
+      "furoate_pathway_reference"
+    ],
+    "relevance_score": 0.9,
+    "corpus_layer": "direct_ffor",
+    "recommendation_eligible": false,
+    "target_product_support": false,
+    "exclusion_reasons": []
+  },
+  {
+    "paper_id": "PAPER_3DD3F384D2",
+    "title": "Reverse Hydrogen Spillover at M/Cu Interfaces Drives Efficient Bipolar Hydrogen Production From Furfural Electrooxidation",
+    "doi": "10.1002/smll.73514",
+    "year": 2026,
+    "authors": "",
+    "source": "canonical_pdf",
+    "source_note": "Full text extracted from a user-confirmed canonical PDF.",
+    "pdf_page_count": 12,
+    "text_extraction_status": "success",
+    "review_status": "canonical",
+    "evidence_status": "canonical",
+    "imported_at": "2026-08-13T00:33:56",
+    "query_domain": "canonical_pdf",
+    "domain": "D3_Cu_rich_FFOR",
+    "reaction_family": "FFOR",
+    "detected_materials": [
+      "Cu",
+      "Au"
+    ],
+    "primary_materials": [
+      "Cu"
+    ],
+    "domain_confidence": 0.95,
+    "domain_warnings": [
+      "FFOR paper lacks explicit furoate/furoic-acid target support; context only for element recommendation.",
+      "Search query domain was canonical_pdf, but paper-level classifier assigned D3_Cu_rich_FFOR."
+    ],
+    "mechanism_kg_eligible": true,
+    "expected_use": [
+      "source_domain_mechanism_prior",
+      "OH_affinity_reference",
+      "metal_oxide_interface_reference",
+      "furoate_pathway_reference"
+    ],
+    "relevance_score": 0.75,
+    "corpus_layer": "direct_ffor",
+    "recommendation_eligible": false,
+    "target_product_support": false,
+    "exclusion_reasons": []
+  },
+  {
+    "paper_id": "PAPER_9FF28DD18D",
+    "title": "Sustainable Furfural Biomass Feedstocks Electrooxidation toward Value-Added Furoic Acid with Energy-Saving H2 Fuel Production Using Pt-Decorated Co3O4 Nanospheres",
+    "doi": "10.1002/eem2.12563",
+    "year": 2024,
+    "authors": "",
+    "source": "canonical_pdf",
+    "source_note": "Full text extracted from a user-confirmed canonical PDF.",
+    "pdf_page_count": 9,
+    "text_extraction_status": "success",
+    "review_status": "canonical",
+    "evidence_status": "canonical",
+    "imported_at": "2026-08-13T00:33:49",
+    "query_domain": "canonical_pdf",
+    "domain": "D4_Other_metal_FFOR",
+    "reaction_family": "FFOR",
+    "detected_materials": [
+      "Cu",
+      "Au",
+      "Ni",
+      "Co",
+      "Pt"
+    ],
+    "primary_materials": [
+      "Co",
+      "Pt"
+    ],
+    "domain_confidence": 0.85,
+    "domain_warnings": [
+      "Search query domain was canonical_pdf, but paper-level classifier assigned D4_Other_metal_FFOR."
+    ],
+    "mechanism_kg_eligible": true,
+    "expected_use": [
+      "supplementary_FFOR_mechanism",
+      "OH_affinity_reference",
+      "other_metal_comparison"
+    ],
+    "relevance_score": 0.74,
+    "corpus_layer": "direct_ffor",
+    "recommendation_eligible": false,
+    "target_product_support": true,
+    "exclusion_reasons": []
+  },
+  {
+    "paper_id": "PAPER_EE8DC4F8A0",
+    "title": "Development of ordered mesoporous carbon-based electrodes for the electrocatalytic oxidation of furf",
+    "doi": "10.3389/fchem.2026.1745807",
+    "year": 2026,
+    "authors": "",
+    "source": "canonical_pdf",
+    "source_note": "Full text extracted from a user-confirmed canonical PDF.",
+    "pdf_page_count": 13,
+    "text_extraction_status": "success",
+    "review_status": "canonical",
+    "evidence_status": "canonical",
+    "imported_at": "2026-08-13T00:33:54",
+    "query_domain": "canonical_pdf",
+    "domain": "D4_Other_metal_FFOR",
+    "reaction_family": "FFOR",
+    "detected_materials": [
+      "Au"
+    ],
+    "primary_materials": [
+      "Au"
+    ],
+    "domain_confidence": 0.85,
+    "domain_warnings": [
+      "Gold/Au paper: not Ag or Cu source-domain evidence.",
+      "FFOR paper lacks explicit furoate/furoic-acid target support; context only for element recommendation.",
+      "Search query domain was canonical_pdf, but paper-level classifier assigned D4_Other_metal_FFOR."
+    ],
+    "mechanism_kg_eligible": true,
+    "expected_use": [
+      "supplementary_FFOR_mechanism",
+      "OH_affinity_reference",
+      "other_metal_comparison"
+    ],
+    "relevance_score": 0.65,
+    "corpus_layer": "direct_ffor",
+    "recommendation_eligible": false,
+    "target_product_support": false,
+    "exclusion_reasons": []
+  },
+  {
+    "paper_id": "PAPER_EB51ACA637",
+    "title": "d4gc04447a 11351..11363 ++",
+    "doi": "10.1039/d4gc04447a",
+    "year": 2024,
+    "authors": "",
+    "source": "canonical_pdf",
+    "source_note": "Full text extracted from a user-confirmed canonical PDF.",
+    "pdf_page_count": 13,
+    "text_extraction_status": "success",
+    "review_status": "canonical",
+    "evidence_status": "canonical",
+    "imported_at": "2026-08-13T00:33:52",
+    "query_domain": "canonical_pdf",
+    "domain": "D4_Other_metal_FFOR",
+    "reaction_family": "FFOR",
+    "detected_materials": [
+      "Ni",
+      "Co",
+      "Pt"
+    ],
+    "primary_materials": [
+      "Ni",
+      "Co"
+    ],
+    "domain_confidence": 0.85,
+    "domain_warnings": [
+      "Search query domain was canonical_pdf, but paper-level classifier assigned D4_Other_metal_FFOR."
+    ],
+    "mechanism_kg_eligible": true,
+    "expected_use": [
+      "supplementary_FFOR_mechanism",
+      "OH_affinity_reference",
+      "other_metal_comparison"
+    ],
+    "relevance_score": 0.59,
+    "corpus_layer": "direct_ffor",
+    "recommendation_eligible": false,
+    "target_product_support": true,
+    "exclusion_reasons": []
+  },
+  {
+    "paper_id": "PAPER_EC7FDA2E30",
+    "title": "Electro-oxidation of furfural on gold is limited by furoate self-assembly",
+    "doi": "10.1016/j.jcat.2020.08.034",
+    "year": 2020,
+    "authors": "Alex M. RomÃ¡n",
+    "source": "canonical_pdf",
+    "source_note": "Full text extracted from a user-confirmed canonical PDF.",
+    "pdf_page_count": 9,
+    "text_extraction_status": "success",
+    "review_status": "canonical",
+    "evidence_status": "canonical",
+    "imported_at": "2026-08-13T00:33:53",
+    "query_domain": "canonical_pdf",
+    "domain": "D4_Other_metal_FFOR",
+    "reaction_family": "FFOR",
+    "detected_materials": [
+      "Au",
+      "Pt"
+    ],
+    "primary_materials": [
+      "Au"
+    ],
+    "domain_confidence": 0.85,
+    "domain_warnings": [
+      "Gold/Au paper: not Ag or Cu source-domain evidence.",
+      "Search query domain was canonical_pdf, but paper-level classifier assigned D4_Other_metal_FFOR."
+    ],
+    "mechanism_kg_eligible": true,
+    "expected_use": [
+      "supplementary_FFOR_mechanism",
+      "OH_affinity_reference",
+      "other_metal_comparison"
+    ],
+    "relevance_score": 0.59,
+    "corpus_layer": "direct_ffor",
+    "recommendation_eligible": false,
+    "target_product_support": true,
+    "exclusion_reasons": []
+  },
+  {
+    "paper_id": "PAPER_DA7BE778F0",
+    "title": "Selective Oxidation of Furfural at Room Temperature on a TiO2-Supported Ag Catalyst",
+    "doi": "10.3390/catal12080805",
+    "year": 2022,
+    "authors": "Achraf Sadier, Sébastien Paul and Robert Wojcieszak",
+    "source": "canonical_pdf",
+    "source_note": "Full text extracted from a user-confirmed canonical PDF.",
+    "pdf_page_count": 10,
+    "text_extraction_status": "success",
+    "review_status": "canonical",
+    "evidence_status": "canonical",
+    "imported_at": "2026-08-13T00:33:53",
+    "query_domain": "canonical_pdf",
+    "domain": "D2_Ag_related_oxidation",
+    "reaction_family": "furfural_related_non_electrochemical",
+    "detected_materials": [
+      "Ag"
+    ],
+    "primary_materials": [
+      "Ag"
+    ],
+    "domain_confidence": 0.8,
+    "domain_warnings": [
+      "Search query domain was canonical_pdf, but paper-level classifier assigned D2_Ag_related_oxidation."
+    ],
+    "mechanism_kg_eligible": false,
+    "expected_use": [
+      "Ag_surface_chemistry",
+      "Ag_OH_or_AgO_reference",
+      "Ag_carboxylate_or_poisoning_reference"
+    ],
+    "relevance_score": 0.5,
+    "corpus_layer": "excluded",
+    "recommendation_eligible": false,
+    "target_product_support": true,
+    "exclusion_reasons": [
+      "non_electrochemical_furfural_conversion"
+    ]
+  },
+  {
+    "paper_id": "PAPER_5C97CCF62D",
+    "title": "Enhancing the Stability of Cu-Based Electrocatalyst via Fe Alloy in Electrocatalytic Formaldehyde Oxidation with Long Durability",
+    "doi": "10.1002/adfm.202417545",
+    "year": 2025,
+    "authors": "",
+    "source": "canonical_pdf",
+    "source_note": "Full text extracted from a user-confirmed canonical PDF.",
+    "pdf_page_count": 7,
+    "text_extraction_status": "success",
+    "review_status": "canonical",
+    "evidence_status": "canonical",
+    "imported_at": "2026-08-13T00:33:50",
+    "query_domain": "canonical_pdf",
+    "domain": "D5_General_aldehyde_biomass_electrooxidation",
+    "reaction_family": "HMFOR_or_HMF_oxidation",
+    "detected_materials": [
+      "Cu",
+      "Fe"
+    ],
+    "primary_materials": [
+      "Cu",
+      "Fe"
+    ],
+    "domain_confidence": 0.9,
+    "domain_warnings": [
+      "HMF/HMFOR paper: analogy only, not direct FFOR evidence.",
+      "Search query domain was canonical_pdf, but paper-level classifier assigned D5_General_aldehyde_biomass_electrooxidation."
+    ],
+    "mechanism_kg_eligible": false,
+    "expected_use": [
+      "analogy_only_not_direct_FFOR",
+      "aldehyde_or_HMF_oxidation_analogy",
+      "do_not_use_as_Cu_FFOR_evidence"
+    ],
+    "relevance_score": 0.33,
+    "corpus_layer": "hmf_analogy",
+    "recommendation_eligible": false,
+    "target_product_support": false,
+    "exclusion_reasons": [
+      "hmf_analogy_not_direct_ffor"
+    ]
+  },
+  {
+    "paper_id": "PAPER_5C74012AF6",
+    "title": "Unraveling Two Pathways for Electrochemical Alcohol and Aldehyde Oxidation on NiOOH",
+    "doi": "10.1021/jacs.0c10924",
+    "year": 2020,
+    "authors": "Michael T. Bender, Yan Choi Lam, Sharon Hammes-Schiffer, and Kyoung-Shin Choi",
+    "source": "canonical_pdf",
+    "source_note": "Full text extracted from a user-confirmed canonical PDF.",
+    "pdf_page_count": 10,
+    "text_extraction_status": "success",
+    "review_status": "canonical",
+    "evidence_status": "canonical",
+    "imported_at": "2026-08-13T00:33:49",
+    "query_domain": "canonical_pdf",
+    "domain": "D5_General_aldehyde_biomass_electrooxidation",
+    "reaction_family": "general_aldehyde_or_biomass_electrooxidation",
+    "detected_materials": [
+      "Ni"
+    ],
+    "primary_materials": [
+      "Ni"
+    ],
+    "domain_confidence": 0.65,
+    "domain_warnings": [
+      "Search query domain was canonical_pdf, but paper-level classifier assigned D5_General_aldehyde_biomass_electrooxidation."
+    ],
+    "mechanism_kg_eligible": false,
+    "expected_use": [
+      "analogy_only_not_direct_FFOR",
+      "aldehyde_or_HMF_oxidation_analogy",
+      "do_not_use_as_Cu_FFOR_evidence"
+    ],
+    "relevance_score": 0.27,
+    "corpus_layer": "adjacent_surface",
+    "recommendation_eligible": false,
+    "target_product_support": false,
+    "exclusion_reasons": []
+  },
+  {
+    "paper_id": "PAPER_CE0FEB5A75",
+    "title": "Synergistic Mechanism for Unconventional Anodic Reaction of Aldehyde Oxidation for Hydrogen Production",
+    "doi": "10.1002/anie.202425258",
+    "year": 2025,
+    "authors": "",
+    "source": "canonical_pdf",
+    "source_note": "Full text extracted from a user-confirmed canonical PDF.",
+    "pdf_page_count": 9,
+    "text_extraction_status": "success",
+    "review_status": "canonical",
+    "evidence_status": "canonical",
+    "imported_at": "2026-08-13T00:33:50",
+    "query_domain": "canonical_pdf",
+    "domain": "D5_General_aldehyde_biomass_electrooxidation",
+    "reaction_family": "general_aldehyde_or_biomass_electrooxidation",
+    "detected_materials": [
+      "Cu",
+      "Pt"
+    ],
+    "primary_materials": [
+      "Cu",
+      "Pt"
+    ],
+    "domain_confidence": 0.65,
+    "domain_warnings": [
+      "Search query domain was canonical_pdf, but paper-level classifier assigned D5_General_aldehyde_biomass_electrooxidation."
+    ],
+    "mechanism_kg_eligible": false,
+    "expected_use": [
+      "analogy_only_not_direct_FFOR",
+      "aldehyde_or_HMF_oxidation_analogy",
+      "do_not_use_as_Cu_FFOR_evidence"
+    ],
+    "relevance_score": 0.27,
+    "corpus_layer": "adjacent_surface",
+    "recommendation_eligible": false,
+    "target_product_support": false,
+    "exclusion_reasons": []
+  },
+  {
+    "paper_id": "PAPER_C12B4500EE",
+    "title": "Interlock Strategy Enabling Self-stabilized Cu0/+ Catalysts for Broad-Window Aldehyde Electrooxidation with Anodic Hydrogen Production",
+    "doi": "10.1002/adfm.202524371",
+    "year": 2026,
+    "authors": "",
+    "source": "canonical_pdf",
+    "source_note": "Full text extracted from a user-confirmed canonical PDF.",
+    "pdf_page_count": 11,
+    "text_extraction_status": "success",
+    "review_status": "canonical",
+    "evidence_status": "canonical",
+    "imported_at": "2026-08-13T00:33:51",
+    "query_domain": "canonical_pdf",
+    "domain": "D5_General_aldehyde_biomass_electrooxidation",
+    "reaction_family": "general_aldehyde_or_biomass_electrooxidation",
+    "detected_materials": [
+      "Cu"
+    ],
+    "primary_materials": [
+      "Cu"
+    ],
+    "domain_confidence": 0.65,
+    "domain_warnings": [
+      "Search query domain was canonical_pdf, but paper-level classifier assigned D5_General_aldehyde_biomass_electrooxidation."
+    ],
+    "mechanism_kg_eligible": false,
+    "expected_use": [
+      "analogy_only_not_direct_FFOR",
+      "aldehyde_or_HMF_oxidation_analogy",
+      "do_not_use_as_Cu_FFOR_evidence"
+    ],
+    "relevance_score": 0.27,
+    "corpus_layer": "adjacent_surface",
+    "recommendation_eligible": false,
+    "target_product_support": false,
+    "exclusion_reasons": []
+  },
+  {
+    "paper_id": "PAPER_DB967B8F6F",
+    "title": "A self-reactivated PdCu catalyst for aldehyde electro-oxidation with anodic hydrogen production",
+    "doi": "10.1038/s41467-024-54286-y",
+    "year": 2024,
+    "authors": "Ming Yang",
+    "source": "canonical_pdf",
+    "source_note": "Full text extracted from a user-confirmed canonical PDF.",
+    "pdf_page_count": 11,
+    "text_extraction_status": "success",
+    "review_status": "canonical",
+    "evidence_status": "canonical",
+    "imported_at": "2026-08-13T00:33:57",
+    "query_domain": "canonical_pdf",
+    "domain": "D5_General_aldehyde_biomass_electrooxidation",
+    "reaction_family": "general_aldehyde_or_biomass_electrooxidation",
+    "detected_materials": [
+      "Cu",
+      "Pd"
+    ],
+    "primary_materials": [
+      "Pd"
+    ],
+    "domain_confidence": 0.65,
+    "domain_warnings": [
+      "Search query domain was canonical_pdf, but paper-level classifier assigned D5_General_aldehyde_biomass_electrooxidation."
+    ],
+    "mechanism_kg_eligible": false,
+    "expected_use": [
+      "analogy_only_not_direct_FFOR",
+      "aldehyde_or_HMF_oxidation_analogy",
+      "do_not_use_as_Cu_FFOR_evidence"
+    ],
+    "relevance_score": 0.27,
+    "corpus_layer": "adjacent_surface",
+    "recommendation_eligible": false,
+    "target_product_support": false,
+    "exclusion_reasons": []
+  },
+  {
+    "paper_id": "PAPER_6DCECFE9ED",
+    "title": "Heterogeneous-Interface-Enhanced Adsorption of Organic and Hydroxyl for Biomass Electrooxidation",
+    "doi": "10.1002/adma.202204089",
+    "year": 2022,
+    "authors": "",
+    "source": "canonical_pdf",
+    "source_note": "Full text extracted from a user-confirmed canonical PDF.",
+    "pdf_page_count": 9,
+    "text_extraction_status": "success",
+    "review_status": "canonical",
+    "evidence_status": "canonical",
+    "imported_at": "2026-08-13T00:33:58",
+    "query_domain": "canonical_pdf",
+    "domain": "D5_General_aldehyde_biomass_electrooxidation",
+    "reaction_family": "general_aldehyde_or_biomass_electrooxidation",
+    "detected_materials": [
+      "Cu",
+      "Pd"
+    ],
+    "primary_materials": [],
+    "domain_confidence": 0.65,
+    "domain_warnings": [
+      "Search query domain was canonical_pdf, but paper-level classifier assigned D5_General_aldehyde_biomass_electrooxidation."
+    ],
+    "mechanism_kg_eligible": false,
+    "expected_use": [
+      "analogy_only_not_direct_FFOR",
+      "aldehyde_or_HMF_oxidation_analogy",
+      "do_not_use_as_Cu_FFOR_evidence"
+    ],
+    "relevance_score": 0.27,
+    "corpus_layer": "adjacent_surface",
+    "recommendation_eligible": false,
+    "target_product_support": false,
+    "exclusion_reasons": []
+  },
+  {
+    "paper_id": "PAPER_2BDE52AB7A",
+    "title": "doi:10.1016/j.electacta.2007.07.048",
+    "doi": "10.1016/j.electacta.2007.07.048",
+    "year": 2007,
+    "authors": "",
+    "source": "canonical_pdf",
+    "source_note": "Full text extracted from a user-confirmed canonical PDF.",
+    "pdf_page_count": 6,
+    "text_extraction_status": "success",
+    "review_status": "canonical",
+    "evidence_status": "canonical",
+    "imported_at": "2026-08-13T00:33:49",
+    "query_domain": "canonical_pdf",
+    "domain": "D6_Surface_DFT_poisoning",
+    "reaction_family": "other",
+    "detected_materials": [
+      "Ag",
+      "Cu"
+    ],
+    "primary_materials": [
+      "Ag",
+      "Cu"
+    ],
+    "domain_confidence": 0.65,
+    "domain_warnings": [
+      "Search query domain was canonical_pdf, but paper-level classifier assigned D6_Surface_DFT_poisoning."
+    ],
+    "mechanism_kg_eligible": true,
+    "expected_use": [
+      "surface_adsorption_reference",
+      "poisoning_reference",
+      "DFT_descriptor_reference"
+    ],
+    "relevance_score": 0.25,
+    "corpus_layer": "adjacent_surface",
+    "recommendation_eligible": false,
+    "target_product_support": false,
+    "exclusion_reasons": []
+  },
+  {
+    "paper_id": "PAPER_3DE63616E7",
+    "title": "Unlocking high-current-density nitrate reduction and formaldehyde oxidation synergy for scalable ammonia production and fixation",
+    "doi": "10.1039/d4ee04382k",
+    "year": 2025,
+    "authors": "Linjie Zhang",
+    "source": "canonical_pdf",
+    "source_note": "Full text extracted from a user-confirmed canonical PDF.",
+    "pdf_page_count": 14,
+    "text_extraction_status": "success",
+    "review_status": "canonical",
+    "evidence_status": "canonical",
+    "imported_at": "2026-08-13T00:33:57",
+    "query_domain": "canonical_pdf",
+    "domain": "D6_Surface_DFT_poisoning",
+    "reaction_family": "other",
+    "detected_materials": [
+      "Ag",
+      "Cu"
+    ],
+    "primary_materials": [
+      "Ag",
+      "Cu"
+    ],
+    "domain_confidence": 0.65,
+    "domain_warnings": [
+      "Search query domain was canonical_pdf, but paper-level classifier assigned D6_Surface_DFT_poisoning."
+    ],
+    "mechanism_kg_eligible": true,
+    "expected_use": [
+      "surface_adsorption_reference",
+      "poisoning_reference",
+      "DFT_descriptor_reference"
+    ],
+    "relevance_score": 0.25,
+    "corpus_layer": "adjacent_surface",
+    "recommendation_eligible": false,
+    "target_product_support": false,
+    "exclusion_reasons": []
+  },
+  {
+    "paper_id": "PAPER_736D7A58E1",
+    "title": "cs6b00205 1..9",
+    "doi": "10.1021/acscatal.6b00205",
+    "year": 2016,
+    "authors": "",
+    "source": "canonical_pdf",
+    "source_note": "Full text extracted from a user-confirmed canonical PDF.",
+    "pdf_page_count": 9,
+    "text_extraction_status": "success",
+    "review_status": "canonical",
+    "evidence_status": "canonical",
+    "imported_at": "2026-08-13T00:33:50",
+    "query_domain": "canonical_pdf",
+    "domain": "D6_Surface_DFT_poisoning",
+    "reaction_family": "surface_or_poisoning_chemistry",
+    "detected_materials": [
+      "Cu"
+    ],
+    "primary_materials": [
+      "Cu"
+    ],
+    "domain_confidence": 0.65,
+    "domain_warnings": [
+      "Search query domain was canonical_pdf, but paper-level classifier assigned D6_Surface_DFT_poisoning."
+    ],
+    "mechanism_kg_eligible": false,
+    "expected_use": [
+      "surface_adsorption_reference",
+      "poisoning_reference",
+      "DFT_descriptor_reference"
+    ],
+    "relevance_score": 0.15,
+    "corpus_layer": "adjacent_surface",
+    "recommendation_eligible": false,
+    "target_product_support": false,
+    "exclusion_reasons": []
+  },
+  {
+    "paper_id": "PAPER_3C2883DE90",
+    "title": "Rechargeable Biomass Battery for Electricity Storage/generation and Concurrent Valuable Chemicals Production",
+    "doi": "10.1002/anie.202304852",
+    "year": 2023,
+    "authors": "",
+    "source": "canonical_pdf",
+    "source_note": "Full text extracted from a user-confirmed canonical PDF.",
+    "pdf_page_count": 10,
+    "text_extraction_status": "success",
+    "review_status": "canonical",
+    "evidence_status": "canonical",
+    "imported_at": "2026-08-13T00:33:52",
+    "query_domain": "canonical_pdf",
+    "domain": "D6_Surface_DFT_poisoning",
+    "reaction_family": "surface_or_poisoning_chemistry",
+    "detected_materials": [
+      "Cu",
+      "Ni",
+      "Co"
+    ],
+    "primary_materials": [
+      "Cu",
+      "Ni",
+      "Co"
+    ],
+    "domain_confidence": 0.65,
+    "domain_warnings": [
+      "Search query domain was canonical_pdf, but paper-level classifier assigned D6_Surface_DFT_poisoning."
+    ],
+    "mechanism_kg_eligible": true,
+    "expected_use": [
+      "surface_adsorption_reference",
+      "poisoning_reference",
+      "DFT_descriptor_reference"
+    ],
+    "relevance_score": 0.15,
+    "corpus_layer": "adjacent_surface",
+    "recommendation_eligible": false,
+    "target_product_support": true,
+    "exclusion_reasons": []
+  },
+  {
+    "paper_id": "PAPER_E8B18EAA05",
+    "title": "Probing electrosynthetic reactions with furfural on copper surfaces",
+    "doi": "10.1039/d1cc01429c",
+    "year": 2021,
+    "authors": "Junnan Li",
+    "source": "canonical_pdf",
+    "source_note": "Full text extracted from a user-confirmed canonical PDF.",
+    "pdf_page_count": 5,
+    "text_extraction_status": "success",
+    "review_status": "canonical",
+    "evidence_status": "canonical",
+    "imported_at": "2026-08-13T00:33:52",
+    "query_domain": "canonical_pdf",
+    "domain": "D5_General_aldehyde_biomass_electrooxidation",
+    "reaction_family": "furfural_reduction_or_hydrogenation",
+    "detected_materials": [
+      "Cu"
+    ],
+    "primary_materials": [
+      "Cu"
+    ],
+    "domain_confidence": 0.65,
+    "domain_warnings": [
+      "Search query domain was canonical_pdf, but paper-level classifier assigned D5_General_aldehyde_biomass_electrooxidation."
+    ],
+    "mechanism_kg_eligible": false,
+    "expected_use": [
+      "analogy_only_not_direct_FFOR",
+      "aldehyde_or_HMF_oxidation_analogy",
+      "do_not_use_as_Cu_FFOR_evidence"
+    ],
+    "relevance_score": 0.15,
+    "corpus_layer": "excluded",
+    "recommendation_eligible": false,
+    "target_product_support": false,
+    "exclusion_reasons": [
+      "furfural_reduction_or_hydrogenation"
+    ]
+  },
+  {
+    "paper_id": "PAPER_24C2000358",
+    "title": "Revealing the electrochemical-autocatalytic coupling mechanism of Cu-based catalysts for high-potential formaldehyde oxidation",
+    "doi": "10.1039/d5ee01562f",
+    "year": 2025,
+    "authors": "Jia Song",
+    "source": "canonical_pdf",
+    "source_note": "Full text extracted from a user-confirmed canonical PDF.",
+    "pdf_page_count": 11,
+    "text_extraction_status": "success",
+    "review_status": "canonical",
+    "evidence_status": "canonical",
+    "imported_at": "2026-08-13T00:33:53",
+    "query_domain": "canonical_pdf",
+    "domain": "D6_Surface_DFT_poisoning",
+    "reaction_family": "other",
+    "detected_materials": [
+      "Cu",
+      "Pt"
+    ],
+    "primary_materials": [
+      "Cu"
+    ],
+    "domain_confidence": 0.65,
+    "domain_warnings": [
+      "Search query domain was canonical_pdf, but paper-level classifier assigned D6_Surface_DFT_poisoning."
+    ],
+    "mechanism_kg_eligible": true,
+    "expected_use": [
+      "surface_adsorption_reference",
+      "poisoning_reference",
+      "DFT_descriptor_reference"
+    ],
+    "relevance_score": 0.15,
+    "corpus_layer": "adjacent_surface",
+    "recommendation_eligible": false,
+    "target_product_support": false,
+    "exclusion_reasons": []
+  },
+  {
+    "paper_id": "PAPER_0E71F25503",
+    "title": "c3dt50351h 9585..9594 ++",
+    "doi": "10.1039/c3dt50351h",
+    "year": 2013,
+    "authors": "",
+    "source": "canonical_pdf",
+    "source_note": "Full text extracted from a user-confirmed canonical PDF.",
+    "pdf_page_count": 10,
+    "text_extraction_status": "success",
+    "review_status": "canonical",
+    "evidence_status": "canonical",
+    "imported_at": "2026-08-13T00:33:53",
+    "query_domain": "canonical_pdf",
+    "domain": "D6_Surface_DFT_poisoning",
+    "reaction_family": "other",
+    "detected_materials": [
+      "Cu"
+    ],
+    "primary_materials": [
+      "Cu"
+    ],
+    "domain_confidence": 0.65,
+    "domain_warnings": [
+      "Search query domain was canonical_pdf, but paper-level classifier assigned D6_Surface_DFT_poisoning."
+    ],
+    "mechanism_kg_eligible": false,
+    "expected_use": [
+      "surface_adsorption_reference",
+      "poisoning_reference",
+      "DFT_descriptor_reference"
+    ],
+    "relevance_score": 0.15,
+    "corpus_layer": "adjacent_surface",
+    "recommendation_eligible": false,
+    "target_product_support": false,
+    "exclusion_reasons": []
+  },
+  {
+    "paper_id": "PAPER_0E184B5657",
+    "title": "PII: S0013-4686(01)00657-0",
+    "doi": "",
+    "year": 2001,
+    "authors": "",
+    "source": "canonical_pdf",
+    "source_note": "Full text extracted from a user-confirmed canonical PDF.",
+    "pdf_page_count": 12,
+    "text_extraction_status": "success",
+    "review_status": "canonical",
+    "evidence_status": "canonical",
+    "imported_at": "2026-08-13T00:33:55",
+    "query_domain": "canonical_pdf",
+    "domain": "D6_Surface_DFT_poisoning",
+    "reaction_family": "surface_or_poisoning_chemistry",
+    "detected_materials": [
+      "Cu"
+    ],
+    "primary_materials": [
+      "Cu"
+    ],
+    "domain_confidence": 0.65,
+    "domain_warnings": [
+      "Search query domain was canonical_pdf, but paper-level classifier assigned D6_Surface_DFT_poisoning."
+    ],
+    "mechanism_kg_eligible": false,
+    "expected_use": [
+      "surface_adsorption_reference",
+      "poisoning_reference",
+      "DFT_descriptor_reference"
+    ],
+    "relevance_score": 0.15,
+    "corpus_layer": "adjacent_surface",
+    "recommendation_eligible": false,
+    "target_product_support": false,
+    "exclusion_reasons": []
+  },
+  {
+    "paper_id": "PAPER_061A54D4DE",
+    "title": "Sustaining Electrooxidation of Concentrated Thermo-Sensitive Biomass Feedstocks by Temperature-Mediated Kinetic and Interfacial Control",
+    "doi": "10.1002/anie.202525093",
+    "year": 2026,
+    "authors": "",
+    "source": "canonical_pdf",
+    "source_note": "Full text extracted from a user-confirmed canonical PDF.",
+    "pdf_page_count": 11,
+    "text_extraction_status": "success",
+    "review_status": "canonical",
+    "evidence_status": "canonical",
+    "imported_at": "2026-08-13T00:33:51",
+    "query_domain": "canonical_pdf",
+    "domain": "D5_General_aldehyde_biomass_electrooxidation",
+    "reaction_family": "general_aldehyde_or_biomass_electrooxidation",
+    "detected_materials": [
+      "Ni"
+    ],
+    "primary_materials": [
+      "Ni"
+    ],
+    "domain_confidence": 0.65,
+    "domain_warnings": [
+      "Search query domain was canonical_pdf, but paper-level classifier assigned D5_General_aldehyde_biomass_electrooxidation."
+    ],
+    "mechanism_kg_eligible": false,
+    "expected_use": [
+      "analogy_only_not_direct_FFOR",
+      "aldehyde_or_HMF_oxidation_analogy",
+      "do_not_use_as_Cu_FFOR_evidence"
+    ],
+    "relevance_score": 0.12,
+    "corpus_layer": "adjacent_surface",
+    "recommendation_eligible": false,
+    "target_product_support": false,
+    "exclusion_reasons": []
+  },
+  {
+    "paper_id": "PAPER_7C48DD0EA7",
+    "title": "Ultra-low voltage bipolar hydrogen production from biomass-derived aldehydes and water in membrane-less electrolyzers",
+    "doi": "10.1039/d2ee01427k",
+    "year": 2022,
+    "authors": "Hengzhou Liu",
+    "source": "canonical_pdf",
+    "source_note": "Full text extracted from a user-confirmed canonical PDF.",
+    "pdf_page_count": 15,
+    "text_extraction_status": "success",
+    "review_status": "canonical",
+    "evidence_status": "canonical",
+    "imported_at": "2026-08-13T00:33:52",
+    "query_domain": "canonical_pdf",
+    "domain": "D5_General_aldehyde_biomass_electrooxidation",
+    "reaction_family": "general_aldehyde_or_biomass_electrooxidation",
+    "detected_materials": [
+      "Ag",
+      "Cu"
+    ],
+    "primary_materials": [
+      "Cu"
+    ],
+    "domain_confidence": 0.65,
+    "domain_warnings": [
+      "Search query domain was canonical_pdf, but paper-level classifier assigned D5_General_aldehyde_biomass_electrooxidation."
+    ],
+    "mechanism_kg_eligible": false,
+    "expected_use": [
+      "analogy_only_not_direct_FFOR",
+      "aldehyde_or_HMF_oxidation_analogy",
+      "do_not_use_as_Cu_FFOR_evidence"
+    ],
+    "relevance_score": 0.12,
+    "corpus_layer": "adjacent_surface",
+    "recommendation_eligible": false,
+    "target_product_support": false,
+    "exclusion_reasons": []
+  },
+  {
+    "paper_id": "PAPER_46CE563729",
+    "title": "Unveiling the synergistic effect of multi-valence Cu species to promote formaldehyde oxidation for anodic hydrogen production",
+    "doi": "10.1016/j.chempr.2022.12.008",
+    "year": 2023,
+    "authors": "Yuping Pan",
+    "source": "canonical_pdf",
+    "source_note": "Full text extracted from a user-confirmed canonical PDF.",
+    "pdf_page_count": 16,
+    "text_extraction_status": "success",
+    "review_status": "canonical",
+    "evidence_status": "canonical",
+    "imported_at": "2026-08-13T00:33:53",
+    "query_domain": "canonical_pdf",
+    "domain": "D5_General_aldehyde_biomass_electrooxidation",
+    "reaction_family": "general_aldehyde_or_biomass_electrooxidation",
+    "detected_materials": [
+      "Cu"
+    ],
+    "primary_materials": [
+      "Cu"
+    ],
+    "domain_confidence": 0.65,
+    "domain_warnings": [
+      "Search query domain was canonical_pdf, but paper-level classifier assigned D5_General_aldehyde_biomass_electrooxidation."
+    ],
+    "mechanism_kg_eligible": false,
+    "expected_use": [
+      "analogy_only_not_direct_FFOR",
+      "aldehyde_or_HMF_oxidation_analogy",
+      "do_not_use_as_Cu_FFOR_evidence"
+    ],
+    "relevance_score": 0.12,
+    "corpus_layer": "adjacent_surface",
+    "recommendation_eligible": false,
+    "target_product_support": false,
+    "exclusion_reasons": []
+  },
+  {
+    "paper_id": "PAPER_057AEB7150",
+    "title": "Combined anodic and cathodic hydrogen production from aldehyde oxidation and hydrogen evolution reaction",
+    "doi": "10.1038/s41929-021-00721-y",
+    "year": 2021,
+    "authors": "Tehua Wang",
+    "source": "canonical_pdf",
+    "source_note": "Full text extracted from a user-confirmed canonical PDF.",
+    "pdf_page_count": 8,
+    "text_extraction_status": "success",
+    "review_status": "canonical",
+    "evidence_status": "canonical",
+    "imported_at": "2026-08-13T00:33:55",
+    "query_domain": "canonical_pdf",
+    "domain": "D5_General_aldehyde_biomass_electrooxidation",
+    "reaction_family": "general_aldehyde_or_biomass_electrooxidation",
+    "detected_materials": [
+      "Cu",
+      "Ni",
+      "Co"
+    ],
+    "primary_materials": [],
+    "domain_confidence": 0.65,
+    "domain_warnings": [
+      "Search query domain was canonical_pdf, but paper-level classifier assigned D5_General_aldehyde_biomass_electrooxidation."
+    ],
+    "mechanism_kg_eligible": false,
+    "expected_use": [
+      "analogy_only_not_direct_FFOR",
+      "aldehyde_or_HMF_oxidation_analogy",
+      "do_not_use_as_Cu_FFOR_evidence"
+    ],
+    "relevance_score": 0.12,
+    "corpus_layer": "adjacent_surface",
+    "recommendation_eligible": false,
+    "target_product_support": false,
+    "exclusion_reasons": []
+  },
+  {
+    "paper_id": "PAPER_D5E8F3F109",
+    "title": "Boosting Both Chemical and Electrochemical Tandem Steps in Low-Potential Aldehyde Oxidation for Solar-Driven Bipolar Hydrogen Production",
+    "doi": "10.1002/anie.6195416",
+    "year": null,
+    "authors": "",
+    "source": "canonical_pdf",
+    "source_note": "Full text extracted from a user-confirmed canonical PDF.",
+    "pdf_page_count": 12,
+    "text_extraction_status": "success",
+    "review_status": "canonical",
+    "evidence_status": "canonical",
+    "imported_at": "2026-08-13T00:33:58",
+    "query_domain": "canonical_pdf",
+    "domain": "D5_General_aldehyde_biomass_electrooxidation",
+    "reaction_family": "general_aldehyde_or_biomass_electrooxidation",
+    "detected_materials": [
+      "Cu",
+      "Pt"
+    ],
+    "primary_materials": [
+      "Cu",
+      "Pt"
+    ],
+    "domain_confidence": 0.65,
+    "domain_warnings": [
+      "Search query domain was canonical_pdf, but paper-level classifier assigned D5_General_aldehyde_biomass_electrooxidation."
+    ],
+    "mechanism_kg_eligible": false,
+    "expected_use": [
+      "analogy_only_not_direct_FFOR",
+      "aldehyde_or_HMF_oxidation_analogy",
+      "do_not_use_as_Cu_FFOR_evidence"
+    ],
+    "relevance_score": 0.12,
+    "corpus_layer": "adjacent_surface",
+    "recommendation_eligible": false,
+    "target_product_support": false,
+    "exclusion_reasons": []
+  },
+  {
+    "paper_id": "PAPER_62BBFE6EA1",
+    "title": "Managing the Catalyst Energy Landscape: Continuous Fermi-Level Tuning Eliminates the Overpotential Penalty in Organic Electrooxidation",
+    "doi": "10.1002/adfm.75636",
+    "year": null,
+    "authors": "",
+    "source": "canonical_pdf",
+    "source_note": "Full text extracted from a user-confirmed canonical PDF.",
+    "pdf_page_count": 12,
+    "text_extraction_status": "success",
+    "review_status": "canonical",
+    "evidence_status": "canonical",
+    "imported_at": "2026-08-13T00:33:55",
+    "query_domain": "canonical_pdf",
+    "domain": "D6_Surface_DFT_poisoning",
+    "reaction_family": "other",
+    "detected_materials": [
+      "Au",
+      "Ni"
+    ],
+    "primary_materials": [
+      "Au",
+      "Ni"
+    ],
+    "domain_confidence": 0.65,
+    "domain_warnings": [
+      "Gold/Au paper: not Ag or Cu source-domain evidence.",
+      "Search query domain was canonical_pdf, but paper-level classifier assigned D6_Surface_DFT_poisoning."
+    ],
+    "mechanism_kg_eligible": false,
+    "expected_use": [
+      "surface_adsorption_reference",
+      "poisoning_reference",
+      "DFT_descriptor_reference"
+    ],
+    "relevance_score": 0.06,
+    "corpus_layer": "adjacent_surface",
+    "recommendation_eligible": false,
+    "target_product_support": false,
+    "exclusion_reasons": []
+  },
+  {
+    "paper_id": "PAPER_386AD31465",
+    "title": "cs6b01861 1..14",
+    "doi": "10.1021/acscatal.6b01861",
+    "year": 2016,
+    "authors": "",
+    "source": "canonical_pdf",
+    "source_note": "Full text extracted from a user-confirmed canonical PDF.",
+    "pdf_page_count": 14,
+    "text_extraction_status": "success",
+    "review_status": "canonical",
+    "evidence_status": "canonical",
+    "imported_at": "2026-08-13T00:33:52",
+    "query_domain": "canonical_pdf",
+    "domain": "D5_General_aldehyde_biomass_electrooxidation",
+    "reaction_family": "furfural_reduction_or_hydrogenation",
+    "detected_materials": [],
+    "primary_materials": [],
+    "domain_confidence": 0.65,
+    "domain_warnings": [
+      "Search query domain was canonical_pdf, but paper-level classifier assigned D5_General_aldehyde_biomass_electrooxidation."
+    ],
+    "mechanism_kg_eligible": false,
+    "expected_use": [
+      "analogy_only_not_direct_FFOR",
+      "aldehyde_or_HMF_oxidation_analogy",
+      "do_not_use_as_Cu_FFOR_evidence"
+    ],
+    "relevance_score": 0.0,
+    "corpus_layer": "excluded",
+    "recommendation_eligible": false,
+    "target_product_support": false,
+    "exclusion_reasons": [
+      "furfural_reduction_or_hydrogenation"
+    ]
+  },
+  {
+    "paper_id": "PAPER_E343CC3777",
+    "title": "Formaldehyde Electro-oxidation on Copper Metal and Copper-based Amorphous Alloys in Alkaline Media",
+    "doi": "",
+    "year": null,
+    "authors": "",
+    "source": "canonical_pdf",
+    "source_note": "Full text extracted from a user-confirmed canonical PDF.",
+    "pdf_page_count": 8,
+    "text_extraction_status": "success",
+    "review_status": "canonical",
+    "evidence_status": "canonical",
+    "imported_at": "2026-08-13T00:33:52",
+    "query_domain": "canonical_pdf",
+    "domain": "D6_Surface_DFT_poisoning",
+    "reaction_family": "other",
+    "detected_materials": [
+      "Cu"
+    ],
+    "primary_materials": [
+      "Cu"
+    ],
+    "domain_confidence": 0.65,
+    "domain_warnings": [
+      "Search query domain was canonical_pdf, but paper-level classifier assigned D6_Surface_DFT_poisoning."
+    ],
+    "mechanism_kg_eligible": false,
+    "expected_use": [
+      "surface_adsorption_reference",
+      "poisoning_reference",
+      "DFT_descriptor_reference"
+    ],
+    "relevance_score": 0.0,
+    "corpus_layer": "adjacent_surface",
+    "recommendation_eligible": false,
+    "target_product_support": false,
+    "exclusion_reasons": []
+  },
+  {
+    "paper_id": "PAPER_A63D8478B0",
+    "title": "Aerobic, Copper-Mediated Oxidation of Alkaline Formaldehyde to Fuel-Cell Grade Hydrogen and Formate: Mechanism and Applications",
+    "doi": "10.1002/anie.200805860",
+    "year": 2009,
+    "authors": "",
+    "source": "canonical_pdf",
+    "source_note": "Full text extracted from a user-confirmed canonical PDF.",
+    "pdf_page_count": 4,
+    "text_extraction_status": "success",
+    "review_status": "canonical",
+    "evidence_status": "canonical",
+    "imported_at": "2026-08-13T00:33:53",
+    "query_domain": "canonical_pdf",
+    "domain": "D6_Surface_DFT_poisoning",
+    "reaction_family": "other",
+    "detected_materials": [
+      "Cu",
+      "Pd"
+    ],
+    "primary_materials": [
+      "Cu"
+    ],
+    "domain_confidence": 0.65,
+    "domain_warnings": [
+      "Search query domain was canonical_pdf, but paper-level classifier assigned D6_Surface_DFT_poisoning."
+    ],
+    "mechanism_kg_eligible": false,
+    "expected_use": [
+      "surface_adsorption_reference",
+      "poisoning_reference",
+      "DFT_descriptor_reference"
+    ],
+    "relevance_score": 0.0,
+    "corpus_layer": "adjacent_surface",
+    "recommendation_eligible": false,
+    "target_product_support": false,
+    "exclusion_reasons": []
+  },
+  {
+    "paper_id": "PAPER_C8C14C734D",
+    "title": "Unlocking Dual-Pathway Low-Potential Aldehyde Oxidation on Chromium-Doped Copper Catalysts",
+    "doi": "10.1002/anie.202525384",
+    "year": 2026,
+    "authors": "",
+    "source": "canonical_pdf",
+    "source_note": "Full text extracted from a user-confirmed canonical PDF.",
+    "pdf_page_count": 13,
+    "text_extraction_status": "success",
+    "review_status": "canonical",
+    "evidence_status": "canonical",
+    "imported_at": "2026-08-13T00:33:56",
+    "query_domain": "canonical_pdf",
+    "domain": "D6_Surface_DFT_poisoning",
+    "reaction_family": "other",
+    "detected_materials": [
+      "Cu"
+    ],
+    "primary_materials": [
+      "Cu"
+    ],
+    "domain_confidence": 0.65,
+    "domain_warnings": [
+      "Search query domain was canonical_pdf, but paper-level classifier assigned D6_Surface_DFT_poisoning."
+    ],
+    "mechanism_kg_eligible": false,
+    "expected_use": [
+      "surface_adsorption_reference",
+      "poisoning_reference",
+      "DFT_descriptor_reference"
+    ],
+    "relevance_score": 0.0,
+    "corpus_layer": "adjacent_surface",
+    "recommendation_eligible": false,
+    "target_product_support": false,
+    "exclusion_reasons": []
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "schema_version": "pipeline3-task-fixture-1",
+  "task_id": "SYNTHETIC-P1-AG-RECOVERY",
+  "hypothesis_id": "SYNTHETIC-operational-recoverability",
+  "experiment": "Ag CA 失活／清洗恢复",
+  "source_type": "fixture",
+  "gate_ref": "unresolved"
+}

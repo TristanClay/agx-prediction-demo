@@ -1,0 +1,14 @@
+11
+Lattice="20 0 0 0 20 0 0 0 20" Properties=species:S:1:pos:R:3 pbc="F F F" charge=0 source_type=fixture origin="synthetic neutral furfural demo, not optimized"
+O 0.000 1.150 0.000
+C 1.100 0.350 0.000
+C 0.680 -1.000 0.000
+C -0.680 -1.000 0.000
+C -1.100 0.350 0.000
+C 2.480 0.650 0.000
+O 3.120 1.670 0.000
+H 1.320 -1.870 0.000
+H -1.320 -1.870 0.000
+H -2.130 0.670 0.000
+H 2.990 -0.290 0.000
+

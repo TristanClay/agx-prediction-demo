@@ -1,0 +1,88 @@
+[
+  {
+    "job_id": "J_0a61ad8110755efa9737d6f5ed04b4a2f089f796fb92bebd3ab0465323a07177",
+    "structure_id": "S_e6b88633769bb8404cc04992c9d684a5d678da11249e67fb38ac1b7f532a638c",
+    "reference_profile_id": "mock-neutral-v1",
+    "status": "PENDING_GATE",
+    "executed": false,
+    "source_type": "predicted",
+    "validation": {
+      "allowed": false,
+      "blockers": [
+        "PENDING_GATE",
+        "dft_core_hour_budget_exceeded",
+        "dft_job_budget_exceeded",
+        "formal_pipeline1_source_missing"
+      ],
+      "gate": {
+        "status": "PENDING_GATE",
+        "blockers": [
+          "formal_pipeline1_source_missing"
+        ],
+        "source_hashes": {},
+        "allowed_structure_model_ids": [],
+        "allowed_operations": [
+          "offline_exploration"
+        ],
+        "candidate_id": "EC_AG_BASELINE_V1"
+      },
+      "cost": {
+        "jobs": 1,
+        "estimated_core_hours": 16.0,
+        "cores": 16,
+        "walltime_hours": 1.0,
+        "estimate_status": "UNBENCHMARKED_PLANNING_ESTIMATE"
+      },
+      "budget": {
+        "max_jobs": 0,
+        "max_core_hours": 0.0,
+        "reserved_jobs": 0,
+        "reserved_core_hours": 0,
+        "actual_core_hours": 0
+      }
+    }
+  },
+  {
+    "job_id": "J_49a9c3f98ae672d1675eae28a621844f98672a5d643994b93514fac70846cd1a",
+    "structure_id": "S_06ecbd91a5aa8bc421f4f0dbd4c89ee03f1d2fed377c312eccddc2fe48f52e95",
+    "reference_profile_id": "mock-neutral-v1",
+    "status": "PENDING_GATE",
+    "executed": false,
+    "source_type": "predicted",
+    "validation": {
+      "allowed": false,
+      "blockers": [
+        "PENDING_GATE",
+        "dft_core_hour_budget_exceeded",
+        "dft_job_budget_exceeded",
+        "formal_pipeline1_source_missing"
+      ],
+      "gate": {
+        "status": "PENDING_GATE",
+        "blockers": [
+          "formal_pipeline1_source_missing"
+        ],
+        "source_hashes": {},
+        "allowed_structure_model_ids": [],
+        "allowed_operations": [
+          "offline_exploration"
+        ],
+        "candidate_id": "EC_AG_BASELINE_V1"
+      },
+      "cost": {
+        "jobs": 1,
+        "estimated_core_hours": 16.0,
+        "cores": 16,
+        "walltime_hours": 1.0,
+        "estimate_status": "UNBENCHMARKED_PLANNING_ESTIMATE"
+      },
+      "budget": {
+        "max_jobs": 0,
+        "max_core_hours": 0.0,
+        "reserved_jobs": 0,
+        "reserved_core_hours": 0,
+        "actual_core_hours": 0
+      }
+    }
+  }
+]

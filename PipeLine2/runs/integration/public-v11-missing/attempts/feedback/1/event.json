@@ -1,0 +1,1043 @@
+{
+  "agent": "Evidence Feedback Agent",
+  "attempt": 1,
+  "elapsed_s": 0.005369541991967708,
+  "error": null,
+  "finished_at": "2026-10-31T07:41:46.538096+00:00",
+  "input": {
+    "depends_on": [
+      "knowledge",
+      "screening",
+      "decision",
+      "experiment"
+    ],
+    "run_id": "public-v11-missing"
+  },
+  "model": "deterministic rules / no LLM",
+  "node_id": "feedback",
+  "origin": "SYNTHETIC",
+  "output": {
+    "feedback": {
+      "candidate_id": "C_Ag_e6b88633769bb840",
+      "conclusion": "现有证据不足以判断协议下的可恢复性。 该判断仅针对匹配条件下的电流恢复；furoate 因果机制仍为 INCONCLUSIVE。合成演示不构成真实材料结论，不产生正式门控放行。",
+      "experimental_findings": {
+        "criterion": "protocol recovery >= 0.8; per-group n >= 2",
+        "deactivation_demonstrated": false,
+        "deactivation_ratios": [
+          {
+            "ratio": 0.40051448552274266,
+            "sample_id": "Sample_7b73007cbcf2a583e349f862"
+          }
+        ],
+        "group_counts": {
+          "deactivated": 1,
+          "fresh": 1,
+          "solution_control": 0,
+          "spike": 1,
+          "washed": 0
+        },
+        "hypothesis_outcome": "INCONCLUSIVE",
+        "independent_batches": 1,
+        "insufficient_groups": [
+          "fresh",
+          "deactivated",
+          "washed",
+          "spike",
+          "solution_control"
+        ],
+        "invalid_measurements": [
+          "Measurement_909c226c4b8234283032a75d"
+        ],
+        "mechanism_outcome": "INCONCLUSIVE",
+        "min_independent": 2,
+        "missing_calibration": true,
+        "missing_product_groups": [
+          "fresh",
+          "deactivated",
+          "washed",
+          "spike",
+          "solution_control"
+        ],
+        "p2_mismatch": false,
+        "post_ca_record_present": false,
+        "product_group_counts": {
+          "deactivated": 0,
+          "fresh": 0,
+          "solution_control": 0,
+          "spike": 0,
+          "washed": 0
+        },
+        "qc_issues": [
+          "MISSING_CALIBRATION"
+        ],
+        "recovery_ratios": [],
+        "technical_measurements": 0
+      },
+      "feedback_id": "FB_3080d7b9c77d0c89f89ef487",
+      "gate_status": "PENDING_GATE",
+      "hypothesis_id": "HYP_96AC87BB6C",
+      "measurement_ids": [
+        "Measurement_526a8961ca7985f7a07d5259",
+        "Measurement_909c226c4b8234283032a75d",
+        "Measurement_1c243b810c3f1623db918f74",
+        "Measurement_ad862e1b03f121f1ec92a044"
+      ],
+      "official_publish": false,
+      "prediction_deviation": {
+        "basis": "No quantitative mapping available",
+        "numeric_delta": null,
+        "reason": "Adsorption eV and experimental current differ in observable and units",
+        "status": "NOT_COMPARABLE"
+      },
+      "provenance": {
+        "artifacts": [
+          {
+            "path": "analysis.json",
+            "sha256": "19bdbb17408e421598e24c00c28d12dba797305d4eaa5027210070d7449a2342"
+          },
+          {
+            "path": "records.json",
+            "sha256": "ad101b9939e4d56e61bd0b615b5f4bba32850ade15b29a9dc89510a02b27d5bc"
+          }
+        ],
+        "limitations": [
+          "Synthetic inputs; software QC PASS is not scientific approval",
+          "Human review pending; formal P1 feedback ingestion unavailable"
+        ],
+        "origin": "SYNTHETIC",
+        "producer": "P3.Service.analyze",
+        "run_id": "public-v11-missing",
+        "source_run_id": null,
+        "version": "1.0.0"
+      },
+      "qc_status": "INCOMPLETE",
+      "recommended_actions": [
+        {
+          "alternative_explanations": [
+            "表面重构",
+            "传质与气泡",
+            "pH／离子强度变化",
+            "取样或标定偏差"
+          ],
+          "category": "补齐证据",
+          "controls": [
+            "相同电解液、温度、几何面积与电位标尺",
+            "匹配空白／溶液对照"
+          ],
+          "endpoints": [
+            "协议窗口电流密度",
+            "经标定的产物液相量",
+            "状态及原始文件完整性"
+          ],
+          "evidence_refs": [
+            "Measurement_526a8961ca7985f7a07d5259",
+            "Measurement_909c226c4b8234283032a75d",
+            "Measurement_1c243b810c3f1623db918f74",
+            "Measurement_ad862e1b03f121f1ec92a044"
+          ],
+          "hypothesis_id": "HYP_96AC87BB6C",
+          "interpretation": {
+            "expected": "仅支持当前协议下的操作性假设，机制仍需区分性证据",
+            "inconsistent": "增加独立样品／批次，结论保持 MIXED 或 INCONCLUSIVE",
+            "opposite": "保留反证，复查不可逆结构变化与溶液效应"
+          },
+          "method": "RuleBasedPlanner/v1",
+          "purpose": "先修正单位、窗口或原始记录，再重新分析。",
+          "reason": "当前质控失败的数据不能支撑比较。",
+          "replicate_plan": {
+            "batch_plan": "至少记录制备批次；跨批次外推需要新增独立批次",
+            "independent_samples_per_group": 2,
+            "technical_repeats_count_as_independent": false
+          },
+          "resources": "规则估计：新增独立电极至少2个；CA/HPLC 1个实验时段，表征另排期（非实测工时）",
+          "review_status": "DRAFT",
+          "rule_id": "repair_qc",
+          "state": "ACTIVE",
+          "task_id": "Task_0f0ebe85a87a94325bd12ef7",
+          "title": "修正分析阻塞项",
+          "variables": [
+            "由缺项限定的单一变量"
+          ]
+        },
+        {
+          "alternative_explanations": [
+            "表面重构",
+            "传质与气泡",
+            "pH／离子强度变化",
+            "取样或标定偏差"
+          ],
+          "category": "补齐证据",
+          "controls": [
+            "相同电解液、温度、几何面积与电位标尺",
+            "匹配空白／溶液对照"
+          ],
+          "endpoints": [
+            "协议窗口电流密度",
+            "经标定的产物液相量",
+            "状态及原始文件完整性"
+          ],
+          "evidence_refs": [
+            "Measurement_526a8961ca7985f7a07d5259",
+            "Measurement_909c226c4b8234283032a75d",
+            "Measurement_1c243b810c3f1623db918f74",
+            "Measurement_ad862e1b03f121f1ec92a044"
+          ],
+          "hypothesis_id": "HYP_96AC87BB6C",
+          "interpretation": {
+            "expected": "仅支持当前协议下的操作性假设，机制仍需区分性证据",
+            "inconsistent": "增加独立样品／批次，结论保持 MIXED 或 INCONCLUSIVE",
+            "opposite": "保留反证，复查不可逆结构变化与溶液效应"
+          },
+          "method": "RuleBasedPlanner/v1",
+          "purpose": "缺少匹配物种与方法版本的有效标曲。",
+          "reason": "浓度、稀释与液相量需要可追溯标定。",
+          "replicate_plan": {
+            "batch_plan": "至少记录制备批次；跨批次外推需要新增独立批次",
+            "independent_samples_per_group": 2,
+            "technical_repeats_count_as_independent": false
+          },
+          "resources": "规则估计：新增独立电极至少2个；CA/HPLC 1个实验时段，表征另排期（非实测工时）",
+          "review_status": "DRAFT",
+          "rule_id": "calibration",
+          "state": "ACTIVE",
+          "task_id": "Task_0f0ebe85a87a94325bd12ef7",
+          "title": "补充 HPLC 标定",
+          "variables": [
+            "由缺项限定的单一变量"
+          ]
+        },
+        {
+          "alternative_explanations": [
+            "表面重构",
+            "传质与气泡",
+            "pH／离子强度变化",
+            "取样或标定偏差"
+          ],
+          "category": "补齐证据",
+          "controls": [
+            "相同电解液、温度、几何面积与电位标尺",
+            "匹配空白／溶液对照"
+          ],
+          "endpoints": [
+            "协议窗口电流密度",
+            "经标定的产物液相量",
+            "状态及原始文件完整性"
+          ],
+          "evidence_refs": [
+            "Measurement_526a8961ca7985f7a07d5259",
+            "Measurement_909c226c4b8234283032a75d",
+            "Measurement_1c243b810c3f1623db918f74",
+            "Measurement_ad862e1b03f121f1ec92a044"
+          ],
+          "hypothesis_id": "HYP_96AC87BB6C",
+          "interpretation": {
+            "expected": "仅支持当前协议下的操作性假设，机制仍需区分性证据",
+            "inconsistent": "增加独立样品／批次，结论保持 MIXED 或 INCONCLUSIVE",
+            "opposite": "保留反证，复查不可逆结构变化与溶液效应"
+          },
+          "method": "RuleBasedPlanner/v1",
+          "purpose": "技术重复不能替代独立电极；按当前协议补足每组样品。",
+          "reason": "样品差异尚未被独立重复覆盖。",
+          "replicate_plan": {
+            "batch_plan": "至少记录制备批次；跨批次外推需要新增独立批次",
+            "independent_samples_per_group": 2,
+            "technical_repeats_count_as_independent": false
+          },
+          "resources": "规则估计：新增独立电极至少2个；CA/HPLC 1个实验时段，表征另排期（非实测工时）",
+          "review_status": "DRAFT",
+          "rule_id": "independent",
+          "state": "ACTIVE",
+          "task_id": "Task_0f0ebe85a87a94325bd12ef7",
+          "title": "增加独立样品重复",
+          "variables": [
+            "由缺项限定的单一变量"
+          ]
+        },
+        {
+          "alternative_explanations": [
+            "表面重构",
+            "传质与气泡",
+            "pH／离子强度变化",
+            "取样或标定偏差"
+          ],
+          "category": "补齐证据",
+          "controls": [
+            "相同电解液、温度、几何面积与电位标尺",
+            "匹配空白／溶液对照"
+          ],
+          "endpoints": [
+            "协议窗口电流密度",
+            "经标定的产物液相量",
+            "状态及原始文件完整性"
+          ],
+          "evidence_refs": [
+            "Measurement_526a8961ca7985f7a07d5259",
+            "Measurement_909c226c4b8234283032a75d",
+            "Measurement_1c243b810c3f1623db918f74",
+            "Measurement_ad862e1b03f121f1ec92a044"
+          ],
+          "hypothesis_id": "HYP_96AC87BB6C",
+          "interpretation": {
+            "expected": "仅支持当前协议下的操作性假设，机制仍需区分性证据",
+            "inconsistent": "增加独立样品／批次，结论保持 MIXED 或 INCONCLUSIVE",
+            "opposite": "保留反证，复查不可逆结构变化与溶液效应"
+          },
+          "method": "RuleBasedPlanner/v1",
+          "purpose": "电流变化不能独立证明目标产物生成变化。",
+          "reason": "缺少同一样品、条件和时间窗口下的有效产物分析。",
+          "replicate_plan": {
+            "batch_plan": "至少记录制备批次；跨批次外推需要新增独立批次",
+            "independent_samples_per_group": 2,
+            "technical_repeats_count_as_independent": false
+          },
+          "resources": "规则估计：新增独立电极至少2个；CA/HPLC 1个实验时段，表征另排期（非实测工时）",
+          "review_status": "DRAFT",
+          "rule_id": "product",
+          "state": "ACTIVE",
+          "task_id": "Task_0f0ebe85a87a94325bd12ef7",
+          "title": "补充匹配窗口的产物定量",
+          "variables": [
+            "由缺项限定的单一变量"
+          ]
+        },
+        {
+          "alternative_explanations": [
+            "表面重构",
+            "传质与气泡",
+            "pH／离子强度变化",
+            "取样或标定偏差"
+          ],
+          "category": "区分机制",
+          "controls": [
+            "相同电解液、温度、几何面积与电位标尺",
+            "匹配空白／溶液对照"
+          ],
+          "endpoints": [
+            "协议窗口电流密度",
+            "经标定的产物液相量",
+            "状态及原始文件完整性"
+          ],
+          "evidence_refs": [
+            "Measurement_526a8961ca7985f7a07d5259",
+            "Measurement_909c226c4b8234283032a75d",
+            "Measurement_1c243b810c3f1623db918f74",
+            "Measurement_ad862e1b03f121f1ec92a044"
+          ],
+          "hypothesis_id": "HYP_96AC87BB6C",
+          "interpretation": {
+            "expected": "仅支持当前协议下的操作性假设，机制仍需区分性证据",
+            "inconsistent": "增加独立样品／批次，结论保持 MIXED 或 INCONCLUSIVE",
+            "opposite": "保留反证，复查不可逆结构变化与溶液效应"
+          },
+          "method": "RuleBasedPlanner/v1",
+          "purpose": "匹配 pH、离子强度和体积，区分 spike 的特异作用。",
+          "reason": "抑制也可能来自溶液条件变化。",
+          "replicate_plan": {
+            "batch_plan": "至少记录制备批次；跨批次外推需要新增独立批次",
+            "independent_samples_per_group": 2,
+            "technical_repeats_count_as_independent": false
+          },
+          "resources": "规则估计：新增独立电极至少2个；CA/HPLC 1个实验时段，表征另排期（非实测工时）",
+          "review_status": "DRAFT",
+          "rule_id": "solution_control",
+          "state": "ACTIVE",
+          "task_id": "Task_0f0ebe85a87a94325bd12ef7",
+          "title": "补充匹配溶液对照",
+          "variables": [
+            "由缺项限定的单一变量"
+          ]
+        },
+        {
+          "alternative_explanations": [
+            "表面重构",
+            "传质与气泡",
+            "pH／离子强度变化",
+            "取样或标定偏差"
+          ],
+          "category": "区分机制",
+          "controls": [
+            "相同电解液、温度、几何面积与电位标尺",
+            "匹配空白／溶液对照"
+          ],
+          "endpoints": [
+            "协议窗口电流密度",
+            "经标定的产物液相量",
+            "状态及原始文件完整性"
+          ],
+          "evidence_refs": [
+            "Measurement_526a8961ca7985f7a07d5259",
+            "Measurement_909c226c4b8234283032a75d",
+            "Measurement_1c243b810c3f1623db918f74",
+            "Measurement_ad862e1b03f121f1ec92a044"
+          ],
+          "hypothesis_id": "HYP_96AC87BB6C",
+          "interpretation": {
+            "expected": "仅支持当前协议下的操作性假设，机制仍需区分性证据",
+            "inconsistent": "增加独立样品／批次，结论保持 MIXED 或 INCONCLUSIVE",
+            "opposite": "保留反证，复查不可逆结构变化与溶液效应"
+          },
+          "method": "RuleBasedPlanner/v1",
+          "purpose": "关联失活后与清洗后的 XPS 文件及处理记录。",
+          "reason": "电流恢复不等于证实 furoate 表面因果机制。",
+          "replicate_plan": {
+            "batch_plan": "至少记录制备批次；跨批次外推需要新增独立批次",
+            "independent_samples_per_group": 2,
+            "technical_repeats_count_as_independent": false
+          },
+          "resources": "规则估计：新增独立电极至少2个；CA/HPLC 1个实验时段，表征另排期（非实测工时）",
+          "review_status": "DRAFT",
+          "rule_id": "surface",
+          "state": "ACTIVE",
+          "task_id": "Task_0f0ebe85a87a94325bd12ef7",
+          "title": "补充 Post-CA 表面证据",
+          "variables": [
+            "由缺项限定的单一变量"
+          ]
+        },
+        {
+          "rule_id": "human_review",
+          "target": "P1/P2",
+          "title": "人工核对条件、原始证据和 P1 科学门控"
+        }
+      ],
+      "review_status": "WAITING_FOR_REVIEW",
+      "run_id": "public-v11-missing",
+      "sample_id": "Sample_7b73007cbcf2a583e349f862",
+      "schema_version": "agx-experimental-feedback-1"
+    },
+    "receipts": {
+      "P1": {
+        "blocked_from_formal_feedback": true,
+        "candidate_id": "C_Ag_e6b88633769bb840",
+        "feedback_id": "FB_3080d7b9c77d0c89f89ef487",
+        "hypothesis_id": "HYP_96AC87BB6C",
+        "next_tasks": [
+          {
+            "alternative_explanations": [
+              "表面重构",
+              "传质与气泡",
+              "pH／离子强度变化",
+              "取样或标定偏差"
+            ],
+            "category": "补齐证据",
+            "controls": [
+              "相同电解液、温度、几何面积与电位标尺",
+              "匹配空白／溶液对照"
+            ],
+            "endpoints": [
+              "协议窗口电流密度",
+              "经标定的产物液相量",
+              "状态及原始文件完整性"
+            ],
+            "evidence_refs": [
+              "Measurement_526a8961ca7985f7a07d5259",
+              "Measurement_909c226c4b8234283032a75d",
+              "Measurement_1c243b810c3f1623db918f74",
+              "Measurement_ad862e1b03f121f1ec92a044"
+            ],
+            "hypothesis_id": "HYP_96AC87BB6C",
+            "interpretation": {
+              "expected": "仅支持当前协议下的操作性假设，机制仍需区分性证据",
+              "inconsistent": "增加独立样品／批次，结论保持 MIXED 或 INCONCLUSIVE",
+              "opposite": "保留反证，复查不可逆结构变化与溶液效应"
+            },
+            "method": "RuleBasedPlanner/v1",
+            "purpose": "先修正单位、窗口或原始记录，再重新分析。",
+            "reason": "当前质控失败的数据不能支撑比较。",
+            "replicate_plan": {
+              "batch_plan": "至少记录制备批次；跨批次外推需要新增独立批次",
+              "independent_samples_per_group": 2,
+              "technical_repeats_count_as_independent": false
+            },
+            "resources": "规则估计：新增独立电极至少2个；CA/HPLC 1个实验时段，表征另排期（非实测工时）",
+            "review_status": "DRAFT",
+            "rule_id": "repair_qc",
+            "state": "ACTIVE",
+            "task_id": "Task_0f0ebe85a87a94325bd12ef7",
+            "title": "修正分析阻塞项",
+            "variables": [
+              "由缺项限定的单一变量"
+            ]
+          },
+          {
+            "alternative_explanations": [
+              "表面重构",
+              "传质与气泡",
+              "pH／离子强度变化",
+              "取样或标定偏差"
+            ],
+            "category": "补齐证据",
+            "controls": [
+              "相同电解液、温度、几何面积与电位标尺",
+              "匹配空白／溶液对照"
+            ],
+            "endpoints": [
+              "协议窗口电流密度",
+              "经标定的产物液相量",
+              "状态及原始文件完整性"
+            ],
+            "evidence_refs": [
+              "Measurement_526a8961ca7985f7a07d5259",
+              "Measurement_909c226c4b8234283032a75d",
+              "Measurement_1c243b810c3f1623db918f74",
+              "Measurement_ad862e1b03f121f1ec92a044"
+            ],
+            "hypothesis_id": "HYP_96AC87BB6C",
+            "interpretation": {
+              "expected": "仅支持当前协议下的操作性假设，机制仍需区分性证据",
+              "inconsistent": "增加独立样品／批次，结论保持 MIXED 或 INCONCLUSIVE",
+              "opposite": "保留反证，复查不可逆结构变化与溶液效应"
+            },
+            "method": "RuleBasedPlanner/v1",
+            "purpose": "缺少匹配物种与方法版本的有效标曲。",
+            "reason": "浓度、稀释与液相量需要可追溯标定。",
+            "replicate_plan": {
+              "batch_plan": "至少记录制备批次；跨批次外推需要新增独立批次",
+              "independent_samples_per_group": 2,
+              "technical_repeats_count_as_independent": false
+            },
+            "resources": "规则估计：新增独立电极至少2个；CA/HPLC 1个实验时段，表征另排期（非实测工时）",
+            "review_status": "DRAFT",
+            "rule_id": "calibration",
+            "state": "ACTIVE",
+            "task_id": "Task_0f0ebe85a87a94325bd12ef7",
+            "title": "补充 HPLC 标定",
+            "variables": [
+              "由缺项限定的单一变量"
+            ]
+          },
+          {
+            "alternative_explanations": [
+              "表面重构",
+              "传质与气泡",
+              "pH／离子强度变化",
+              "取样或标定偏差"
+            ],
+            "category": "补齐证据",
+            "controls": [
+              "相同电解液、温度、几何面积与电位标尺",
+              "匹配空白／溶液对照"
+            ],
+            "endpoints": [
+              "协议窗口电流密度",
+              "经标定的产物液相量",
+              "状态及原始文件完整性"
+            ],
+            "evidence_refs": [
+              "Measurement_526a8961ca7985f7a07d5259",
+              "Measurement_909c226c4b8234283032a75d",
+              "Measurement_1c243b810c3f1623db918f74",
+              "Measurement_ad862e1b03f121f1ec92a044"
+            ],
+            "hypothesis_id": "HYP_96AC87BB6C",
+            "interpretation": {
+              "expected": "仅支持当前协议下的操作性假设，机制仍需区分性证据",
+              "inconsistent": "增加独立样品／批次，结论保持 MIXED 或 INCONCLUSIVE",
+              "opposite": "保留反证，复查不可逆结构变化与溶液效应"
+            },
+            "method": "RuleBasedPlanner/v1",
+            "purpose": "技术重复不能替代独立电极；按当前协议补足每组样品。",
+            "reason": "样品差异尚未被独立重复覆盖。",
+            "replicate_plan": {
+              "batch_plan": "至少记录制备批次；跨批次外推需要新增独立批次",
+              "independent_samples_per_group": 2,
+              "technical_repeats_count_as_independent": false
+            },
+            "resources": "规则估计：新增独立电极至少2个；CA/HPLC 1个实验时段，表征另排期（非实测工时）",
+            "review_status": "DRAFT",
+            "rule_id": "independent",
+            "state": "ACTIVE",
+            "task_id": "Task_0f0ebe85a87a94325bd12ef7",
+            "title": "增加独立样品重复",
+            "variables": [
+              "由缺项限定的单一变量"
+            ]
+          },
+          {
+            "alternative_explanations": [
+              "表面重构",
+              "传质与气泡",
+              "pH／离子强度变化",
+              "取样或标定偏差"
+            ],
+            "category": "补齐证据",
+            "controls": [
+              "相同电解液、温度、几何面积与电位标尺",
+              "匹配空白／溶液对照"
+            ],
+            "endpoints": [
+              "协议窗口电流密度",
+              "经标定的产物液相量",
+              "状态及原始文件完整性"
+            ],
+            "evidence_refs": [
+              "Measurement_526a8961ca7985f7a07d5259",
+              "Measurement_909c226c4b8234283032a75d",
+              "Measurement_1c243b810c3f1623db918f74",
+              "Measurement_ad862e1b03f121f1ec92a044"
+            ],
+            "hypothesis_id": "HYP_96AC87BB6C",
+            "interpretation": {
+              "expected": "仅支持当前协议下的操作性假设，机制仍需区分性证据",
+              "inconsistent": "增加独立样品／批次，结论保持 MIXED 或 INCONCLUSIVE",
+              "opposite": "保留反证，复查不可逆结构变化与溶液效应"
+            },
+            "method": "RuleBasedPlanner/v1",
+            "purpose": "电流变化不能独立证明目标产物生成变化。",
+            "reason": "缺少同一样品、条件和时间窗口下的有效产物分析。",
+            "replicate_plan": {
+              "batch_plan": "至少记录制备批次；跨批次外推需要新增独立批次",
+              "independent_samples_per_group": 2,
+              "technical_repeats_count_as_independent": false
+            },
+            "resources": "规则估计：新增独立电极至少2个；CA/HPLC 1个实验时段，表征另排期（非实测工时）",
+            "review_status": "DRAFT",
+            "rule_id": "product",
+            "state": "ACTIVE",
+            "task_id": "Task_0f0ebe85a87a94325bd12ef7",
+            "title": "补充匹配窗口的产物定量",
+            "variables": [
+              "由缺项限定的单一变量"
+            ]
+          },
+          {
+            "alternative_explanations": [
+              "表面重构",
+              "传质与气泡",
+              "pH／离子强度变化",
+              "取样或标定偏差"
+            ],
+            "category": "区分机制",
+            "controls": [
+              "相同电解液、温度、几何面积与电位标尺",
+              "匹配空白／溶液对照"
+            ],
+            "endpoints": [
+              "协议窗口电流密度",
+              "经标定的产物液相量",
+              "状态及原始文件完整性"
+            ],
+            "evidence_refs": [
+              "Measurement_526a8961ca7985f7a07d5259",
+              "Measurement_909c226c4b8234283032a75d",
+              "Measurement_1c243b810c3f1623db918f74",
+              "Measurement_ad862e1b03f121f1ec92a044"
+            ],
+            "hypothesis_id": "HYP_96AC87BB6C",
+            "interpretation": {
+              "expected": "仅支持当前协议下的操作性假设，机制仍需区分性证据",
+              "inconsistent": "增加独立样品／批次，结论保持 MIXED 或 INCONCLUSIVE",
+              "opposite": "保留反证，复查不可逆结构变化与溶液效应"
+            },
+            "method": "RuleBasedPlanner/v1",
+            "purpose": "匹配 pH、离子强度和体积，区分 spike 的特异作用。",
+            "reason": "抑制也可能来自溶液条件变化。",
+            "replicate_plan": {
+              "batch_plan": "至少记录制备批次；跨批次外推需要新增独立批次",
+              "independent_samples_per_group": 2,
+              "technical_repeats_count_as_independent": false
+            },
+            "resources": "规则估计：新增独立电极至少2个；CA/HPLC 1个实验时段，表征另排期（非实测工时）",
+            "review_status": "DRAFT",
+            "rule_id": "solution_control",
+            "state": "ACTIVE",
+            "task_id": "Task_0f0ebe85a87a94325bd12ef7",
+            "title": "补充匹配溶液对照",
+            "variables": [
+              "由缺项限定的单一变量"
+            ]
+          },
+          {
+            "alternative_explanations": [
+              "表面重构",
+              "传质与气泡",
+              "pH／离子强度变化",
+              "取样或标定偏差"
+            ],
+            "category": "区分机制",
+            "controls": [
+              "相同电解液、温度、几何面积与电位标尺",
+              "匹配空白／溶液对照"
+            ],
+            "endpoints": [
+              "协议窗口电流密度",
+              "经标定的产物液相量",
+              "状态及原始文件完整性"
+            ],
+            "evidence_refs": [
+              "Measurement_526a8961ca7985f7a07d5259",
+              "Measurement_909c226c4b8234283032a75d",
+              "Measurement_1c243b810c3f1623db918f74",
+              "Measurement_ad862e1b03f121f1ec92a044"
+            ],
+            "hypothesis_id": "HYP_96AC87BB6C",
+            "interpretation": {
+              "expected": "仅支持当前协议下的操作性假设，机制仍需区分性证据",
+              "inconsistent": "增加独立样品／批次，结论保持 MIXED 或 INCONCLUSIVE",
+              "opposite": "保留反证，复查不可逆结构变化与溶液效应"
+            },
+            "method": "RuleBasedPlanner/v1",
+            "purpose": "关联失活后与清洗后的 XPS 文件及处理记录。",
+            "reason": "电流恢复不等于证实 furoate 表面因果机制。",
+            "replicate_plan": {
+              "batch_plan": "至少记录制备批次；跨批次外推需要新增独立批次",
+              "independent_samples_per_group": 2,
+              "technical_repeats_count_as_independent": false
+            },
+            "resources": "规则估计：新增独立电极至少2个；CA/HPLC 1个实验时段，表征另排期（非实测工时）",
+            "review_status": "DRAFT",
+            "rule_id": "surface",
+            "state": "ACTIVE",
+            "task_id": "Task_0f0ebe85a87a94325bd12ef7",
+            "title": "补充 Post-CA 表面证据",
+            "variables": [
+              "由缺项限定的单一变量"
+            ]
+          },
+          {
+            "rule_id": "human_review",
+            "target": "P1/P2",
+            "title": "人工核对条件、原始证据和 P1 科学门控"
+          }
+        ],
+        "official_publish": false,
+        "reason": "QC and human review required; existing P1 v2.3 formal ingestion is a separate authority",
+        "run_id": "public-v11-missing",
+        "scientific_update_performed": false,
+        "status": "STAGED",
+        "target": "P1"
+      },
+      "P2": {
+        "blocked_from_formal_feedback": true,
+        "candidate_id": "C_Ag_e6b88633769bb840",
+        "feedback_id": "FB_3080d7b9c77d0c89f89ef487",
+        "hypothesis_id": "HYP_96AC87BB6C",
+        "next_tasks": [
+          {
+            "alternative_explanations": [
+              "表面重构",
+              "传质与气泡",
+              "pH／离子强度变化",
+              "取样或标定偏差"
+            ],
+            "category": "补齐证据",
+            "controls": [
+              "相同电解液、温度、几何面积与电位标尺",
+              "匹配空白／溶液对照"
+            ],
+            "endpoints": [
+              "协议窗口电流密度",
+              "经标定的产物液相量",
+              "状态及原始文件完整性"
+            ],
+            "evidence_refs": [
+              "Measurement_526a8961ca7985f7a07d5259",
+              "Measurement_909c226c4b8234283032a75d",
+              "Measurement_1c243b810c3f1623db918f74",
+              "Measurement_ad862e1b03f121f1ec92a044"
+            ],
+            "hypothesis_id": "HYP_96AC87BB6C",
+            "interpretation": {
+              "expected": "仅支持当前协议下的操作性假设，机制仍需区分性证据",
+              "inconsistent": "增加独立样品／批次，结论保持 MIXED 或 INCONCLUSIVE",
+              "opposite": "保留反证，复查不可逆结构变化与溶液效应"
+            },
+            "method": "RuleBasedPlanner/v1",
+            "purpose": "先修正单位、窗口或原始记录，再重新分析。",
+            "reason": "当前质控失败的数据不能支撑比较。",
+            "replicate_plan": {
+              "batch_plan": "至少记录制备批次；跨批次外推需要新增独立批次",
+              "independent_samples_per_group": 2,
+              "technical_repeats_count_as_independent": false
+            },
+            "resources": "规则估计：新增独立电极至少2个；CA/HPLC 1个实验时段，表征另排期（非实测工时）",
+            "review_status": "DRAFT",
+            "rule_id": "repair_qc",
+            "state": "ACTIVE",
+            "task_id": "Task_0f0ebe85a87a94325bd12ef7",
+            "title": "修正分析阻塞项",
+            "variables": [
+              "由缺项限定的单一变量"
+            ]
+          },
+          {
+            "alternative_explanations": [
+              "表面重构",
+              "传质与气泡",
+              "pH／离子强度变化",
+              "取样或标定偏差"
+            ],
+            "category": "补齐证据",
+            "controls": [
+              "相同电解液、温度、几何面积与电位标尺",
+              "匹配空白／溶液对照"
+            ],
+            "endpoints": [
+              "协议窗口电流密度",
+              "经标定的产物液相量",
+              "状态及原始文件完整性"
+            ],
+            "evidence_refs": [
+              "Measurement_526a8961ca7985f7a07d5259",
+              "Measurement_909c226c4b8234283032a75d",
+              "Measurement_1c243b810c3f1623db918f74",
+              "Measurement_ad862e1b03f121f1ec92a044"
+            ],
+            "hypothesis_id": "HYP_96AC87BB6C",
+            "interpretation": {
+              "expected": "仅支持当前协议下的操作性假设，机制仍需区分性证据",
+              "inconsistent": "增加独立样品／批次，结论保持 MIXED 或 INCONCLUSIVE",
+              "opposite": "保留反证，复查不可逆结构变化与溶液效应"
+            },
+            "method": "RuleBasedPlanner/v1",
+            "purpose": "缺少匹配物种与方法版本的有效标曲。",
+            "reason": "浓度、稀释与液相量需要可追溯标定。",
+            "replicate_plan": {
+              "batch_plan": "至少记录制备批次；跨批次外推需要新增独立批次",
+              "independent_samples_per_group": 2,
+              "technical_repeats_count_as_independent": false
+            },
+            "resources": "规则估计：新增独立电极至少2个；CA/HPLC 1个实验时段，表征另排期（非实测工时）",
+            "review_status": "DRAFT",
+            "rule_id": "calibration",
+            "state": "ACTIVE",
+            "task_id": "Task_0f0ebe85a87a94325bd12ef7",
+            "title": "补充 HPLC 标定",
+            "variables": [
+              "由缺项限定的单一变量"
+            ]
+          },
+          {
+            "alternative_explanations": [
+              "表面重构",
+              "传质与气泡",
+              "pH／离子强度变化",
+              "取样或标定偏差"
+            ],
+            "category": "补齐证据",
+            "controls": [
+              "相同电解液、温度、几何面积与电位标尺",
+              "匹配空白／溶液对照"
+            ],
+            "endpoints": [
+              "协议窗口电流密度",
+              "经标定的产物液相量",
+              "状态及原始文件完整性"
+            ],
+            "evidence_refs": [
+              "Measurement_526a8961ca7985f7a07d5259",
+              "Measurement_909c226c4b8234283032a75d",
+              "Measurement_1c243b810c3f1623db918f74",
+              "Measurement_ad862e1b03f121f1ec92a044"
+            ],
+            "hypothesis_id": "HYP_96AC87BB6C",
+            "interpretation": {
+              "expected": "仅支持当前协议下的操作性假设，机制仍需区分性证据",
+              "inconsistent": "增加独立样品／批次，结论保持 MIXED 或 INCONCLUSIVE",
+              "opposite": "保留反证，复查不可逆结构变化与溶液效应"
+            },
+            "method": "RuleBasedPlanner/v1",
+            "purpose": "技术重复不能替代独立电极；按当前协议补足每组样品。",
+            "reason": "样品差异尚未被独立重复覆盖。",
+            "replicate_plan": {
+              "batch_plan": "至少记录制备批次；跨批次外推需要新增独立批次",
+              "independent_samples_per_group": 2,
+              "technical_repeats_count_as_independent": false
+            },
+            "resources": "规则估计：新增独立电极至少2个；CA/HPLC 1个实验时段，表征另排期（非实测工时）",
+            "review_status": "DRAFT",
+            "rule_id": "independent",
+            "state": "ACTIVE",
+            "task_id": "Task_0f0ebe85a87a94325bd12ef7",
+            "title": "增加独立样品重复",
+            "variables": [
+              "由缺项限定的单一变量"
+            ]
+          },
+          {
+            "alternative_explanations": [
+              "表面重构",
+              "传质与气泡",
+              "pH／离子强度变化",
+              "取样或标定偏差"
+            ],
+            "category": "补齐证据",
+            "controls": [
+              "相同电解液、温度、几何面积与电位标尺",
+              "匹配空白／溶液对照"
+            ],
+            "endpoints": [
+              "协议窗口电流密度",
+              "经标定的产物液相量",
+              "状态及原始文件完整性"
+            ],
+            "evidence_refs": [
+              "Measurement_526a8961ca7985f7a07d5259",
+              "Measurement_909c226c4b8234283032a75d",
+              "Measurement_1c243b810c3f1623db918f74",
+              "Measurement_ad862e1b03f121f1ec92a044"
+            ],
+            "hypothesis_id": "HYP_96AC87BB6C",
+            "interpretation": {
+              "expected": "仅支持当前协议下的操作性假设，机制仍需区分性证据",
+              "inconsistent": "增加独立样品／批次，结论保持 MIXED 或 INCONCLUSIVE",
+              "opposite": "保留反证，复查不可逆结构变化与溶液效应"
+            },
+            "method": "RuleBasedPlanner/v1",
+            "purpose": "电流变化不能独立证明目标产物生成变化。",
+            "reason": "缺少同一样品、条件和时间窗口下的有效产物分析。",
+            "replicate_plan": {
+              "batch_plan": "至少记录制备批次；跨批次外推需要新增独立批次",
+              "independent_samples_per_group": 2,
+              "technical_repeats_count_as_independent": false
+            },
+            "resources": "规则估计：新增独立电极至少2个；CA/HPLC 1个实验时段，表征另排期（非实测工时）",
+            "review_status": "DRAFT",
+            "rule_id": "product",
+            "state": "ACTIVE",
+            "task_id": "Task_0f0ebe85a87a94325bd12ef7",
+            "title": "补充匹配窗口的产物定量",
+            "variables": [
+              "由缺项限定的单一变量"
+            ]
+          },
+          {
+            "alternative_explanations": [
+              "表面重构",
+              "传质与气泡",
+              "pH／离子强度变化",
+              "取样或标定偏差"
+            ],
+            "category": "区分机制",
+            "controls": [
+              "相同电解液、温度、几何面积与电位标尺",
+              "匹配空白／溶液对照"
+            ],
+            "endpoints": [
+              "协议窗口电流密度",
+              "经标定的产物液相量",
+              "状态及原始文件完整性"
+            ],
+            "evidence_refs": [
+              "Measurement_526a8961ca7985f7a07d5259",
+              "Measurement_909c226c4b8234283032a75d",
+              "Measurement_1c243b810c3f1623db918f74",
+              "Measurement_ad862e1b03f121f1ec92a044"
+            ],
+            "hypothesis_id": "HYP_96AC87BB6C",
+            "interpretation": {
+              "expected": "仅支持当前协议下的操作性假设，机制仍需区分性证据",
+              "inconsistent": "增加独立样品／批次，结论保持 MIXED 或 INCONCLUSIVE",
+              "opposite": "保留反证，复查不可逆结构变化与溶液效应"
+            },
+            "method": "RuleBasedPlanner/v1",
+            "purpose": "匹配 pH、离子强度和体积，区分 spike 的特异作用。",
+            "reason": "抑制也可能来自溶液条件变化。",
+            "replicate_plan": {
+              "batch_plan": "至少记录制备批次；跨批次外推需要新增独立批次",
+              "independent_samples_per_group": 2,
+              "technical_repeats_count_as_independent": false
+            },
+            "resources": "规则估计：新增独立电极至少2个；CA/HPLC 1个实验时段，表征另排期（非实测工时）",
+            "review_status": "DRAFT",
+            "rule_id": "solution_control",
+            "state": "ACTIVE",
+            "task_id": "Task_0f0ebe85a87a94325bd12ef7",
+            "title": "补充匹配溶液对照",
+            "variables": [
+              "由缺项限定的单一变量"
+            ]
+          },
+          {
+            "alternative_explanations": [
+              "表面重构",
+              "传质与气泡",
+              "pH／离子强度变化",
+              "取样或标定偏差"
+            ],
+            "category": "区分机制",
+            "controls": [
+              "相同电解液、温度、几何面积与电位标尺",
+              "匹配空白／溶液对照"
+            ],
+            "endpoints": [
+              "协议窗口电流密度",
+              "经标定的产物液相量",
+              "状态及原始文件完整性"
+            ],
+            "evidence_refs": [
+              "Measurement_526a8961ca7985f7a07d5259",
+              "Measurement_909c226c4b8234283032a75d",
+              "Measurement_1c243b810c3f1623db918f74",
+              "Measurement_ad862e1b03f121f1ec92a044"
+            ],
+            "hypothesis_id": "HYP_96AC87BB6C",
+            "interpretation": {
+              "expected": "仅支持当前协议下的操作性假设，机制仍需区分性证据",
+              "inconsistent": "增加独立样品／批次，结论保持 MIXED 或 INCONCLUSIVE",
+              "opposite": "保留反证，复查不可逆结构变化与溶液效应"
+            },
+            "method": "RuleBasedPlanner/v1",
+            "purpose": "关联失活后与清洗后的 XPS 文件及处理记录。",
+            "reason": "电流恢复不等于证实 furoate 表面因果机制。",
+            "replicate_plan": {
+              "batch_plan": "至少记录制备批次；跨批次外推需要新增独立批次",
+              "independent_samples_per_group": 2,
+              "technical_repeats_count_as_independent": false
+            },
+            "resources": "规则估计：新增独立电极至少2个；CA/HPLC 1个实验时段，表征另排期（非实测工时）",
+            "review_status": "DRAFT",
+            "rule_id": "surface",
+            "state": "ACTIVE",
+            "task_id": "Task_0f0ebe85a87a94325bd12ef7",
+            "title": "补充 Post-CA 表面证据",
+            "variables": [
+              "由缺项限定的单一变量"
+            ]
+          },
+          {
+            "rule_id": "human_review",
+            "target": "P1/P2",
+            "title": "人工核对条件、原始证据和 P1 科学门控"
+          }
+        ],
+        "official_publish": false,
+        "reason": "QC and human review required; existing P1 v2.3 formal ingestion is a separate authority",
+        "run_id": "public-v11-missing",
+        "scientific_update_performed": false,
+        "status": "STAGED",
+        "target": "P2"
+      }
+    }
+  },
+  "reason": "Return traceable staged tasks to both consumers; human review remains required",
+  "source_refs": [
+    {
+      "path": "attempts/feedback/1/inbox_P1.json",
+      "sha256": "c11740df07d89dccdbefdae9c29cee87d2009a0d881be27e218bf8b57ff06303"
+    },
+    {
+      "path": "attempts/feedback/1/started.json",
+      "sha256": "73b75bb162acf3fb24dabee20b8e5186de51d8246aa5be6a396d9a455f82d11a"
+    },
+    {
+      "path": "attempts/feedback/1/inbox_P2.json",
+      "sha256": "d7cb8838481c4b2981f4caa760b516dc6ad4eeed3353e1c1c7776e53c0e8ef8f"
+    },
+    {
+      "path": "attempts/feedback/1/records.json",
+      "sha256": "ad101b9939e4d56e61bd0b615b5f4bba32850ade15b29a9dc89510a02b27d5bc"
+    },
+    {
+      "path": "attempts/feedback/1/analysis.json",
+      "sha256": "19bdbb17408e421598e24c00c28d12dba797305d4eaa5027210070d7449a2342"
+    },
+    {
+      "path": "attempts/feedback/1/feedback.json",
+      "sha256": "0c7c621330e68fac019b7c3c2d8f0ebf0b2a38bddb9c1d68d1e14e202e5c97cb"
+    }
+  ],
+  "started_at": "2026-10-31T07:41:46.532734+00:00",
+  "status": "WAITING_FOR_REVIEW",
+  "tool": "ExperimentalFeedback.validate / P1,P2 inbox readers"
+}

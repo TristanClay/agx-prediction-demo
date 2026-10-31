@@ -1,0 +1,117 @@
+{
+  "source_type": "fixture",
+  "source_path": "PipeLine2/pipeline2/structure/assets/ff_demo.extxyz",
+  "source_sha256": "95a2a55110cf51e166b4e985ed75fdd1650faa1e2f1f522b75e274bca49ea568",
+  "declared_role": "molecule",
+  "origin": "Synthetic neutral C5H4O2 geometry; not a relaxed reference",
+  "structure_id": "S_ae3930fa6948053d019d3f2e183141c9af2a2b094dc366243ed2c819bc06d97e",
+  "structure_hash": "ae3930fa6948053d019d3f2e183141c9af2a2b094dc366243ed2c819bc06d97e",
+  "geometry_fingerprint": "3a2aa5e431ef50f941ae58c1b28fffa0a046c78a0c1b533aa0bf67e4029d014b",
+  "geometry": {
+    "schema_version": "pipeline2-structure-1",
+    "numbers": [
+      8,
+      6,
+      6,
+      6,
+      6,
+      6,
+      8,
+      1,
+      1,
+      1,
+      1
+    ],
+    "positions_A": [
+      [
+        0.0,
+        1.15,
+        0.0
+      ],
+      [
+        1.1,
+        0.35,
+        0.0
+      ],
+      [
+        0.68,
+        -1.0,
+        0.0
+      ],
+      [
+        -0.68,
+        -1.0,
+        0.0
+      ],
+      [
+        -1.1,
+        0.35,
+        0.0
+      ],
+      [
+        2.48,
+        0.65,
+        0.0
+      ],
+      [
+        3.12,
+        1.67,
+        0.0
+      ],
+      [
+        1.32,
+        -1.87,
+        0.0
+      ],
+      [
+        -1.32,
+        -1.87,
+        0.0
+      ],
+      [
+        -2.13,
+        0.67,
+        0.0
+      ],
+      [
+        2.99,
+        -0.29,
+        0.0
+      ]
+    ],
+    "cell_A": [
+      [
+        20.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        20.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        20.0
+      ]
+    ],
+    "pbc": [
+      false,
+      false,
+      false
+    ],
+    "fixed_indices": [],
+    "charge": 0
+  },
+  "artifacts": {
+    "extxyz": {
+      "path": "S_ae3930fa6948053d019d3f2e183141c9af2a2b094dc366243ed2c819bc06d97e.extxyz",
+      "sha256": "dd6bc571d37fc9e7aef3da19bb2bd4b01aa647a4142790cc9c432e8a63c4863e"
+    },
+    "POSCAR": {
+      "path": "S_ae3930fa6948053d019d3f2e183141c9af2a2b094dc366243ed2c819bc06d97e.POSCAR",
+      "sha256": "984fb3531d55e1b1dc0c07bfeb1686addd0512de7ecd5dccc33f6cb4167a31dd"
+    }
+  }
+}

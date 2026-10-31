@@ -1,0 +1,61 @@
+{
+  "candidate_elements": [
+    "Ag"
+  ],
+  "confidence": null,
+  "evidence_refs": [
+    "PAPER_A5EE828D07",
+    "PAPER_9FF28DD18D",
+    "PAPER_EE8DC4F8A0",
+    "PAPER_EB51ACA637",
+    "PAPER_EC7FDA2E30"
+  ],
+  "hypothesis": "Surface furoate/carboxylate is a supported FFOR intermediate, but its binding strength, coverage, and causal role in Ag deactivation must be established before selecting an anti-poisoning dopant.",
+  "hypothesis_id": "HYP_96AC87BB6C",
+  "priority": "medium",
+  "provenance": {
+    "artifacts": [
+      {
+        "path": "p1_snapshot/04_ag_targeted_hypotheses.json",
+        "sha256": "2cb21dc241f15db2d72bd971c14a25e35b96a3967a285d1c2afc23899b414c62"
+      },
+      {
+        "path": "p1_snapshot/06_experiment_tasks.json",
+        "sha256": "cfa30857ff4d0ca100f6b40baf003f64c01cc58ac3ef2c1f3eb82b7cef3d7374"
+      },
+      {
+        "path": "p1_snapshot/04b_element_recommendations.json",
+        "sha256": "06eb77dbb166b727fb043e81b5f687be01877a51a8ff65d596a25a7fabc75da5"
+      },
+      {
+        "path": "p1_snapshot/01_corpus.json",
+        "sha256": "b8ecd79bd8241909f726cb8ae080012cfee3879e3f4d047bf40185d343d0befa"
+      },
+      {
+        "path": "p1_snapshot/07_knowledge_graph.json",
+        "sha256": "6fd888bc2c117d6e3ee98244811bde07c2707063763587ab1fae2f0f39afbfd2"
+      }
+    ],
+    "limitations": [
+      "Historical knowledge, not a new search; confidence not inferred from priority"
+    ],
+    "origin": "REPLAY",
+    "producer": "P1.TaskAdapter",
+    "run_id": "public-v11-disagreement",
+    "source_run_id": "canonical_rule_only_round1234_surface_furoate_pipeline1_v22_20260813",
+    "version": "native-task-list+agx-1"
+  },
+  "run_id": "public-v11-disagreement",
+  "schema_version": "agx-knowledge-task-1",
+  "scientific_constraints": [
+    "Ag baseline first; Cu remains exploratory until formal Ag gates pass",
+    "No real VASP/PBS submission; no automatic scientific approval",
+    "FF adsorption demo does not implement charged furoate mechanism validation",
+    "Cu-specific redox chemistry may not directly transfer to Ag.",
+    "No direct Ag-FFOR structure-specific evidence; source-domain mechanism transfer requires Ag validation."
+  ],
+  "target_properties": [
+    "adsorption_energy"
+  ],
+  "task_id": "TASK_EXPERIMENT_SURFACE_FUROATE_INTERMEDIATE_AG_AG_CA_DEACTIVATION_RECOVERY_B24D3E25"
+}

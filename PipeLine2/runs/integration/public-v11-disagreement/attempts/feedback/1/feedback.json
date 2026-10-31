@@ -1,0 +1,186 @@
+{
+  "candidate_id": "C_Ag_e6b88633769bb840",
+  "conclusion": "有效独立重复满足演示协议的操作性恢复门槛。 该判断仅针对匹配条件下的电流恢复；furoate 因果机制仍为 INCONCLUSIVE。合成演示不构成真实材料结论，不产生正式门控放行。",
+  "experimental_findings": {
+    "criterion": "protocol recovery >= 0.8; per-group n >= 2",
+    "deactivation_demonstrated": true,
+    "deactivation_ratios": [
+      {
+        "ratio": 0.40051448552274266,
+        "sample_id": "Sample_bd3c2522987d964bffa3a4f7"
+      },
+      {
+        "ratio": 0.39942367375250504,
+        "sample_id": "Sample_cecf8e45e1558d4156cea8ea"
+      }
+    ],
+    "group_counts": {
+      "deactivated": 2,
+      "fresh": 2,
+      "solution_control": 2,
+      "spike": 2,
+      "washed": 2
+    },
+    "hypothesis_outcome": "SUPPORTED",
+    "independent_batches": 2,
+    "insufficient_groups": [],
+    "invalid_measurements": [],
+    "mechanism_outcome": "INCONCLUSIVE",
+    "min_independent": 2,
+    "missing_calibration": false,
+    "missing_product_groups": [],
+    "p2_mismatch": false,
+    "post_ca_record_present": true,
+    "product_group_counts": {
+      "deactivated": 2,
+      "fresh": 2,
+      "solution_control": 2,
+      "spike": 2,
+      "washed": 2
+    },
+    "qc_issues": [],
+    "recovery_ratios": [
+      {
+        "ratio": 0.9000290869878009,
+        "sample_id": "Sample_bd3c2522987d964bffa3a4f7"
+      },
+      {
+        "ratio": 0.8991169763809009,
+        "sample_id": "Sample_cecf8e45e1558d4156cea8ea"
+      }
+    ],
+    "technical_measurements": 0
+  },
+  "feedback_id": "FB_ed813dfa7ef5b289a6b5f549",
+  "gate_status": "PENDING_GATE",
+  "hypothesis_id": "HYP_96AC87BB6C",
+  "measurement_ids": [
+    "Measurement_481d2a8cb8775afe80001be5",
+    "Measurement_8b8a989ba8ffd0a2132f95db",
+    "Measurement_99cc3df025feea9a1bb22832",
+    "Measurement_234e3095d69c5d091b4dd277",
+    "Measurement_7d51608ed2e9c680fa46ca40",
+    "Measurement_e2155e4f4d2d003238f549ed",
+    "Measurement_d1f1581ed20f1db0301c4441",
+    "Measurement_5ee89f8aff470c528892c295",
+    "Measurement_d861287101366bd76ed6ce96",
+    "Measurement_cbb5aa1a63c97de2438b3a4f",
+    "Measurement_78c6925b1873ab14dca3c3d7",
+    "Measurement_da7bdccbc1dcb1e81e8a91cd",
+    "Measurement_a4ab0845a459a8621dd7b392",
+    "Measurement_82184eb161ed38ce3ca27af7",
+    "Measurement_ad5eb88a5009ffcd608f65e4",
+    "Measurement_a6ce1516af78027d5c9ec6d8",
+    "Measurement_836bb97177c79589ce4a915e",
+    "Measurement_230c568c5e674d368c5069ac",
+    "Measurement_fdb22ed53f1c2b5e281b3c6b",
+    "Measurement_2b7cdb90fb0efa24dff8d71d",
+    "Measurement_bde2296bb1c5ace9f914b0fc"
+  ],
+  "official_publish": false,
+  "prediction_deviation": {
+    "basis": "No quantitative mapping available",
+    "numeric_delta": null,
+    "reason": "Adsorption eV and experimental current differ in observable and units",
+    "status": "NOT_COMPARABLE"
+  },
+  "provenance": {
+    "artifacts": [
+      {
+        "path": "analysis.json",
+        "sha256": "1fc58046e28ddf9a0772cbb509476c2aa226b3711dc5505746682ecec33bed84"
+      },
+      {
+        "path": "records.json",
+        "sha256": "9d3a68cf912cddf086f28da08c3764240381b033cff6c13f7f084422e0d15eea"
+      }
+    ],
+    "limitations": [
+      "Synthetic inputs; software QC PASS is not scientific approval",
+      "Human review pending; formal P1 feedback ingestion unavailable"
+    ],
+    "origin": "SYNTHETIC",
+    "producer": "P3.Service.analyze",
+    "run_id": "public-v11-disagreement",
+    "source_run_id": null,
+    "version": "1.0.0"
+  },
+  "qc_status": "PASS",
+  "recommended_actions": [
+    {
+      "alternative_explanations": [
+        "表面重构",
+        "传质与气泡",
+        "pH／离子强度变化",
+        "取样或标定偏差"
+      ],
+      "category": "优化性能",
+      "controls": [
+        "相同电解液、温度、几何面积与电位标尺",
+        "匹配空白／溶液对照"
+      ],
+      "endpoints": [
+        "协议窗口电流密度",
+        "经标定的产物液相量",
+        "状态及原始文件完整性"
+      ],
+      "evidence_refs": [
+        "Measurement_481d2a8cb8775afe80001be5",
+        "Measurement_8b8a989ba8ffd0a2132f95db",
+        "Measurement_99cc3df025feea9a1bb22832",
+        "Measurement_234e3095d69c5d091b4dd277",
+        "Measurement_7d51608ed2e9c680fa46ca40",
+        "Measurement_e2155e4f4d2d003238f549ed",
+        "Measurement_d1f1581ed20f1db0301c4441",
+        "Measurement_5ee89f8aff470c528892c295",
+        "Measurement_d861287101366bd76ed6ce96",
+        "Measurement_cbb5aa1a63c97de2438b3a4f",
+        "Measurement_78c6925b1873ab14dca3c3d7",
+        "Measurement_da7bdccbc1dcb1e81e8a91cd",
+        "Measurement_a4ab0845a459a8621dd7b392",
+        "Measurement_82184eb161ed38ce3ca27af7",
+        "Measurement_ad5eb88a5009ffcd608f65e4",
+        "Measurement_a6ce1516af78027d5c9ec6d8",
+        "Measurement_836bb97177c79589ce4a915e",
+        "Measurement_230c568c5e674d368c5069ac",
+        "Measurement_fdb22ed53f1c2b5e281b3c6b",
+        "Measurement_2b7cdb90fb0efa24dff8d71d",
+        "Measurement_bde2296bb1c5ace9f914b0fc"
+      ],
+      "hypothesis_id": "HYP_96AC87BB6C",
+      "interpretation": {
+        "expected": "仅支持当前协议下的操作性假设，机制仍需区分性证据",
+        "inconsistent": "增加独立样品／批次，结论保持 MIXED 或 INCONCLUSIVE",
+        "opposite": "保留反证，复查不可逆结构变化与溶液效应"
+      },
+      "method": "RuleBasedPlanner/v1",
+      "purpose": "在现有证据约束下比较操作电位或清洗时长，并同步定量产物。",
+      "reason": "这是规则生成的后续实验草案，不保证收益。",
+      "replicate_plan": {
+        "batch_plan": "至少记录制备批次；跨批次外推需要新增独立批次",
+        "independent_samples_per_group": 2,
+        "technical_repeats_count_as_independent": false
+      },
+      "resources": "规则估计：新增独立电极至少2个；CA/HPLC 1个实验时段，表征另排期（非实测工时）",
+      "review_status": "DRAFT",
+      "rule_id": "optimize",
+      "state": "ACTIVE",
+      "task_id": "Task_2e3cb2205a1ec0ffcc4a9feb",
+      "title": "规划单变量操作窗口实验",
+      "variables": [
+        "操作电位（保持标尺）",
+        "处理状态",
+        "采样时点"
+      ]
+    },
+    {
+      "rule_id": "human_review",
+      "target": "P1/P2",
+      "title": "人工核对条件、原始证据和 P1 科学门控"
+    }
+  ],
+  "review_status": "WAITING_FOR_REVIEW",
+  "run_id": "public-v11-disagreement",
+  "sample_id": "Sample_bd3c2522987d964bffa3a4f7",
+  "schema_version": "agx-experimental-feedback-1"
+}

@@ -1,0 +1,1 @@
+SYNTHETIC attachment placeholder. No measured spectrum; no fitting implemented.

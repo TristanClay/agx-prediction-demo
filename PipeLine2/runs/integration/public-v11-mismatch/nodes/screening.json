@@ -1,0 +1,891 @@
+{
+  "artifacts": [
+    {
+      "path": "attempts/screening/1/config_Ag.json",
+      "sha256": "f2bcddada2648ab2d96b292c894a4bf402a3a4c8c2d51fce119248cf8b725869"
+    },
+    {
+      "path": "attempts/screening/1/config_Cu.json",
+      "sha256": "ae7d60565e2eec07817259973e42cd23ee41e7169fc4528cb0bc0e31cdb74cd6"
+    },
+    {
+      "path": "attempts/screening/1/event.json",
+      "sha256": "98690bc120155d27c31571cd7209e6fb8a31b7f647ef471ee5d107abceadc57e"
+    },
+    {
+      "path": "attempts/screening/1/p2_Ag/active_learning.json",
+      "sha256": "13672823fb913cbea91703b611540f7c39eb519d4a36e5d85fc31b297770522f"
+    },
+    {
+      "path": "attempts/screening/1/p2_Ag/budget.json",
+      "sha256": "475ef2f3c060bccbd81c617403e2c2bcbeaa4197ac7eabe3bd94cee3b6374564"
+    },
+    {
+      "path": "attempts/screening/1/p2_Ag/dft_proposals.json",
+      "sha256": "023a6ce8eab7ace03d7e6574ddcbc1d9f63541e6721b573811426af69d975ea6"
+    },
+    {
+      "path": "attempts/screening/1/p2_Ag/predictions.csv",
+      "sha256": "5449f4163a6fc728c73c2eae8f74e47b94b4a102cf71896c1b847ddb9783da34"
+    },
+    {
+      "path": "attempts/screening/1/p2_Ag/properties.json",
+      "sha256": "5298c3558f18b02da67f63db58b0ec00454801ad55bf23ff53d8929593ff76c3"
+    },
+    {
+      "path": "attempts/screening/1/p2_Ag/registry.sqlite",
+      "sha256": "07f45cf53db0eb3664e28d6d9641ccccd2bb024f1937b7e7122e4a68899f0b4c"
+    },
+    {
+      "path": "attempts/screening/1/p2_Ag/report.md",
+      "sha256": "d6ca771aa8626ec21d045ecd28f9a9e95706d647a8da1d35ce4ddf9301b82035"
+    },
+    {
+      "path": "attempts/screening/1/p2_Ag/run_manifest.json",
+      "sha256": "d06b5869f4f04e2f2cbc765e404ecdcd91f3ff67ce25dc8afc8ce1a8b3f201ba"
+    },
+    {
+      "path": "attempts/screening/1/p2_Ag/screening.json",
+      "sha256": "e17117b905b40dbc6e8966b2db0a5df8f46ef6ee0a5a090dd929aab85ecc74f5"
+    },
+    {
+      "path": "attempts/screening/1/p2_Ag/structures/S_06ecbd91a5aa8bc421f4f0dbd4c89ee03f1d2fed377c312eccddc2fe48f52e95.POSCAR",
+      "sha256": "e4b6b1abf5a6ca8f818eeff4a990658299ab8d3b2d1efb9a064eb45257f83dc3"
+    },
+    {
+      "path": "attempts/screening/1/p2_Ag/structures/S_06ecbd91a5aa8bc421f4f0dbd4c89ee03f1d2fed377c312eccddc2fe48f52e95.extxyz",
+      "sha256": "0f08cbff38bb2fd528ebf89998384a67bbc5b72a2976a6ba598f74859047ae25"
+    },
+    {
+      "path": "attempts/screening/1/p2_Ag/structures/S_06ecbd91a5aa8bc421f4f0dbd4c89ee03f1d2fed377c312eccddc2fe48f52e95.json",
+      "sha256": "080f3239a66113be2146fb55f62448945d6851ec65c79190826912a39337a0e6"
+    },
+    {
+      "path": "attempts/screening/1/p2_Ag/structures/S_a7b91c8568b0222826a100ca6b5c2beb55e14f6dd855dc6f5f2bdff94626b78b.POSCAR",
+      "sha256": "2efefa403b2d36f73ee9f6ffadbb8c9e55df70fc366ae2e2787586922e214c6d"
+    },
+    {
+      "path": "attempts/screening/1/p2_Ag/structures/S_a7b91c8568b0222826a100ca6b5c2beb55e14f6dd855dc6f5f2bdff94626b78b.extxyz",
+      "sha256": "71ee7a2527b93c4f68c6434309d3fd48f9d74ef7dbed100b8fc3861042b9683e"
+    },
+    {
+      "path": "attempts/screening/1/p2_Ag/structures/S_a7b91c8568b0222826a100ca6b5c2beb55e14f6dd855dc6f5f2bdff94626b78b.json",
+      "sha256": "0e0125476a00049eb4837a8a5cd2dac350f4be9ae0e3a1af7b9c674daf6ba259"
+    },
+    {
+      "path": "attempts/screening/1/p2_Ag/structures/S_ae3930fa6948053d019d3f2e183141c9af2a2b094dc366243ed2c819bc06d97e.POSCAR",
+      "sha256": "984fb3531d55e1b1dc0c07bfeb1686addd0512de7ecd5dccc33f6cb4167a31dd"
+    },
+    {
+      "path": "attempts/screening/1/p2_Ag/structures/S_ae3930fa6948053d019d3f2e183141c9af2a2b094dc366243ed2c819bc06d97e.extxyz",
+      "sha256": "dd6bc571d37fc9e7aef3da19bb2bd4b01aa647a4142790cc9c432e8a63c4863e"
+    },
+    {
+      "path": "attempts/screening/1/p2_Ag/structures/S_ae3930fa6948053d019d3f2e183141c9af2a2b094dc366243ed2c819bc06d97e.json",
+      "sha256": "3c05212d494624ffb3c34c6325235a2a3770dad3ab33d5cea0dc32873afd990e"
+    },
+    {
+      "path": "attempts/screening/1/p2_Ag/structures/S_e6b88633769bb8404cc04992c9d684a5d678da11249e67fb38ac1b7f532a638c.POSCAR",
+      "sha256": "8646d1ff27cc2acc6c1395f99371648d08bd1eee710a67b6c367f8a2e60a672e"
+    },
+    {
+      "path": "attempts/screening/1/p2_Ag/structures/S_e6b88633769bb8404cc04992c9d684a5d678da11249e67fb38ac1b7f532a638c.extxyz",
+      "sha256": "ceb8e4dc1517fbf75f8c557071804b2897f6bb33abdfd7f2436b876e4d284782"
+    },
+    {
+      "path": "attempts/screening/1/p2_Ag/structures/S_e6b88633769bb8404cc04992c9d684a5d678da11249e67fb38ac1b7f532a638c.json",
+      "sha256": "31d7e464fb76c5700477d748fcafc94d7e07c0a3c1cabb788fd6be79b73ba06e"
+    },
+    {
+      "path": "attempts/screening/1/p2_Cu/active_learning.json",
+      "sha256": "5fd38fed46f4aee9b4ee936887e7042742b8c1501f0bf50a2591763cf802c037"
+    },
+    {
+      "path": "attempts/screening/1/p2_Cu/budget.json",
+      "sha256": "475ef2f3c060bccbd81c617403e2c2bcbeaa4197ac7eabe3bd94cee3b6374564"
+    },
+    {
+      "path": "attempts/screening/1/p2_Cu/dft_proposals.json",
+      "sha256": "5577a5b4cc68efbdfe72a1bcf702c7ab10fdf2a9a659f02ce929929f6d31e283"
+    },
+    {
+      "path": "attempts/screening/1/p2_Cu/predictions.csv",
+      "sha256": "37f9af82de508a8cf9f473ecc1a36b6d176fb24350dfd92d91f9e371712877fb"
+    },
+    {
+      "path": "attempts/screening/1/p2_Cu/properties.json",
+      "sha256": "a727109ec884e7ecbe02f340bc3226f53baf8bd5496439c28eb9d3af2c1050c2"
+    },
+    {
+      "path": "attempts/screening/1/p2_Cu/registry.sqlite",
+      "sha256": "70c7be0574a35e47c66ede788553c7c88baf8056823c71185f6de418c7eecd9e"
+    },
+    {
+      "path": "attempts/screening/1/p2_Cu/report.md",
+      "sha256": "3d71d77d5af5d38901a1846e76a84f673493dec6625f7eaabf549d2d076183cf"
+    },
+    {
+      "path": "attempts/screening/1/p2_Cu/run_manifest.json",
+      "sha256": "1f8fe7b3578034a7f071433ba927ec53af444ff2043955c6fe9f6c15b924e0e0"
+    },
+    {
+      "path": "attempts/screening/1/p2_Cu/screening.json",
+      "sha256": "25815ce3cfc28e10d492043cfe0b87e9a7f780c2b09465b498adb1dff170a3f0"
+    },
+    {
+      "path": "attempts/screening/1/p2_Cu/structures/S_464526a096666e0cbe06da474ae223aa9aab8017b7597924714f5688d84aaa7f.POSCAR",
+      "sha256": "9b0f630317488b473375fb5e9487e2c8de6d197aa899d1657b213b202609ba12"
+    },
+    {
+      "path": "attempts/screening/1/p2_Cu/structures/S_464526a096666e0cbe06da474ae223aa9aab8017b7597924714f5688d84aaa7f.extxyz",
+      "sha256": "a7a7882fd2efb2d36805d1467c194945941b7ddfbbd34b5a2cf2f2a12df2f6c2"
+    },
+    {
+      "path": "attempts/screening/1/p2_Cu/structures/S_464526a096666e0cbe06da474ae223aa9aab8017b7597924714f5688d84aaa7f.json",
+      "sha256": "05317e5d1204b47e0e051a1f25001fefbe37325fe87130b528a415fd6afe2122"
+    },
+    {
+      "path": "attempts/screening/1/p2_Cu/structures/S_95137c4ee3ee9ebff44b601eb1e1be53300648cdde168b36fb68a48c815726c7.POSCAR",
+      "sha256": "cc2f857efc19ed7e514038f76ff60c013898ba3a55a560b13f1209e4d490dc39"
+    },
+    {
+      "path": "attempts/screening/1/p2_Cu/structures/S_95137c4ee3ee9ebff44b601eb1e1be53300648cdde168b36fb68a48c815726c7.extxyz",
+      "sha256": "9d408fe9f307daaa22ad40b33cef8ad4c6afa6547e263d21baaba547500fe325"
+    },
+    {
+      "path": "attempts/screening/1/p2_Cu/structures/S_95137c4ee3ee9ebff44b601eb1e1be53300648cdde168b36fb68a48c815726c7.json",
+      "sha256": "4348a05c0eca22bae1a579edce4a225a22b4912200f0ccc1d78a4d682c85ecd4"
+    },
+    {
+      "path": "attempts/screening/1/p2_Cu/structures/S_a7b91c8568b0222826a100ca6b5c2beb55e14f6dd855dc6f5f2bdff94626b78b.POSCAR",
+      "sha256": "2efefa403b2d36f73ee9f6ffadbb8c9e55df70fc366ae2e2787586922e214c6d"
+    },
+    {
+      "path": "attempts/screening/1/p2_Cu/structures/S_a7b91c8568b0222826a100ca6b5c2beb55e14f6dd855dc6f5f2bdff94626b78b.extxyz",
+      "sha256": "71ee7a2527b93c4f68c6434309d3fd48f9d74ef7dbed100b8fc3861042b9683e"
+    },
+    {
+      "path": "attempts/screening/1/p2_Cu/structures/S_a7b91c8568b0222826a100ca6b5c2beb55e14f6dd855dc6f5f2bdff94626b78b.json",
+      "sha256": "0e0125476a00049eb4837a8a5cd2dac350f4be9ae0e3a1af7b9c674daf6ba259"
+    },
+    {
+      "path": "attempts/screening/1/p2_Cu/structures/S_ae3930fa6948053d019d3f2e183141c9af2a2b094dc366243ed2c819bc06d97e.POSCAR",
+      "sha256": "984fb3531d55e1b1dc0c07bfeb1686addd0512de7ecd5dccc33f6cb4167a31dd"
+    },
+    {
+      "path": "attempts/screening/1/p2_Cu/structures/S_ae3930fa6948053d019d3f2e183141c9af2a2b094dc366243ed2c819bc06d97e.extxyz",
+      "sha256": "dd6bc571d37fc9e7aef3da19bb2bd4b01aa647a4142790cc9c432e8a63c4863e"
+    },
+    {
+      "path": "attempts/screening/1/p2_Cu/structures/S_ae3930fa6948053d019d3f2e183141c9af2a2b094dc366243ed2c819bc06d97e.json",
+      "sha256": "3c05212d494624ffb3c34c6325235a2a3770dad3ab33d5cea0dc32873afd990e"
+    },
+    {
+      "path": "attempts/screening/1/p2_Cu/structures/S_e23271b170f5e7f795491f7c3eb8d79be6db1a08d52953a6beed687ade7ccaba.POSCAR",
+      "sha256": "e8a850feda227aa6d307a4990ed2aaacaca90496b955ee7ef088aaddee1697e8"
+    },
+    {
+      "path": "attempts/screening/1/p2_Cu/structures/S_e23271b170f5e7f795491f7c3eb8d79be6db1a08d52953a6beed687ade7ccaba.extxyz",
+      "sha256": "a2fa409b4be7c2df4b6e3a93e0faba8a6cc67c307f220d6e4a3d80b39c789ef9"
+    },
+    {
+      "path": "attempts/screening/1/p2_Cu/structures/S_e23271b170f5e7f795491f7c3eb8d79be6db1a08d52953a6beed687ade7ccaba.json",
+      "sha256": "d1870ea955905d21b6b87e9b4a581fc59983017ae4f21fc207cf2b53d8b8dcee"
+    },
+    {
+      "path": "attempts/screening/1/screening.json",
+      "sha256": "2de1ef16bbe9c8a73eaa196a88bfb60103ea07c7d9f610f31da9e2be255309b9"
+    },
+    {
+      "path": "attempts/screening/1/started.json",
+      "sha256": "6763242f2557eda5328d80cde87a4bf0729e93a9b5eaab7bf7f9ed7a248254e2"
+    }
+  ],
+  "directory": "attempts/screening/1",
+  "event": {
+    "agent": "Atomistic Screening Agent",
+    "attempt": 1,
+    "elapsed_s": 0.12207724998006597,
+    "error": null,
+    "finished_at": "2026-10-31T07:41:46.746698+00:00",
+    "input": {
+      "depends_on": [
+        "knowledge"
+      ],
+      "run_id": "public-v11-mismatch"
+    },
+    "model": "analytic mock-v1",
+    "node_id": "screening",
+    "origin": "SYNTHETIC",
+    "output": {
+      "models": {
+        "DPA4": {
+          "automatic_download": false,
+          "model_id": "DPA4",
+          "reason": "Real backend and licensed local weights have not been integrated",
+          "runtime_validation": "NOT_RUNTIME_VERIFIED",
+          "status": "NOT_CONFIGURED",
+          "tasks": []
+        },
+        "MACE-MH-1": {
+          "automatic_download": false,
+          "model_id": "MACE-MH-1",
+          "reason": "Real backend and licensed local weights have not been integrated",
+          "runtime_validation": "NOT_RUNTIME_VERIFIED",
+          "status": "NOT_CONFIGURED",
+          "tasks": []
+        },
+        "UMA": {
+          "automatic_download": false,
+          "model_id": "UMA",
+          "reason": "Real backend and licensed local weights have not been integrated",
+          "runtime_validation": "NOT_RUNTIME_VERIFIED",
+          "status": "NOT_CONFIGURED",
+          "tasks": []
+        }
+      },
+      "native_runs": [
+        {
+          "actual_dft_jobs": 0,
+          "element": "Ag",
+          "gate": {
+            "allowed_operations": [
+              "offline_exploration"
+            ],
+            "allowed_structure_model_ids": [],
+            "blockers": [
+              "formal_pipeline1_source_missing"
+            ],
+            "candidate_id": "EC_AG_BASELINE_V1",
+            "source_hashes": {},
+            "status": "PENDING_GATE"
+          },
+          "manifest": {
+            "path": "p2_Ag/run_manifest.json",
+            "sha256": "d06b5869f4f04e2f2cbc765e404ecdcd91f3ff67ce25dc8afc8ce1a8b3f201ba"
+          },
+          "source_type": "mock"
+        },
+        {
+          "actual_dft_jobs": 0,
+          "element": "Cu",
+          "gate": {
+            "allowed_operations": [
+              "offline_exploration"
+            ],
+            "allowed_structure_model_ids": [],
+            "blockers": [
+              "formal_pipeline1_source_missing"
+            ],
+            "candidate_id": "EC_MODERATE_FURFURAL_ADSORPTION_CU_V1",
+            "source_hashes": {},
+            "status": "PENDING_GATE"
+          },
+          "manifest": {
+            "path": "p2_Cu/run_manifest.json",
+            "sha256": "1f8fe7b3578034a7f071433ba927ec53af444ff2043955c6fe9f6c15b924e0e0"
+          },
+          "source_type": "mock"
+        }
+      ],
+      "results": [
+        {
+          "candidate_id": "C_Ag_e6b88633769bb840",
+          "composition": {
+            "Ag": 36,
+            "C": 5,
+            "H": 4,
+            "O": 2
+          },
+          "dft_verification_status": "NOT_RUN",
+          "evidence_refs": [
+            "PAPER_A5EE828D07",
+            "PAPER_9FF28DD18D",
+            "PAPER_EE8DC4F8A0",
+            "PAPER_EB51ACA637",
+            "PAPER_EC7FDA2E30"
+          ],
+          "gate_status": "PENDING_GATE",
+          "hypothesis_id": "HYP_96AC87BB6C",
+          "model_hash": "efb7e4b4e5752b96713763e81e7d6ff52f40e074012b83509456aca83dd47d70",
+          "model_name": "mock-v1",
+          "model_version": "1",
+          "ood_status": "NOT_ASSESSED",
+          "predicted_properties": [
+            {
+              "definition": "E(adsorbed)-E(slab)-E(molecule)",
+              "name": "adsorption_energy",
+              "reference_structure_ids": [
+                "S_e6b88633769bb8404cc04992c9d684a5d678da11249e67fb38ac1b7f532a638c",
+                "S_a7b91c8568b0222826a100ca6b5c2beb55e14f6dd855dc6f5f2bdff94626b78b",
+                "S_ae3930fa6948053d019d3f2e183141c9af2a2b094dc366243ed2c819bc06d97e"
+              ],
+              "unit": "eV",
+              "value": -0.2329955718401734
+            }
+          ],
+          "provenance": {
+            "artifacts": [
+              {
+                "path": "p2_Ag/run_manifest.json",
+                "sha256": "d06b5869f4f04e2f2cbc765e404ecdcd91f3ff67ce25dc8afc8ce1a8b3f201ba"
+              }
+            ],
+            "limitations": [
+              "Analytic mock potential, not MLIP; uncalibrated",
+              "Exploratory Cu is an explicit demo case, not a released P1 candidate"
+            ],
+            "origin": "SYNTHETIC",
+            "producer": "P2.native-runner",
+            "run_id": "public-v11-mismatch",
+            "source_run_id": null,
+            "version": "0.1.0"
+          },
+          "run_id": "public-v11-mismatch",
+          "schema_version": "agx-screening-result-1",
+          "structure_artifact": {
+            "path": "p2_Ag/structures/S_e6b88633769bb8404cc04992c9d684a5d678da11249e67fb38ac1b7f532a638c.extxyz",
+            "sha256": "ceb8e4dc1517fbf75f8c557071804b2897f6bb33abdfd7f2436b876e4d284782"
+          },
+          "structure_id": "S_e6b88633769bb8404cc04992c9d684a5d678da11249e67fb38ac1b7f532a638c",
+          "task_id": "TASK_EXPERIMENT_SURFACE_FUROATE_INTERMEDIATE_AG_AG_CA_DEACTIVATION_RECOVERY_B24D3E25",
+          "uncertainty": "UNCALIBRATED"
+        },
+        {
+          "candidate_id": "C_Ag_06ecbd91a5aa8bc4",
+          "composition": {
+            "Ag": 36,
+            "C": 5,
+            "H": 4,
+            "O": 2
+          },
+          "dft_verification_status": "NOT_RUN",
+          "evidence_refs": [
+            "PAPER_A5EE828D07",
+            "PAPER_9FF28DD18D",
+            "PAPER_EE8DC4F8A0",
+            "PAPER_EB51ACA637",
+            "PAPER_EC7FDA2E30"
+          ],
+          "gate_status": "PENDING_GATE",
+          "hypothesis_id": "HYP_96AC87BB6C",
+          "model_hash": "efb7e4b4e5752b96713763e81e7d6ff52f40e074012b83509456aca83dd47d70",
+          "model_name": "mock-v1",
+          "model_version": "1",
+          "ood_status": "NOT_ASSESSED",
+          "predicted_properties": [
+            {
+              "definition": "E(adsorbed)-E(slab)-E(molecule)",
+              "name": "adsorption_energy",
+              "reference_structure_ids": [
+                "S_06ecbd91a5aa8bc421f4f0dbd4c89ee03f1d2fed377c312eccddc2fe48f52e95",
+                "S_a7b91c8568b0222826a100ca6b5c2beb55e14f6dd855dc6f5f2bdff94626b78b",
+                "S_ae3930fa6948053d019d3f2e183141c9af2a2b094dc366243ed2c819bc06d97e"
+              ],
+              "unit": "eV",
+              "value": -0.16107335390187238
+            }
+          ],
+          "provenance": {
+            "artifacts": [
+              {
+                "path": "p2_Ag/run_manifest.json",
+                "sha256": "d06b5869f4f04e2f2cbc765e404ecdcd91f3ff67ce25dc8afc8ce1a8b3f201ba"
+              }
+            ],
+            "limitations": [
+              "Analytic mock potential, not MLIP; uncalibrated",
+              "Exploratory Cu is an explicit demo case, not a released P1 candidate"
+            ],
+            "origin": "SYNTHETIC",
+            "producer": "P2.native-runner",
+            "run_id": "public-v11-mismatch",
+            "source_run_id": null,
+            "version": "0.1.0"
+          },
+          "run_id": "public-v11-mismatch",
+          "schema_version": "agx-screening-result-1",
+          "structure_artifact": {
+            "path": "p2_Ag/structures/S_06ecbd91a5aa8bc421f4f0dbd4c89ee03f1d2fed377c312eccddc2fe48f52e95.extxyz",
+            "sha256": "0f08cbff38bb2fd528ebf89998384a67bbc5b72a2976a6ba598f74859047ae25"
+          },
+          "structure_id": "S_06ecbd91a5aa8bc421f4f0dbd4c89ee03f1d2fed377c312eccddc2fe48f52e95",
+          "task_id": "TASK_EXPERIMENT_SURFACE_FUROATE_INTERMEDIATE_AG_AG_CA_DEACTIVATION_RECOVERY_B24D3E25",
+          "uncertainty": "UNCALIBRATED"
+        },
+        {
+          "candidate_id": "C_Cu_e23271b170f5e7f7",
+          "composition": {
+            "Ag": 35,
+            "C": 5,
+            "Cu": 1,
+            "H": 4,
+            "O": 2
+          },
+          "dft_verification_status": "NOT_RUN",
+          "evidence_refs": [
+            "PAPER_A5EE828D07",
+            "PAPER_9FF28DD18D",
+            "PAPER_EE8DC4F8A0",
+            "PAPER_EB51ACA637",
+            "PAPER_EC7FDA2E30"
+          ],
+          "gate_status": "PENDING_GATE",
+          "hypothesis_id": "HYP_96AC87BB6C",
+          "model_hash": "efb7e4b4e5752b96713763e81e7d6ff52f40e074012b83509456aca83dd47d70",
+          "model_name": "mock-v1",
+          "model_version": "1",
+          "ood_status": "NOT_ASSESSED",
+          "predicted_properties": [
+            {
+              "definition": "E(adsorbed)-E(slab)-E(molecule)",
+              "name": "adsorption_energy",
+              "reference_structure_ids": [
+                "S_e23271b170f5e7f795491f7c3eb8d79be6db1a08d52953a6beed687ade7ccaba",
+                "S_464526a096666e0cbe06da474ae223aa9aab8017b7597924714f5688d84aaa7f",
+                "S_ae3930fa6948053d019d3f2e183141c9af2a2b094dc366243ed2c819bc06d97e"
+              ],
+              "unit": "eV",
+              "value": -0.2329955718401734
+            }
+          ],
+          "provenance": {
+            "artifacts": [
+              {
+                "path": "p2_Cu/run_manifest.json",
+                "sha256": "1f8fe7b3578034a7f071433ba927ec53af444ff2043955c6fe9f6c15b924e0e0"
+              }
+            ],
+            "limitations": [
+              "Analytic mock potential, not MLIP; uncalibrated",
+              "Exploratory Cu is an explicit demo case, not a released P1 candidate"
+            ],
+            "origin": "SYNTHETIC",
+            "producer": "P2.native-runner",
+            "run_id": "public-v11-mismatch",
+            "source_run_id": null,
+            "version": "0.1.0"
+          },
+          "run_id": "public-v11-mismatch",
+          "schema_version": "agx-screening-result-1",
+          "structure_artifact": {
+            "path": "p2_Cu/structures/S_e23271b170f5e7f795491f7c3eb8d79be6db1a08d52953a6beed687ade7ccaba.extxyz",
+            "sha256": "a2fa409b4be7c2df4b6e3a93e0faba8a6cc67c307f220d6e4a3d80b39c789ef9"
+          },
+          "structure_id": "S_e23271b170f5e7f795491f7c3eb8d79be6db1a08d52953a6beed687ade7ccaba",
+          "task_id": "TASK_EXPERIMENT_SURFACE_FUROATE_INTERMEDIATE_AG_AG_CA_DEACTIVATION_RECOVERY_B24D3E25",
+          "uncertainty": "UNCALIBRATED"
+        },
+        {
+          "candidate_id": "C_Cu_95137c4ee3ee9ebf",
+          "composition": {
+            "Ag": 35,
+            "C": 5,
+            "Cu": 1,
+            "H": 4,
+            "O": 2
+          },
+          "dft_verification_status": "NOT_RUN",
+          "evidence_refs": [
+            "PAPER_A5EE828D07",
+            "PAPER_9FF28DD18D",
+            "PAPER_EE8DC4F8A0",
+            "PAPER_EB51ACA637",
+            "PAPER_EC7FDA2E30"
+          ],
+          "gate_status": "PENDING_GATE",
+          "hypothesis_id": "HYP_96AC87BB6C",
+          "model_hash": "efb7e4b4e5752b96713763e81e7d6ff52f40e074012b83509456aca83dd47d70",
+          "model_name": "mock-v1",
+          "model_version": "1",
+          "ood_status": "NOT_ASSESSED",
+          "predicted_properties": [
+            {
+              "definition": "E(adsorbed)-E(slab)-E(molecule)",
+              "name": "adsorption_energy",
+              "reference_structure_ids": [
+                "S_95137c4ee3ee9ebff44b601eb1e1be53300648cdde168b36fb68a48c815726c7",
+                "S_464526a096666e0cbe06da474ae223aa9aab8017b7597924714f5688d84aaa7f",
+                "S_ae3930fa6948053d019d3f2e183141c9af2a2b094dc366243ed2c819bc06d97e"
+              ],
+              "unit": "eV",
+              "value": -0.16107335390187238
+            }
+          ],
+          "provenance": {
+            "artifacts": [
+              {
+                "path": "p2_Cu/run_manifest.json",
+                "sha256": "1f8fe7b3578034a7f071433ba927ec53af444ff2043955c6fe9f6c15b924e0e0"
+              }
+            ],
+            "limitations": [
+              "Analytic mock potential, not MLIP; uncalibrated",
+              "Exploratory Cu is an explicit demo case, not a released P1 candidate"
+            ],
+            "origin": "SYNTHETIC",
+            "producer": "P2.native-runner",
+            "run_id": "public-v11-mismatch",
+            "source_run_id": null,
+            "version": "0.1.0"
+          },
+          "run_id": "public-v11-mismatch",
+          "schema_version": "agx-screening-result-1",
+          "structure_artifact": {
+            "path": "p2_Cu/structures/S_95137c4ee3ee9ebff44b601eb1e1be53300648cdde168b36fb68a48c815726c7.extxyz",
+            "sha256": "9d408fe9f307daaa22ad40b33cef8ad4c6afa6547e263d21baaba547500fe325"
+          },
+          "structure_id": "S_95137c4ee3ee9ebff44b601eb1e1be53300648cdde168b36fb68a48c815726c7",
+          "task_id": "TASK_EXPERIMENT_SURFACE_FUROATE_INTERMEDIATE_AG_AG_CA_DEACTIVATION_RECOVERY_B24D3E25",
+          "uncertainty": "UNCALIBRATED"
+        }
+      ]
+    },
+    "reason": "Reuse ASE geometry, native mock ModelAdapter and PENDING_GATE enforcement",
+    "source_refs": [
+      {
+        "path": "attempts/screening/1/config_Cu.json",
+        "sha256": "ae7d60565e2eec07817259973e42cd23ee41e7169fc4528cb0bc0e31cdb74cd6"
+      },
+      {
+        "path": "attempts/screening/1/config_Ag.json",
+        "sha256": "f2bcddada2648ab2d96b292c894a4bf402a3a4c8c2d51fce119248cf8b725869"
+      },
+      {
+        "path": "attempts/screening/1/started.json",
+        "sha256": "6763242f2557eda5328d80cde87a4bf0729e93a9b5eaab7bf7f9ed7a248254e2"
+      },
+      {
+        "path": "attempts/screening/1/screening.json",
+        "sha256": "2de1ef16bbe9c8a73eaa196a88bfb60103ea07c7d9f610f31da9e2be255309b9"
+      }
+    ],
+    "started_at": "2026-10-31T07:41:46.624630+00:00",
+    "status": "COMPLETED",
+    "tool": "P2.run_demo / MockModelAdapter.predict"
+  },
+  "output": {
+    "models": {
+      "DPA4": {
+        "automatic_download": false,
+        "model_id": "DPA4",
+        "reason": "Real backend and licensed local weights have not been integrated",
+        "runtime_validation": "NOT_RUNTIME_VERIFIED",
+        "status": "NOT_CONFIGURED",
+        "tasks": []
+      },
+      "MACE-MH-1": {
+        "automatic_download": false,
+        "model_id": "MACE-MH-1",
+        "reason": "Real backend and licensed local weights have not been integrated",
+        "runtime_validation": "NOT_RUNTIME_VERIFIED",
+        "status": "NOT_CONFIGURED",
+        "tasks": []
+      },
+      "UMA": {
+        "automatic_download": false,
+        "model_id": "UMA",
+        "reason": "Real backend and licensed local weights have not been integrated",
+        "runtime_validation": "NOT_RUNTIME_VERIFIED",
+        "status": "NOT_CONFIGURED",
+        "tasks": []
+      }
+    },
+    "native_runs": [
+      {
+        "actual_dft_jobs": 0,
+        "element": "Ag",
+        "gate": {
+          "allowed_operations": [
+            "offline_exploration"
+          ],
+          "allowed_structure_model_ids": [],
+          "blockers": [
+            "formal_pipeline1_source_missing"
+          ],
+          "candidate_id": "EC_AG_BASELINE_V1",
+          "source_hashes": {},
+          "status": "PENDING_GATE"
+        },
+        "manifest": {
+          "path": "p2_Ag/run_manifest.json",
+          "sha256": "d06b5869f4f04e2f2cbc765e404ecdcd91f3ff67ce25dc8afc8ce1a8b3f201ba"
+        },
+        "source_type": "mock"
+      },
+      {
+        "actual_dft_jobs": 0,
+        "element": "Cu",
+        "gate": {
+          "allowed_operations": [
+            "offline_exploration"
+          ],
+          "allowed_structure_model_ids": [],
+          "blockers": [
+            "formal_pipeline1_source_missing"
+          ],
+          "candidate_id": "EC_MODERATE_FURFURAL_ADSORPTION_CU_V1",
+          "source_hashes": {},
+          "status": "PENDING_GATE"
+        },
+        "manifest": {
+          "path": "p2_Cu/run_manifest.json",
+          "sha256": "1f8fe7b3578034a7f071433ba927ec53af444ff2043955c6fe9f6c15b924e0e0"
+        },
+        "source_type": "mock"
+      }
+    ],
+    "results": [
+      {
+        "candidate_id": "C_Ag_e6b88633769bb840",
+        "composition": {
+          "Ag": 36,
+          "C": 5,
+          "H": 4,
+          "O": 2
+        },
+        "dft_verification_status": "NOT_RUN",
+        "evidence_refs": [
+          "PAPER_A5EE828D07",
+          "PAPER_9FF28DD18D",
+          "PAPER_EE8DC4F8A0",
+          "PAPER_EB51ACA637",
+          "PAPER_EC7FDA2E30"
+        ],
+        "gate_status": "PENDING_GATE",
+        "hypothesis_id": "HYP_96AC87BB6C",
+        "model_hash": "efb7e4b4e5752b96713763e81e7d6ff52f40e074012b83509456aca83dd47d70",
+        "model_name": "mock-v1",
+        "model_version": "1",
+        "ood_status": "NOT_ASSESSED",
+        "predicted_properties": [
+          {
+            "definition": "E(adsorbed)-E(slab)-E(molecule)",
+            "name": "adsorption_energy",
+            "reference_structure_ids": [
+              "S_e6b88633769bb8404cc04992c9d684a5d678da11249e67fb38ac1b7f532a638c",
+              "S_a7b91c8568b0222826a100ca6b5c2beb55e14f6dd855dc6f5f2bdff94626b78b",
+              "S_ae3930fa6948053d019d3f2e183141c9af2a2b094dc366243ed2c819bc06d97e"
+            ],
+            "unit": "eV",
+            "value": -0.2329955718401734
+          }
+        ],
+        "provenance": {
+          "artifacts": [
+            {
+              "path": "p2_Ag/run_manifest.json",
+              "sha256": "d06b5869f4f04e2f2cbc765e404ecdcd91f3ff67ce25dc8afc8ce1a8b3f201ba"
+            }
+          ],
+          "limitations": [
+            "Analytic mock potential, not MLIP; uncalibrated",
+            "Exploratory Cu is an explicit demo case, not a released P1 candidate"
+          ],
+          "origin": "SYNTHETIC",
+          "producer": "P2.native-runner",
+          "run_id": "public-v11-mismatch",
+          "source_run_id": null,
+          "version": "0.1.0"
+        },
+        "run_id": "public-v11-mismatch",
+        "schema_version": "agx-screening-result-1",
+        "structure_artifact": {
+          "path": "p2_Ag/structures/S_e6b88633769bb8404cc04992c9d684a5d678da11249e67fb38ac1b7f532a638c.extxyz",
+          "sha256": "ceb8e4dc1517fbf75f8c557071804b2897f6bb33abdfd7f2436b876e4d284782"
+        },
+        "structure_id": "S_e6b88633769bb8404cc04992c9d684a5d678da11249e67fb38ac1b7f532a638c",
+        "task_id": "TASK_EXPERIMENT_SURFACE_FUROATE_INTERMEDIATE_AG_AG_CA_DEACTIVATION_RECOVERY_B24D3E25",
+        "uncertainty": "UNCALIBRATED"
+      },
+      {
+        "candidate_id": "C_Ag_06ecbd91a5aa8bc4",
+        "composition": {
+          "Ag": 36,
+          "C": 5,
+          "H": 4,
+          "O": 2
+        },
+        "dft_verification_status": "NOT_RUN",
+        "evidence_refs": [
+          "PAPER_A5EE828D07",
+          "PAPER_9FF28DD18D",
+          "PAPER_EE8DC4F8A0",
+          "PAPER_EB51ACA637",
+          "PAPER_EC7FDA2E30"
+        ],
+        "gate_status": "PENDING_GATE",
+        "hypothesis_id": "HYP_96AC87BB6C",
+        "model_hash": "efb7e4b4e5752b96713763e81e7d6ff52f40e074012b83509456aca83dd47d70",
+        "model_name": "mock-v1",
+        "model_version": "1",
+        "ood_status": "NOT_ASSESSED",
+        "predicted_properties": [
+          {
+            "definition": "E(adsorbed)-E(slab)-E(molecule)",
+            "name": "adsorption_energy",
+            "reference_structure_ids": [
+              "S_06ecbd91a5aa8bc421f4f0dbd4c89ee03f1d2fed377c312eccddc2fe48f52e95",
+              "S_a7b91c8568b0222826a100ca6b5c2beb55e14f6dd855dc6f5f2bdff94626b78b",
+              "S_ae3930fa6948053d019d3f2e183141c9af2a2b094dc366243ed2c819bc06d97e"
+            ],
+            "unit": "eV",
+            "value": -0.16107335390187238
+          }
+        ],
+        "provenance": {
+          "artifacts": [
+            {
+              "path": "p2_Ag/run_manifest.json",
+              "sha256": "d06b5869f4f04e2f2cbc765e404ecdcd91f3ff67ce25dc8afc8ce1a8b3f201ba"
+            }
+          ],
+          "limitations": [
+            "Analytic mock potential, not MLIP; uncalibrated",
+            "Exploratory Cu is an explicit demo case, not a released P1 candidate"
+          ],
+          "origin": "SYNTHETIC",
+          "producer": "P2.native-runner",
+          "run_id": "public-v11-mismatch",
+          "source_run_id": null,
+          "version": "0.1.0"
+        },
+        "run_id": "public-v11-mismatch",
+        "schema_version": "agx-screening-result-1",
+        "structure_artifact": {
+          "path": "p2_Ag/structures/S_06ecbd91a5aa8bc421f4f0dbd4c89ee03f1d2fed377c312eccddc2fe48f52e95.extxyz",
+          "sha256": "0f08cbff38bb2fd528ebf89998384a67bbc5b72a2976a6ba598f74859047ae25"
+        },
+        "structure_id": "S_06ecbd91a5aa8bc421f4f0dbd4c89ee03f1d2fed377c312eccddc2fe48f52e95",
+        "task_id": "TASK_EXPERIMENT_SURFACE_FUROATE_INTERMEDIATE_AG_AG_CA_DEACTIVATION_RECOVERY_B24D3E25",
+        "uncertainty": "UNCALIBRATED"
+      },
+      {
+        "candidate_id": "C_Cu_e23271b170f5e7f7",
+        "composition": {
+          "Ag": 35,
+          "C": 5,
+          "Cu": 1,
+          "H": 4,
+          "O": 2
+        },
+        "dft_verification_status": "NOT_RUN",
+        "evidence_refs": [
+          "PAPER_A5EE828D07",
+          "PAPER_9FF28DD18D",
+          "PAPER_EE8DC4F8A0",
+          "PAPER_EB51ACA637",
+          "PAPER_EC7FDA2E30"
+        ],
+        "gate_status": "PENDING_GATE",
+        "hypothesis_id": "HYP_96AC87BB6C",
+        "model_hash": "efb7e4b4e5752b96713763e81e7d6ff52f40e074012b83509456aca83dd47d70",
+        "model_name": "mock-v1",
+        "model_version": "1",
+        "ood_status": "NOT_ASSESSED",
+        "predicted_properties": [
+          {
+            "definition": "E(adsorbed)-E(slab)-E(molecule)",
+            "name": "adsorption_energy",
+            "reference_structure_ids": [
+              "S_e23271b170f5e7f795491f7c3eb8d79be6db1a08d52953a6beed687ade7ccaba",
+              "S_464526a096666e0cbe06da474ae223aa9aab8017b7597924714f5688d84aaa7f",
+              "S_ae3930fa6948053d019d3f2e183141c9af2a2b094dc366243ed2c819bc06d97e"
+            ],
+            "unit": "eV",
+            "value": -0.2329955718401734
+          }
+        ],
+        "provenance": {
+          "artifacts": [
+            {
+              "path": "p2_Cu/run_manifest.json",
+              "sha256": "1f8fe7b3578034a7f071433ba927ec53af444ff2043955c6fe9f6c15b924e0e0"
+            }
+          ],
+          "limitations": [
+            "Analytic mock potential, not MLIP; uncalibrated",
+            "Exploratory Cu is an explicit demo case, not a released P1 candidate"
+          ],
+          "origin": "SYNTHETIC",
+          "producer": "P2.native-runner",
+          "run_id": "public-v11-mismatch",
+          "source_run_id": null,
+          "version": "0.1.0"
+        },
+        "run_id": "public-v11-mismatch",
+        "schema_version": "agx-screening-result-1",
+        "structure_artifact": {
+          "path": "p2_Cu/structures/S_e23271b170f5e7f795491f7c3eb8d79be6db1a08d52953a6beed687ade7ccaba.extxyz",
+          "sha256": "a2fa409b4be7c2df4b6e3a93e0faba8a6cc67c307f220d6e4a3d80b39c789ef9"
+        },
+        "structure_id": "S_e23271b170f5e7f795491f7c3eb8d79be6db1a08d52953a6beed687ade7ccaba",
+        "task_id": "TASK_EXPERIMENT_SURFACE_FUROATE_INTERMEDIATE_AG_AG_CA_DEACTIVATION_RECOVERY_B24D3E25",
+        "uncertainty": "UNCALIBRATED"
+      },
+      {
+        "candidate_id": "C_Cu_95137c4ee3ee9ebf",
+        "composition": {
+          "Ag": 35,
+          "C": 5,
+          "Cu": 1,
+          "H": 4,
+          "O": 2
+        },
+        "dft_verification_status": "NOT_RUN",
+        "evidence_refs": [
+          "PAPER_A5EE828D07",
+          "PAPER_9FF28DD18D",
+          "PAPER_EE8DC4F8A0",
+          "PAPER_EB51ACA637",
+          "PAPER_EC7FDA2E30"
+        ],
+        "gate_status": "PENDING_GATE",
+        "hypothesis_id": "HYP_96AC87BB6C",
+        "model_hash": "efb7e4b4e5752b96713763e81e7d6ff52f40e074012b83509456aca83dd47d70",
+        "model_name": "mock-v1",
+        "model_version": "1",
+        "ood_status": "NOT_ASSESSED",
+        "predicted_properties": [
+          {
+            "definition": "E(adsorbed)-E(slab)-E(molecule)",
+            "name": "adsorption_energy",
+            "reference_structure_ids": [
+              "S_95137c4ee3ee9ebff44b601eb1e1be53300648cdde168b36fb68a48c815726c7",
+              "S_464526a096666e0cbe06da474ae223aa9aab8017b7597924714f5688d84aaa7f",
+              "S_ae3930fa6948053d019d3f2e183141c9af2a2b094dc366243ed2c819bc06d97e"
+            ],
+            "unit": "eV",
+            "value": -0.16107335390187238
+          }
+        ],
+        "provenance": {
+          "artifacts": [
+            {
+              "path": "p2_Cu/run_manifest.json",
+              "sha256": "1f8fe7b3578034a7f071433ba927ec53af444ff2043955c6fe9f6c15b924e0e0"
+            }
+          ],
+          "limitations": [
+            "Analytic mock potential, not MLIP; uncalibrated",
+            "Exploratory Cu is an explicit demo case, not a released P1 candidate"
+          ],
+          "origin": "SYNTHETIC",
+          "producer": "P2.native-runner",
+          "run_id": "public-v11-mismatch",
+          "source_run_id": null,
+          "version": "0.1.0"
+        },
+        "run_id": "public-v11-mismatch",
+        "schema_version": "agx-screening-result-1",
+        "structure_artifact": {
+          "path": "p2_Cu/structures/S_95137c4ee3ee9ebff44b601eb1e1be53300648cdde168b36fb68a48c815726c7.extxyz",
+          "sha256": "9d408fe9f307daaa22ad40b33cef8ad4c6afa6547e263d21baaba547500fe325"
+        },
+        "structure_id": "S_95137c4ee3ee9ebff44b601eb1e1be53300648cdde168b36fb68a48c815726c7",
+        "task_id": "TASK_EXPERIMENT_SURFACE_FUROATE_INTERMEDIATE_AG_AG_CA_DEACTIVATION_RECOVERY_B24D3E25",
+        "uncertainty": "UNCALIBRATED"
+      }
+    ]
+  }
+}

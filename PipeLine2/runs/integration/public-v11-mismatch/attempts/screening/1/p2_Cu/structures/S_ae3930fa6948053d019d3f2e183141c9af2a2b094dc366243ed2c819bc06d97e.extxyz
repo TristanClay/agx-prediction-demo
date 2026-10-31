@@ -1,0 +1,13 @@
+11
+Lattice="20.0 0.0 0.0 0.0 20.0 0.0 0.0 0.0 20.0" Properties=species:S:1:pos:R:3 charge=0 pipeline2_metadata="{\"declared_role\":\"molecule\",\"origin\":\"Synthetic neutral C5H4O2 geometry; not a relaxed reference\",\"source_path\":\"PipeLine2/pipeline2/structure/assets/ff_demo.extxyz\",\"source_sha256\":\"95a2a55110cf51e166b4e985ed75fdd1650faa1e2f1f522b75e274bca49ea568\",\"source_type\":\"fixture\"}" pbc="F F F"
+O        0.00000000       1.15000000       0.00000000
+C        1.10000000       0.35000000       0.00000000
+C        0.68000000      -1.00000000       0.00000000
+C       -0.68000000      -1.00000000       0.00000000
+C       -1.10000000       0.35000000       0.00000000
+C        2.48000000       0.65000000       0.00000000
+O        3.12000000       1.67000000       0.00000000
+H        1.32000000      -1.87000000       0.00000000
+H       -1.32000000      -1.87000000       0.00000000
+H       -2.13000000       0.67000000       0.00000000
+H        2.99000000      -0.29000000       0.00000000

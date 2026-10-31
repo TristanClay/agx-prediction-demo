@@ -1,0 +1,32 @@
+[
+  {
+    "candidate_id": "S_e23271b170f5e7f795491f7c3eb8d79be6db1a08d52953a6beed687ade7ccaba",
+    "property_name": "adsorption_energy_eV",
+    "value": -0.2329955718401734,
+    "status": "EXPLORATORY",
+    "source_type": "mock",
+    "reference_structure_ids": [
+      "S_e23271b170f5e7f795491f7c3eb8d79be6db1a08d52953a6beed687ade7ccaba",
+      "S_464526a096666e0cbe06da474ae223aa9aab8017b7597924714f5688d84aaa7f",
+      "S_ae3930fa6948053d019d3f2e183141c9af2a2b094dc366243ed2c819bc06d97e"
+    ],
+    "reference_profile_id": "mock-neutral-v1",
+    "error_message": null,
+    "unit": "eV"
+  },
+  {
+    "candidate_id": "S_95137c4ee3ee9ebff44b601eb1e1be53300648cdde168b36fb68a48c815726c7",
+    "property_name": "adsorption_energy_eV",
+    "value": -0.16107335390187238,
+    "status": "EXPLORATORY",
+    "source_type": "mock",
+    "reference_structure_ids": [
+      "S_95137c4ee3ee9ebff44b601eb1e1be53300648cdde168b36fb68a48c815726c7",
+      "S_464526a096666e0cbe06da474ae223aa9aab8017b7597924714f5688d84aaa7f",
+      "S_ae3930fa6948053d019d3f2e183141c9af2a2b094dc366243ed2c819bc06d97e"
+    ],
+    "reference_profile_id": "mock-neutral-v1",
+    "error_message": null,
+    "unit": "eV"
+  }
+]

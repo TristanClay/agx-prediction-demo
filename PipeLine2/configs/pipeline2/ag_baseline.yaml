@@ -1,0 +1,39 @@
+task:
+  schema_version: pipeline2-task-1
+  task_id: ag-baseline-offline-demo
+  source_pipeline: pipeline_1
+  hypothesis_id: DEMO_NOT_A_FORMAL_HYPOTHESIS
+  evidence_refs: []
+  substrate: Ag
+  surface: "111"
+  dopants: []
+  dopant_sites: []
+  adsorbates: [FF]
+  coverage: 0.1111111111111111
+  prediction_targets: [adsorption_energy]
+  reference_profile_id: mock-neutral-v1
+  model_candidates: [mock-v1]
+  dft_budget_jobs: 0
+  dft_budget_core_hours: 0.0
+  gate_status: PENDING_GATE
+  human_review_required: true
+  allow_real_vasp_submit: false
+  dry_run: true
+  data_source: fixture
+gate_source: null
+structure:
+  heights_A: [3.0, 3.5]
+screening:
+  # Purely illustrative direction; stronger adsorption is not an activity claim.
+  objectives: [{property: adsorption_energy_eV, direction: min}]
+  top_k: 5
+acquisition:
+  strategy: diversity
+  seed: 42
+  batch_size: 2
+resources:
+  cores: 16
+  walltime_hours: 1.0
+  available_cores: 16
+mock_seed: 42
+

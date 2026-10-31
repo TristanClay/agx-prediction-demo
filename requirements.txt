@@ -1,0 +1,10 @@
+# Tested on this macOS arm64 Python 3.12 environment; not a cross-platform lock.
+streamlit==1.55.0
+plotly==6.6.0
+pandas==2.3.3
+scikit-learn==1.8.0
+scipy==1.17.1
+ase==3.29.0
+numpy==2.4.2
+pydantic==2.12.5
+PyYAML==6.0.3

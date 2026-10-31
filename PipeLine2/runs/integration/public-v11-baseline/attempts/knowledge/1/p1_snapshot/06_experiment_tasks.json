@@ -1,0 +1,266 @@
+[
+  {
+    "task_id": "TASK_EXPERIMENT_SURFACE_FUROATE_INTERMEDIATE_AG_AG_CA_DEACTIVATION_RECOVERY_B24D3E25",
+    "semantic_task_id": "TASK_EXPERIMENT_SURFACE_FUROATE_INTERMEDIATE_AG_AG_CA_DEACTIVATION_RECOVERY_B24D3E25",
+    "linked_hypothesis": "HYP_96AC87BB6C",
+    "mechanism_bucket": "surface_furoate_intermediate",
+    "mechanism_bucket_id": "MB_SURFACE_FUROATE_INTERMEDIATE_V1",
+    "element": "Ag",
+    "element_candidate_id": "EC_SURFACE_FUROATE_INTERMEDIATE_AG_V1",
+    "element_role": "baseline",
+    "element_evidence_basis": "target_baseline_required",
+    "structure_hypotheses": [
+      "Ag_clean_surface",
+      "Ag_furoate_covered_surface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Ag_clean_surface",
+        "incorporation_mode": "Ag_mechanism_baseline",
+        "loading_regime": "undoped Ag reference state",
+        "rationale": "Defines the causal adsorption/coverage baseline before any dopant claim.",
+        "structure_gate": "Establish clean and adsorbate-covered Ag controls under matched conditions."
+      },
+      {
+        "model": "Ag_furoate_covered_surface",
+        "incorporation_mode": "Ag_mechanism_baseline",
+        "loading_regime": "undoped Ag reference state",
+        "rationale": "Defines the causal adsorption/coverage baseline before any dopant claim.",
+        "structure_gate": "Establish clean and adsorbate-covered Ag controls under matched conditions."
+      }
+    ],
+    "priority": "medium",
+    "priority_score": 0.68,
+    "priority_score_meaning": "decision_priority_not_success_probability",
+    "candidate": "Ag baseline",
+    "experiment": "Ag CA deactivation/recovery",
+    "experiment_role": "mechanism_baseline",
+    "execution_order": 1,
+    "experiment_question": "Is Ag deactivation reproducible and at least partly recoverable under matched FFOR conditions?",
+    "required_control": "clean Ag; deactivated Ag",
+    "activation_condition": "Interpret performance only after the target structure is verified.",
+    "activation_status": "active",
+    "task_scope": "mechanism_baseline",
+    "formal_recommendation": false,
+    "next_action": "Establish the clean-versus-furoate-covered Ag baseline before activating an anti-poisoning element candidate.",
+    "explainability_chain": "direct_ffor -> surface_furoate_intermediate -> Ag (target_baseline_required) -> Ag CA deactivation/recovery",
+    "reason": "Surface furoate/carboxylate is a supported FFOR intermediate, but its binding strength, coverage, and causal role in Ag deactivation must be established before selecting an anti-poisoning dopant.",
+    "expected_observation": "Is Ag deactivation reproducible and at least partly recoverable under matched FFOR conditions?",
+    "evidence_status": "canonical",
+    "source_reaction_scope": "direct_ffor",
+    "source_substrate": [
+      "furfural",
+      "formaldehyde",
+      "unknown"
+    ],
+    "source_paper_ids": [
+      "PAPER_A5EE828D07",
+      "PAPER_9FF28DD18D",
+      "PAPER_EE8DC4F8A0",
+      "PAPER_EB51ACA637",
+      "PAPER_EC7FDA2E30"
+    ],
+    "transfer_limitations": [
+      "Cu-specific redox chemistry may not directly transfer to Ag.",
+      "No direct Ag-FFOR structure-specific evidence; source-domain mechanism transfer requires Ag validation."
+    ]
+  },
+  {
+    "task_id": "TASK_EXPERIMENT_SURFACE_FUROATE_INTERMEDIATE_AG_POST_CA_XPS_C_1S_O_1S_1F95A5E4",
+    "semantic_task_id": "TASK_EXPERIMENT_SURFACE_FUROATE_INTERMEDIATE_AG_POST_CA_XPS_C_1S_O_1S_1F95A5E4",
+    "linked_hypothesis": "HYP_96AC87BB6C",
+    "mechanism_bucket": "surface_furoate_intermediate",
+    "mechanism_bucket_id": "MB_SURFACE_FUROATE_INTERMEDIATE_V1",
+    "element": "Ag",
+    "element_candidate_id": "EC_SURFACE_FUROATE_INTERMEDIATE_AG_V1",
+    "element_role": "baseline",
+    "element_evidence_basis": "target_baseline_required",
+    "structure_hypotheses": [
+      "Ag_clean_surface",
+      "Ag_furoate_covered_surface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Ag_clean_surface",
+        "incorporation_mode": "Ag_mechanism_baseline",
+        "loading_regime": "undoped Ag reference state",
+        "rationale": "Defines the causal adsorption/coverage baseline before any dopant claim.",
+        "structure_gate": "Establish clean and adsorbate-covered Ag controls under matched conditions."
+      },
+      {
+        "model": "Ag_furoate_covered_surface",
+        "incorporation_mode": "Ag_mechanism_baseline",
+        "loading_regime": "undoped Ag reference state",
+        "rationale": "Defines the causal adsorption/coverage baseline before any dopant claim.",
+        "structure_gate": "Establish clean and adsorbate-covered Ag controls under matched conditions."
+      }
+    ],
+    "priority": "medium",
+    "priority_score": 0.68,
+    "priority_score_meaning": "decision_priority_not_success_probability",
+    "candidate": "Ag baseline",
+    "experiment": "post-CA XPS C 1s/O 1s",
+    "experiment_role": "mechanism_baseline",
+    "execution_order": 1,
+    "experiment_question": "Is persistent furoate/carboxylate residue present on Ag after measurable deactivation?",
+    "required_control": "clean Ag; deactivated Ag",
+    "activation_condition": "Interpret performance only after the target structure is verified.",
+    "activation_status": "active",
+    "task_scope": "mechanism_baseline",
+    "formal_recommendation": false,
+    "next_action": "Establish the clean-versus-furoate-covered Ag baseline before activating an anti-poisoning element candidate.",
+    "explainability_chain": "direct_ffor -> surface_furoate_intermediate -> Ag (target_baseline_required) -> post-CA XPS C 1s/O 1s",
+    "reason": "Surface furoate/carboxylate is a supported FFOR intermediate, but its binding strength, coverage, and causal role in Ag deactivation must be established before selecting an anti-poisoning dopant.",
+    "expected_observation": "Is persistent furoate/carboxylate residue present on Ag after measurable deactivation?",
+    "evidence_status": "canonical",
+    "source_reaction_scope": "direct_ffor",
+    "source_substrate": [
+      "furfural",
+      "formaldehyde",
+      "unknown"
+    ],
+    "source_paper_ids": [
+      "PAPER_A5EE828D07",
+      "PAPER_9FF28DD18D",
+      "PAPER_EE8DC4F8A0",
+      "PAPER_EB51ACA637",
+      "PAPER_EC7FDA2E30"
+    ],
+    "transfer_limitations": [
+      "Cu-specific redox chemistry may not directly transfer to Ag.",
+      "No direct Ag-FFOR structure-specific evidence; source-domain mechanism transfer requires Ag validation."
+    ]
+  },
+  {
+    "task_id": "TASK_EXPERIMENT_SURFACE_FUROATE_INTERMEDIATE_AG_FUROATE_INHIBITION_CONTROL_ON_AG_50220563",
+    "semantic_task_id": "TASK_EXPERIMENT_SURFACE_FUROATE_INTERMEDIATE_AG_FUROATE_INHIBITION_CONTROL_ON_AG_50220563",
+    "linked_hypothesis": "HYP_96AC87BB6C",
+    "mechanism_bucket": "surface_furoate_intermediate",
+    "mechanism_bucket_id": "MB_SURFACE_FUROATE_INTERMEDIATE_V1",
+    "element": "Ag",
+    "element_candidate_id": "EC_SURFACE_FUROATE_INTERMEDIATE_AG_V1",
+    "element_role": "baseline",
+    "element_evidence_basis": "target_baseline_required",
+    "structure_hypotheses": [
+      "Ag_clean_surface",
+      "Ag_furoate_covered_surface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Ag_clean_surface",
+        "incorporation_mode": "Ag_mechanism_baseline",
+        "loading_regime": "undoped Ag reference state",
+        "rationale": "Defines the causal adsorption/coverage baseline before any dopant claim.",
+        "structure_gate": "Establish clean and adsorbate-covered Ag controls under matched conditions."
+      },
+      {
+        "model": "Ag_furoate_covered_surface",
+        "incorporation_mode": "Ag_mechanism_baseline",
+        "loading_regime": "undoped Ag reference state",
+        "rationale": "Defines the causal adsorption/coverage baseline before any dopant claim.",
+        "structure_gate": "Establish clean and adsorbate-covered Ag controls under matched conditions."
+      }
+    ],
+    "priority": "medium",
+    "priority_score": 0.68,
+    "priority_score_meaning": "decision_priority_not_success_probability",
+    "candidate": "Ag baseline",
+    "experiment": "furoate inhibition control on Ag",
+    "experiment_role": "causality_gate",
+    "execution_order": 2,
+    "experiment_question": "Does externally added furoate reproduce inhibition on the Ag baseline?",
+    "required_control": "clean Ag; deactivated Ag",
+    "activation_condition": "Interpret performance only after the target structure is verified.",
+    "activation_status": "active",
+    "task_scope": "mechanism_baseline",
+    "formal_recommendation": false,
+    "next_action": "Establish the clean-versus-furoate-covered Ag baseline before activating an anti-poisoning element candidate.",
+    "explainability_chain": "direct_ffor -> surface_furoate_intermediate -> Ag (target_baseline_required) -> furoate inhibition control on Ag",
+    "reason": "Surface furoate/carboxylate is a supported FFOR intermediate, but its binding strength, coverage, and causal role in Ag deactivation must be established before selecting an anti-poisoning dopant.",
+    "expected_observation": "Does externally added furoate reproduce inhibition on the Ag baseline?",
+    "evidence_status": "canonical",
+    "source_reaction_scope": "direct_ffor",
+    "source_substrate": [
+      "furfural",
+      "formaldehyde",
+      "unknown"
+    ],
+    "source_paper_ids": [
+      "PAPER_A5EE828D07",
+      "PAPER_9FF28DD18D",
+      "PAPER_EE8DC4F8A0",
+      "PAPER_EB51ACA637",
+      "PAPER_EC7FDA2E30"
+    ],
+    "transfer_limitations": [
+      "Cu-specific redox chemistry may not directly transfer to Ag.",
+      "No direct Ag-FFOR structure-specific evidence; source-domain mechanism transfer requires Ag validation."
+    ]
+  },
+  {
+    "task_id": "TASK_EXPERIMENT_SURFACE_FUROATE_INTERMEDIATE_AG_AG_HPLC_PRODUCT_TRACKING_4FD4FFF8",
+    "semantic_task_id": "TASK_EXPERIMENT_SURFACE_FUROATE_INTERMEDIATE_AG_AG_HPLC_PRODUCT_TRACKING_4FD4FFF8",
+    "linked_hypothesis": "HYP_96AC87BB6C",
+    "mechanism_bucket": "surface_furoate_intermediate",
+    "mechanism_bucket_id": "MB_SURFACE_FUROATE_INTERMEDIATE_V1",
+    "element": "Ag",
+    "element_candidate_id": "EC_SURFACE_FUROATE_INTERMEDIATE_AG_V1",
+    "element_role": "baseline",
+    "element_evidence_basis": "target_baseline_required",
+    "structure_hypotheses": [
+      "Ag_clean_surface",
+      "Ag_furoate_covered_surface"
+    ],
+    "incorporation_hypotheses": [
+      {
+        "model": "Ag_clean_surface",
+        "incorporation_mode": "Ag_mechanism_baseline",
+        "loading_regime": "undoped Ag reference state",
+        "rationale": "Defines the causal adsorption/coverage baseline before any dopant claim.",
+        "structure_gate": "Establish clean and adsorbate-covered Ag controls under matched conditions."
+      },
+      {
+        "model": "Ag_furoate_covered_surface",
+        "incorporation_mode": "Ag_mechanism_baseline",
+        "loading_regime": "undoped Ag reference state",
+        "rationale": "Defines the causal adsorption/coverage baseline before any dopant claim.",
+        "structure_gate": "Establish clean and adsorbate-covered Ag controls under matched conditions."
+      }
+    ],
+    "priority": "medium",
+    "priority_score": 0.68,
+    "priority_score_meaning": "decision_priority_not_success_probability",
+    "candidate": "Ag baseline",
+    "experiment": "Ag HPLC product tracking",
+    "experiment_role": "product_gate",
+    "execution_order": 2,
+    "experiment_question": "Does the Ag baseline preserve furoate selectivity while deactivation is measured?",
+    "required_control": "clean Ag; deactivated Ag",
+    "activation_condition": "Interpret performance only after the target structure is verified.",
+    "activation_status": "active",
+    "task_scope": "mechanism_baseline",
+    "formal_recommendation": false,
+    "next_action": "Establish the clean-versus-furoate-covered Ag baseline before activating an anti-poisoning element candidate.",
+    "explainability_chain": "direct_ffor -> surface_furoate_intermediate -> Ag (target_baseline_required) -> Ag HPLC product tracking",
+    "reason": "Surface furoate/carboxylate is a supported FFOR intermediate, but its binding strength, coverage, and causal role in Ag deactivation must be established before selecting an anti-poisoning dopant.",
+    "expected_observation": "Does the Ag baseline preserve furoate selectivity while deactivation is measured?",
+    "evidence_status": "canonical",
+    "source_reaction_scope": "direct_ffor",
+    "source_substrate": [
+      "furfural",
+      "formaldehyde",
+      "unknown"
+    ],
+    "source_paper_ids": [
+      "PAPER_A5EE828D07",
+      "PAPER_9FF28DD18D",
+      "PAPER_EE8DC4F8A0",
+      "PAPER_EB51ACA637",
+      "PAPER_EC7FDA2E30"
+    ],
+    "transfer_limitations": [
+      "Cu-specific redox chemistry may not directly transfer to Ag.",
+      "No direct Ag-FFOR structure-specific evidence; source-domain mechanism transfer requires Ag validation."
+    ]
+  }
+]

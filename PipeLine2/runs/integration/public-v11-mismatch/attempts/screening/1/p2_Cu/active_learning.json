@@ -1,0 +1,27 @@
+{
+  "round_id": "round-1",
+  "strategy": "diversity",
+  "seed": 42,
+  "weights": {
+    "potential": 1.0,
+    "uncertainty": 0.0,
+    "diversity": 1.0,
+    "estimated_cost": 1.0
+  },
+  "selected": [],
+  "rejected": [
+    {
+      "candidate_id": "S_95137c4ee3ee9ebff44b601eb1e1be53300648cdde168b36fb68a48c815726c7",
+      "reason": "batch_or_budget_limit"
+    },
+    {
+      "candidate_id": "S_e23271b170f5e7f795491f7c3eb8d79be6db1a08d52953a6beed687ade7ccaba",
+      "reason": "batch_or_budget_limit"
+    }
+  ],
+  "proposed_jobs": 0,
+  "proposed_core_hours": 0.0,
+  "actual_jobs": 0,
+  "actual_core_hours": 0.0,
+  "uncertainty_status": "UNCALIBRATED"
+}

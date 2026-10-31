@@ -1,0 +1,14 @@
+{
+  "p1_source_sha256": "883151db7d2d1118fb9998dbb0ddbef3720c3d95e5ef83052bf5c16413c6cf0b",
+  "request": {
+    "dft_budget_jobs": 0,
+    "disagreement_threshold_eV": 0.2,
+    "include_cu": true,
+    "mode": "SYNTHETIC",
+    "model": "UMA",
+    "run_id": "public-v11-missing",
+    "scenario": "missing",
+    "schema_version": "agx-run-request-1",
+    "seed": 42
+  }
+}

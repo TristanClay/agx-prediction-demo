@@ -1,0 +1,189 @@
+{
+  "schema_version": "pipeline2-run-1",
+  "created_at": "2026-10-31T07:41:46.391251+00:00",
+  "command": "demo",
+  "software": {
+    "pipeline2_version": "0.1.0",
+    "python": "3.12.8",
+    "dependencies": {
+      "ase": "3.29.0",
+      "numpy": "2.4.2",
+      "pydantic": "2.12.5",
+      "PyYAML": "6.0.3"
+    }
+  },
+  "status": "COMPLETED_OFFLINE",
+  "gate": {
+    "status": "PENDING_GATE",
+    "blockers": [
+      "formal_pipeline1_source_missing"
+    ],
+    "source_hashes": {},
+    "allowed_structure_model_ids": [],
+    "allowed_operations": [
+      "offline_exploration"
+    ],
+    "candidate_id": "EC_AG_BASELINE_V1"
+  },
+  "source_types": [
+    "mock"
+  ],
+  "calibration_status": "UNCALIBRATED",
+  "input_hashes": {
+    "repo/PipeLine2/pipeline2/__init__.py": "6ffc01c3aa9ea88ffe24acb52be7cc99d36e3104b4f1f80238a549fe5fc1ca7b",
+    "repo/PipeLine2/pipeline2/__main__.py": "e61f4c3d61533fce8a8e72987ce57b0323aa8527c68bafcfc18984f8223dfb03",
+    "repo/PipeLine2/pipeline2/active_learning/__init__.py": "df91702dce98b7c6ba1f871ba20d822d59d6039a35861fceec44cc2961327afa",
+    "repo/PipeLine2/pipeline2/advanced/__init__.py": "6914bfe8b75d0741589f4c2bc32fe7705f094321246abd5de47660ce6856894a",
+    "repo/PipeLine2/pipeline2/advanced/contracts.py": "93b0b03febd69e27828c4a352072a1099836aad07a53bc1523719d1b142ded7b",
+    "repo/PipeLine2/pipeline2/advanced/dft.py": "f6bec97406667e3df7f4e890e8381f736c1627772aa8dcf90a87aaf8a141105f",
+    "repo/PipeLine2/pipeline2/advanced/guards.py": "0b203362f9e3c66b1f33dab56e72fea14de7735b8f8396bf9cf8a18a3ec8a69b",
+    "repo/PipeLine2/pipeline2/advanced/learning.py": "fe7f5ac7261e02ca393eb2fcf1b31003c2b4639a8c128621d2dd128e77a74d6c",
+    "repo/PipeLine2/pipeline2/advanced/runner.py": "0b1d9ba7908bdc39a35ca2070b3e452864c606fb87253e9771ec454104a48377",
+    "repo/PipeLine2/pipeline2/cli.py": "ea1af70d95f7ea0ab988f7ec09c28538315bd7d35f4744d922e686b29140c4ad",
+    "repo/PipeLine2/pipeline2/contracts/__init__.py": "44e650a1ece133a765ecbb7c4a36032b3197623177c4873e65c1997f7f5dcaa0",
+    "repo/PipeLine2/pipeline2/dft/__init__.py": "ef7788b2682806e9cac21c7265c6fe581690ca788f3ccfc482c0af356f2668cc",
+    "repo/PipeLine2/pipeline2/dft/adapters.py": "63e16ce4583ed3993ff451f09b7e5a936b39e1de046e3314b185ccbbbd46d5ed",
+    "repo/PipeLine2/pipeline2/dft/parser.py": "e5f2b64af404c7367c8fd578e5e2f8521cee8bde0201c8d050eb42fcb17ff4ae",
+    "repo/PipeLine2/pipeline2/hackathon.py": "6c9e69a179e3ae1dd3a46eb64f3ec5071fc637009290c60bc5c5d56ad7e44846",
+    "repo/PipeLine2/pipeline2/models/__init__.py": "073e7f57bdb39b7c97c4ec2ccea43fbbffee23ee8afa0448000b02bb44cf4753",
+    "repo/PipeLine2/pipeline2/models/ase_adapter.py": "b0e212d59483a4dbb95d9d206afc29bd7a0e0f6da63dc7fe0b215bbfe86806b9",
+    "repo/PipeLine2/pipeline2/models/base.py": "f0d971601b35bfca6ae5eb3aaba637cbe69e2735fc52f0395b562cd1339cc3f6",
+    "repo/PipeLine2/pipeline2/models/mock.py": "c47f285fc9b4cf27e938ec1e089c217e5e0311f73d2acf0b42ae4a954b76032e",
+    "repo/PipeLine2/pipeline2/models/optional.py": "168843fe147842daf36a73ef402b835777ca93a284d214bf4cd90c8f5fe41d35",
+    "repo/PipeLine2/pipeline2/orchestrator/__init__.py": "dd1cbe0a5451373c348146088146b05cf8e88d7f914703c6e560d30cb3489819",
+    "repo/PipeLine2/pipeline2/orchestrator/budget.py": "8b059cb76a5ac4b49156afbe8da448ead8f4094c1ae313dbe515aac326d7adaa",
+    "repo/PipeLine2/pipeline2/orchestrator/gate.py": "8bcc7dc0ef9975d58142e58afe6687079b9886980e40d39bc902f7e7ebb1fbf2",
+    "repo/PipeLine2/pipeline2/orchestrator/pipeline1_compat/__init__.py": "9b1ecebfba813090274e3aa8b805f8cd2f363b00e911208e5677b571560b7256",
+    "repo/PipeLine2/pipeline2/orchestrator/pipeline1_compat/attestation.py": "7791f7358c561da7cad6a977b64e5785c0d136a6a9cb472ec7ecda747a84e03e",
+    "repo/PipeLine2/pipeline2/orchestrator/pipeline1_compat/controls.py": "3f74c716ead43a1a53f063a62e44bc1a114201d5e06027306485161b19e8f89a",
+    "repo/PipeLine2/pipeline2/orchestrator/pipeline1_compat/execution_queue.py": "7c2cdaf7173bff5fe9a8110ea359b27d301955e59d483fce13dee8378321c3dc",
+    "repo/PipeLine2/pipeline2/orchestrator/pipeline1_compat/identifiers.py": "efc5a8c21e88691e056d95ba5125f00ceb31aa1dddb43a14f083325eb750d8df",
+    "repo/PipeLine2/pipeline2/orchestrator/runner.py": "d865b5f75fed9c4d6c7773a8d46a7c4d8fbd72eb081386e7ca87ef8e284c874a",
+    "repo/PipeLine2/pipeline2/properties/__init__.py": "4b822c89eecea791860eb1bbd0f75029de619d3a69982983764131a319a9b692",
+    "repo/PipeLine2/pipeline2/properties/screening.py": "3bc85a20a40ea8aee70befd6f55b120b1cd1346115f710e707692e110e6d31cb",
+    "repo/PipeLine2/pipeline2/registry/__init__.py": "17bd3d33aa62a4afce4c07767dc037a4d45b0a59002a563e43bffbb781ded9dd",
+    "repo/PipeLine2/pipeline2/reliability/__init__.py": "d2fd5267c17b7e93d0b52d55f4f3b73f8ade463056ab7ea8a1d32f551cf7570d",
+    "repo/PipeLine2/pipeline2/reports/__init__.py": "716ba4ebe9eb72a0bfeb624b7ae8d2a79aeff90acb5baa9bfceb484ed7225167",
+    "repo/PipeLine2/pipeline2/safety.py": "e2c0b05092a379a5c68942c85717e542f3e7bc096b339f80b3d8fc38ce7957b0",
+    "repo/PipeLine2/pipeline2/showcase.py": "6410dc4b18dc51e543612884b09cacf82b5745a3466d64d0264be967f96939fc",
+    "repo/PipeLine2/pipeline2/structure/__init__.py": "48b998878445a32ad6653e4c8685ccbbc3fc31a8ea9682151eac75daaa52fe88",
+    "repo/PipeLine2/runs/integration/public-v11-missing/attempts/screening/1/config_Ag.json": "57bdc7fde45085bcea50f2798af75365e6fa24fc83b7ad587f8bb2363b4faf63",
+    "runtime/ff_demo.extxyz": "95a2a55110cf51e166b4e985ed75fdd1650faa1e2f1f522b75e274bca49ea568"
+  },
+  "inputs_unchanged": true,
+  "config": {
+    "task": {
+      "schema_version": "pipeline2-task-1",
+      "task_id": "public-v11-missing-Ag",
+      "source_pipeline": "pipeline_1",
+      "hypothesis_id": "HYP_96AC87BB6C",
+      "evidence_refs": [
+        "PAPER_A5EE828D07",
+        "PAPER_9FF28DD18D",
+        "PAPER_EE8DC4F8A0",
+        "PAPER_EB51ACA637",
+        "PAPER_EC7FDA2E30"
+      ],
+      "substrate": "Ag",
+      "surface": "111",
+      "dopants": [],
+      "dopant_sites": [],
+      "adsorbates": [
+        "FF"
+      ],
+      "coverage": 0.1111111111111111,
+      "prediction_targets": [
+        "adsorption_energy"
+      ],
+      "reference_profile_id": "mock-neutral-v1",
+      "model_candidates": [
+        "mock-v1"
+      ],
+      "dft_budget_jobs": 0,
+      "dft_budget_core_hours": 0.0,
+      "gate_status": "PENDING_GATE",
+      "human_review_required": true,
+      "allow_real_vasp_submit": false,
+      "dry_run": true,
+      "data_source": "fixture"
+    },
+    "gate_source": null,
+    "structure": {
+      "input_path": null,
+      "adsorbate_path": null,
+      "adsorbed_paths": [],
+      "fixed_indices": null,
+      "supported_elements": [
+        "Ag",
+        "Cu",
+        "Ni",
+        "Bi",
+        "C",
+        "H",
+        "O"
+      ],
+      "min_distance_A": 0.6,
+      "heights_A": [
+        3.0,
+        3.5
+      ]
+    },
+    "screening": {
+      "objectives": [
+        {
+          "property": "adsorption_energy_eV",
+          "direction": "min"
+        }
+      ],
+      "constraints": [],
+      "top_k": 5
+    },
+    "acquisition": {
+      "strategy": "diversity",
+      "seed": 42,
+      "batch_size": 2,
+      "weights": {
+        "potential": 1.0,
+        "uncertainty": 0.0,
+        "diversity": 1.0,
+        "estimated_cost": 1.0
+      }
+    },
+    "resources": {
+      "cores": 16,
+      "walltime_hours": 1.0,
+      "available_cores": 16
+    },
+    "mock_seed": 42
+  },
+  "actual_dft_jobs": 0,
+  "actual_dft_core_hours": 0.0,
+  "details": {
+    "structures": 4,
+    "predictions": 4,
+    "ranked_candidates": 2
+  },
+  "error": null,
+  "artifacts": {
+    "active_learning.json": "13672823fb913cbea91703b611540f7c39eb519d4a36e5d85fc31b297770522f",
+    "budget.json": "475ef2f3c060bccbd81c617403e2c2bcbeaa4197ac7eabe3bd94cee3b6374564",
+    "dft_proposals.json": "023a6ce8eab7ace03d7e6574ddcbc1d9f63541e6721b573811426af69d975ea6",
+    "predictions.csv": "3629f86ea097a761015934227d8df5b439086b249507349c80bb9c4209f49ba1",
+    "properties.json": "5298c3558f18b02da67f63db58b0ec00454801ad55bf23ff53d8929593ff76c3",
+    "registry.sqlite": "012895fc0a56a1aecefd22783e3c5768c1d5d209b077678425c30940e47254ec",
+    "report.md": "d6ca771aa8626ec21d045ecd28f9a9e95706d647a8da1d35ce4ddf9301b82035",
+    "screening.json": "e17117b905b40dbc6e8966b2db0a5df8f46ef6ee0a5a090dd929aab85ecc74f5",
+    "structures/S_06ecbd91a5aa8bc421f4f0dbd4c89ee03f1d2fed377c312eccddc2fe48f52e95.POSCAR": "e4b6b1abf5a6ca8f818eeff4a990658299ab8d3b2d1efb9a064eb45257f83dc3",
+    "structures/S_06ecbd91a5aa8bc421f4f0dbd4c89ee03f1d2fed377c312eccddc2fe48f52e95.extxyz": "0f08cbff38bb2fd528ebf89998384a67bbc5b72a2976a6ba598f74859047ae25",
+    "structures/S_06ecbd91a5aa8bc421f4f0dbd4c89ee03f1d2fed377c312eccddc2fe48f52e95.json": "080f3239a66113be2146fb55f62448945d6851ec65c79190826912a39337a0e6",
+    "structures/S_a7b91c8568b0222826a100ca6b5c2beb55e14f6dd855dc6f5f2bdff94626b78b.POSCAR": "2efefa403b2d36f73ee9f6ffadbb8c9e55df70fc366ae2e2787586922e214c6d",
+    "structures/S_a7b91c8568b0222826a100ca6b5c2beb55e14f6dd855dc6f5f2bdff94626b78b.extxyz": "71ee7a2527b93c4f68c6434309d3fd48f9d74ef7dbed100b8fc3861042b9683e",
+    "structures/S_a7b91c8568b0222826a100ca6b5c2beb55e14f6dd855dc6f5f2bdff94626b78b.json": "0e0125476a00049eb4837a8a5cd2dac350f4be9ae0e3a1af7b9c674daf6ba259",
+    "structures/S_ae3930fa6948053d019d3f2e183141c9af2a2b094dc366243ed2c819bc06d97e.POSCAR": "984fb3531d55e1b1dc0c07bfeb1686addd0512de7ecd5dccc33f6cb4167a31dd",
+    "structures/S_ae3930fa6948053d019d3f2e183141c9af2a2b094dc366243ed2c819bc06d97e.extxyz": "dd6bc571d37fc9e7aef3da19bb2bd4b01aa647a4142790cc9c432e8a63c4863e",
+    "structures/S_ae3930fa6948053d019d3f2e183141c9af2a2b094dc366243ed2c819bc06d97e.json": "3c05212d494624ffb3c34c6325235a2a3770dad3ab33d5cea0dc32873afd990e",
+    "structures/S_e6b88633769bb8404cc04992c9d684a5d678da11249e67fb38ac1b7f532a638c.POSCAR": "8646d1ff27cc2acc6c1395f99371648d08bd1eee710a67b6c367f8a2e60a672e",
+    "structures/S_e6b88633769bb8404cc04992c9d684a5d678da11249e67fb38ac1b7f532a638c.extxyz": "ceb8e4dc1517fbf75f8c557071804b2897f6bb33abdfd7f2436b876e4d284782",
+    "structures/S_e6b88633769bb8404cc04992c9d684a5d678da11249e67fb38ac1b7f532a638c.json": "31d7e464fb76c5700477d748fcafc94d7e07c0a3c1cabb788fd6be79b73ba06e"
+  }
+}

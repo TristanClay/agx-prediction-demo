@@ -1,0 +1,70 @@
+{
+  "artifacts": [
+    {
+      "path": "attempts/decision/1/event.json",
+      "sha256": "9a29380f300cffa07a69b021a0327b5937e3d5ea9e793f93187ee6673b10ac11"
+    },
+    {
+      "path": "attempts/decision/1/started.json",
+      "sha256": "692fb763b8f31d56ba99b6222262a74833d2d8896e8580daa5ffaf292ee2e28c"
+    }
+  ],
+  "directory": "attempts/decision/1",
+  "event": {
+    "agent": "Uncertainty & Budget Agent",
+    "attempt": 1,
+    "elapsed_s": 0.00010083301458507776,
+    "error": null,
+    "finished_at": "2026-10-31T07:41:47.035804+00:00",
+    "input": {
+      "depends_on": [
+        "knowledge",
+        "screening"
+      ],
+      "run_id": "public-v11-counter"
+    },
+    "model": "deterministic rules / no LLM",
+    "node_id": "decision",
+    "origin": "SYNTHETIC",
+    "output": {
+      "actual_dft_core_hours": 0.0,
+      "actual_dft_jobs": 0,
+      "comparison_fixture": [],
+      "configured_proposal_budget_jobs": 0,
+      "dft_proposals": [],
+      "dft_savings_rate": null,
+      "fixture_origin": "SYNTHETIC",
+      "next_action": "Review OOD and obtain calibrated comparisons before selecting DFT",
+      "policy": "No automatic submission; gate and review apply even with available budget",
+      "savings_reason": "No comparable real DFT baseline",
+      "spread_eV": null,
+      "threshold_eV": 0.2,
+      "uncertainty": "UNCALIBRATED"
+    },
+    "reason": "Require uncertainty review and sparse DFT budget; never submit jobs",
+    "source_refs": [
+      {
+        "path": "attempts/decision/1/started.json",
+        "sha256": "692fb763b8f31d56ba99b6222262a74833d2d8896e8580daa5ffaf292ee2e28c"
+      }
+    ],
+    "started_at": "2026-10-31T07:41:47.035705+00:00",
+    "status": "COMPLETED",
+    "tool": "uncertainty_budget_policy"
+  },
+  "output": {
+    "actual_dft_core_hours": 0.0,
+    "actual_dft_jobs": 0,
+    "comparison_fixture": [],
+    "configured_proposal_budget_jobs": 0,
+    "dft_proposals": [],
+    "dft_savings_rate": null,
+    "fixture_origin": "SYNTHETIC",
+    "next_action": "Review OOD and obtain calibrated comparisons before selecting DFT",
+    "policy": "No automatic submission; gate and review apply even with available budget",
+    "savings_reason": "No comparable real DFT baseline",
+    "spread_eV": null,
+    "threshold_eV": 0.2,
+    "uncertainty": "UNCALIBRATED"
+  }
+}

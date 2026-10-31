@@ -1,0 +1,27 @@
+[
+  {
+    "scenario": "baseline",
+    "screening_values_equal": true,
+    "experimental_evidence_equal_except_generated_ids": true
+  },
+  {
+    "scenario": "disagreement",
+    "screening_values_equal": true,
+    "experimental_evidence_equal_except_generated_ids": true
+  },
+  {
+    "scenario": "missing",
+    "screening_values_equal": true,
+    "experimental_evidence_equal_except_generated_ids": true
+  },
+  {
+    "scenario": "mismatch",
+    "screening_values_equal": true,
+    "experimental_evidence_equal_except_generated_ids": true
+  },
+  {
+    "scenario": "counter",
+    "screening_values_equal": true,
+    "experimental_evidence_equal_except_generated_ids": true
+  }
+]

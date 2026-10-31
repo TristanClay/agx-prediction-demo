@@ -1,0 +1,252 @@
+[
+  {
+    "candidate_id": "C_Ag_e6b88633769bb840",
+    "composition": {
+      "Ag": 36,
+      "C": 5,
+      "H": 4,
+      "O": 2
+    },
+    "dft_verification_status": "NOT_RUN",
+    "evidence_refs": [
+      "PAPER_A5EE828D07",
+      "PAPER_9FF28DD18D",
+      "PAPER_EE8DC4F8A0",
+      "PAPER_EB51ACA637",
+      "PAPER_EC7FDA2E30"
+    ],
+    "gate_status": "PENDING_GATE",
+    "hypothesis_id": "HYP_96AC87BB6C",
+    "model_hash": "efb7e4b4e5752b96713763e81e7d6ff52f40e074012b83509456aca83dd47d70",
+    "model_name": "mock-v1",
+    "model_version": "1",
+    "ood_status": "NOT_ASSESSED",
+    "predicted_properties": [
+      {
+        "definition": "E(adsorbed)-E(slab)-E(molecule)",
+        "name": "adsorption_energy",
+        "reference_structure_ids": [
+          "S_e6b88633769bb8404cc04992c9d684a5d678da11249e67fb38ac1b7f532a638c",
+          "S_a7b91c8568b0222826a100ca6b5c2beb55e14f6dd855dc6f5f2bdff94626b78b",
+          "S_ae3930fa6948053d019d3f2e183141c9af2a2b094dc366243ed2c819bc06d97e"
+        ],
+        "unit": "eV",
+        "value": -0.2329955718401734
+      }
+    ],
+    "provenance": {
+      "artifacts": [
+        {
+          "path": "p2_Ag/run_manifest.json",
+          "sha256": "b94536dab69c36f1d0ddc9afeca4657c81b77c8bdcf73972a0be3478d7f26cdb"
+        }
+      ],
+      "limitations": [
+        "Analytic mock potential, not MLIP; uncalibrated",
+        "Exploratory Cu is an explicit demo case, not a released P1 candidate"
+      ],
+      "origin": "SYNTHETIC",
+      "producer": "P2.native-runner",
+      "run_id": "public-v11-disagreement",
+      "source_run_id": null,
+      "version": "0.1.0"
+    },
+    "run_id": "public-v11-disagreement",
+    "schema_version": "agx-screening-result-1",
+    "structure_artifact": {
+      "path": "p2_Ag/structures/S_e6b88633769bb8404cc04992c9d684a5d678da11249e67fb38ac1b7f532a638c.extxyz",
+      "sha256": "ceb8e4dc1517fbf75f8c557071804b2897f6bb33abdfd7f2436b876e4d284782"
+    },
+    "structure_id": "S_e6b88633769bb8404cc04992c9d684a5d678da11249e67fb38ac1b7f532a638c",
+    "task_id": "TASK_EXPERIMENT_SURFACE_FUROATE_INTERMEDIATE_AG_AG_CA_DEACTIVATION_RECOVERY_B24D3E25",
+    "uncertainty": "UNCALIBRATED"
+  },
+  {
+    "candidate_id": "C_Ag_06ecbd91a5aa8bc4",
+    "composition": {
+      "Ag": 36,
+      "C": 5,
+      "H": 4,
+      "O": 2
+    },
+    "dft_verification_status": "NOT_RUN",
+    "evidence_refs": [
+      "PAPER_A5EE828D07",
+      "PAPER_9FF28DD18D",
+      "PAPER_EE8DC4F8A0",
+      "PAPER_EB51ACA637",
+      "PAPER_EC7FDA2E30"
+    ],
+    "gate_status": "PENDING_GATE",
+    "hypothesis_id": "HYP_96AC87BB6C",
+    "model_hash": "efb7e4b4e5752b96713763e81e7d6ff52f40e074012b83509456aca83dd47d70",
+    "model_name": "mock-v1",
+    "model_version": "1",
+    "ood_status": "NOT_ASSESSED",
+    "predicted_properties": [
+      {
+        "definition": "E(adsorbed)-E(slab)-E(molecule)",
+        "name": "adsorption_energy",
+        "reference_structure_ids": [
+          "S_06ecbd91a5aa8bc421f4f0dbd4c89ee03f1d2fed377c312eccddc2fe48f52e95",
+          "S_a7b91c8568b0222826a100ca6b5c2beb55e14f6dd855dc6f5f2bdff94626b78b",
+          "S_ae3930fa6948053d019d3f2e183141c9af2a2b094dc366243ed2c819bc06d97e"
+        ],
+        "unit": "eV",
+        "value": -0.16107335390187238
+      }
+    ],
+    "provenance": {
+      "artifacts": [
+        {
+          "path": "p2_Ag/run_manifest.json",
+          "sha256": "b94536dab69c36f1d0ddc9afeca4657c81b77c8bdcf73972a0be3478d7f26cdb"
+        }
+      ],
+      "limitations": [
+        "Analytic mock potential, not MLIP; uncalibrated",
+        "Exploratory Cu is an explicit demo case, not a released P1 candidate"
+      ],
+      "origin": "SYNTHETIC",
+      "producer": "P2.native-runner",
+      "run_id": "public-v11-disagreement",
+      "source_run_id": null,
+      "version": "0.1.0"
+    },
+    "run_id": "public-v11-disagreement",
+    "schema_version": "agx-screening-result-1",
+    "structure_artifact": {
+      "path": "p2_Ag/structures/S_06ecbd91a5aa8bc421f4f0dbd4c89ee03f1d2fed377c312eccddc2fe48f52e95.extxyz",
+      "sha256": "0f08cbff38bb2fd528ebf89998384a67bbc5b72a2976a6ba598f74859047ae25"
+    },
+    "structure_id": "S_06ecbd91a5aa8bc421f4f0dbd4c89ee03f1d2fed377c312eccddc2fe48f52e95",
+    "task_id": "TASK_EXPERIMENT_SURFACE_FUROATE_INTERMEDIATE_AG_AG_CA_DEACTIVATION_RECOVERY_B24D3E25",
+    "uncertainty": "UNCALIBRATED"
+  },
+  {
+    "candidate_id": "C_Cu_e23271b170f5e7f7",
+    "composition": {
+      "Ag": 35,
+      "C": 5,
+      "Cu": 1,
+      "H": 4,
+      "O": 2
+    },
+    "dft_verification_status": "NOT_RUN",
+    "evidence_refs": [
+      "PAPER_A5EE828D07",
+      "PAPER_9FF28DD18D",
+      "PAPER_EE8DC4F8A0",
+      "PAPER_EB51ACA637",
+      "PAPER_EC7FDA2E30"
+    ],
+    "gate_status": "PENDING_GATE",
+    "hypothesis_id": "HYP_96AC87BB6C",
+    "model_hash": "efb7e4b4e5752b96713763e81e7d6ff52f40e074012b83509456aca83dd47d70",
+    "model_name": "mock-v1",
+    "model_version": "1",
+    "ood_status": "NOT_ASSESSED",
+    "predicted_properties": [
+      {
+        "definition": "E(adsorbed)-E(slab)-E(molecule)",
+        "name": "adsorption_energy",
+        "reference_structure_ids": [
+          "S_e23271b170f5e7f795491f7c3eb8d79be6db1a08d52953a6beed687ade7ccaba",
+          "S_464526a096666e0cbe06da474ae223aa9aab8017b7597924714f5688d84aaa7f",
+          "S_ae3930fa6948053d019d3f2e183141c9af2a2b094dc366243ed2c819bc06d97e"
+        ],
+        "unit": "eV",
+        "value": -0.2329955718401734
+      }
+    ],
+    "provenance": {
+      "artifacts": [
+        {
+          "path": "p2_Cu/run_manifest.json",
+          "sha256": "1257a85c70a589cee4fb54cf93d9fbf469ff7fe9629e7ac3d09bcdcb55a313da"
+        }
+      ],
+      "limitations": [
+        "Analytic mock potential, not MLIP; uncalibrated",
+        "Exploratory Cu is an explicit demo case, not a released P1 candidate"
+      ],
+      "origin": "SYNTHETIC",
+      "producer": "P2.native-runner",
+      "run_id": "public-v11-disagreement",
+      "source_run_id": null,
+      "version": "0.1.0"
+    },
+    "run_id": "public-v11-disagreement",
+    "schema_version": "agx-screening-result-1",
+    "structure_artifact": {
+      "path": "p2_Cu/structures/S_e23271b170f5e7f795491f7c3eb8d79be6db1a08d52953a6beed687ade7ccaba.extxyz",
+      "sha256": "a2fa409b4be7c2df4b6e3a93e0faba8a6cc67c307f220d6e4a3d80b39c789ef9"
+    },
+    "structure_id": "S_e23271b170f5e7f795491f7c3eb8d79be6db1a08d52953a6beed687ade7ccaba",
+    "task_id": "TASK_EXPERIMENT_SURFACE_FUROATE_INTERMEDIATE_AG_AG_CA_DEACTIVATION_RECOVERY_B24D3E25",
+    "uncertainty": "UNCALIBRATED"
+  },
+  {
+    "candidate_id": "C_Cu_95137c4ee3ee9ebf",
+    "composition": {
+      "Ag": 35,
+      "C": 5,
+      "Cu": 1,
+      "H": 4,
+      "O": 2
+    },
+    "dft_verification_status": "NOT_RUN",
+    "evidence_refs": [
+      "PAPER_A5EE828D07",
+      "PAPER_9FF28DD18D",
+      "PAPER_EE8DC4F8A0",
+      "PAPER_EB51ACA637",
+      "PAPER_EC7FDA2E30"
+    ],
+    "gate_status": "PENDING_GATE",
+    "hypothesis_id": "HYP_96AC87BB6C",
+    "model_hash": "efb7e4b4e5752b96713763e81e7d6ff52f40e074012b83509456aca83dd47d70",
+    "model_name": "mock-v1",
+    "model_version": "1",
+    "ood_status": "NOT_ASSESSED",
+    "predicted_properties": [
+      {
+        "definition": "E(adsorbed)-E(slab)-E(molecule)",
+        "name": "adsorption_energy",
+        "reference_structure_ids": [
+          "S_95137c4ee3ee9ebff44b601eb1e1be53300648cdde168b36fb68a48c815726c7",
+          "S_464526a096666e0cbe06da474ae223aa9aab8017b7597924714f5688d84aaa7f",
+          "S_ae3930fa6948053d019d3f2e183141c9af2a2b094dc366243ed2c819bc06d97e"
+        ],
+        "unit": "eV",
+        "value": -0.16107335390187238
+      }
+    ],
+    "provenance": {
+      "artifacts": [
+        {
+          "path": "p2_Cu/run_manifest.json",
+          "sha256": "1257a85c70a589cee4fb54cf93d9fbf469ff7fe9629e7ac3d09bcdcb55a313da"
+        }
+      ],
+      "limitations": [
+        "Analytic mock potential, not MLIP; uncalibrated",
+        "Exploratory Cu is an explicit demo case, not a released P1 candidate"
+      ],
+      "origin": "SYNTHETIC",
+      "producer": "P2.native-runner",
+      "run_id": "public-v11-disagreement",
+      "source_run_id": null,
+      "version": "0.1.0"
+    },
+    "run_id": "public-v11-disagreement",
+    "schema_version": "agx-screening-result-1",
+    "structure_artifact": {
+      "path": "p2_Cu/structures/S_95137c4ee3ee9ebff44b601eb1e1be53300648cdde168b36fb68a48c815726c7.extxyz",
+      "sha256": "9d408fe9f307daaa22ad40b33cef8ad4c6afa6547e263d21baaba547500fe325"
+    },
+    "structure_id": "S_95137c4ee3ee9ebff44b601eb1e1be53300648cdde168b36fb68a48c815726c7",
+    "task_id": "TASK_EXPERIMENT_SURFACE_FUROATE_INTERMEDIATE_AG_AG_CA_DEACTIVATION_RECOVERY_B24D3E25",
+    "uncertainty": "UNCALIBRATED"
+  }
+]
